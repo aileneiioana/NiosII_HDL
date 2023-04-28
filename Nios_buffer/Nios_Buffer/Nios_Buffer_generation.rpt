@@ -1,0 +1,104 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\ailen\Desktop\licenta\Nios_buffer\Nios_Buffer.qsys --block-symbol-file --output-directory=C:\Users\ailen\Desktop\licenta\Nios_buffer\Nios_Buffer --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading Nios_buffer/Nios_Buffer.qsys
+Progress: Reading input file
+Progress: Adding DEBUG [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module DEBUG
+Progress: Adding MyBuffer [MyBuffer 1.0]
+Progress: Parameterizing module MyBuffer
+Progress: Adding NIOS_BUFF [altera_nios2_gen2 22.1]
+Progress: Parameterizing module NIOS_BUFF
+Progress: Adding SRAM [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module SRAM
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios_Buffer.DEBUG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\ailen\Desktop\licenta\Nios_buffer\Nios_Buffer.qsys --synthesis=VERILOG --output-directory=C:\Users\ailen\Desktop\licenta\Nios_buffer\Nios_Buffer\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading Nios_buffer/Nios_Buffer.qsys
+Progress: Reading input file
+Progress: Adding DEBUG [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module DEBUG
+Progress: Adding MyBuffer [MyBuffer 1.0]
+Progress: Parameterizing module MyBuffer
+Progress: Adding NIOS_BUFF [altera_nios2_gen2 22.1]
+Progress: Parameterizing module NIOS_BUFF
+Progress: Adding SRAM [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module SRAM
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios_Buffer.DEBUG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios_Buffer: Generating Nios_Buffer "Nios_Buffer" for QUARTUS_SYNTH
+Info: DEBUG: Starting RTL generation for module 'Nios_Buffer_DEBUG'
+Info: DEBUG:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Nios_Buffer_DEBUG --dir=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0003_DEBUG_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0003_DEBUG_gen//Nios_Buffer_DEBUG_component_configuration.pl  --do_build_sim=0  ]
+Info: DEBUG: Done RTL generation for module 'Nios_Buffer_DEBUG'
+Info: DEBUG: "Nios_Buffer" instantiated altera_avalon_jtag_uart "DEBUG"
+Info: MyBuffer: "Nios_Buffer" instantiated MyBuffer "MyBuffer"
+Info: NIOS_BUFF: "Nios_Buffer" instantiated altera_nios2_gen2 "NIOS_BUFF"
+Info: SRAM: Starting RTL generation for module 'Nios_Buffer_SRAM'
+Info: SRAM:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Nios_Buffer_SRAM --dir=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0005_SRAM_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0005_SRAM_gen//Nios_Buffer_SRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: SRAM: Done RTL generation for module 'Nios_Buffer_SRAM'
+Info: SRAM: "Nios_Buffer" instantiated altera_avalon_onchip_memory2 "SRAM"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Nios_Buffer" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Nios_Buffer" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Nios_Buffer" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Nios_Buffer_NIOS_BUFF_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=Nios_Buffer_NIOS_BUFF_cpu --dir=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0008_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9473_489162839636099587.dir/0008_cpu_gen//Nios_Buffer_NIOS_BUFF_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.04.26 16:31:48 (*) Starting Nios II generation
+Info: cpu: # 2023.04.26 16:31:48 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.04.26 16:31:48 (*)   Creating all objects for CPU
+Info: cpu: # 2023.04.26 16:31:48 (*)     Testbench
+Info: cpu: # 2023.04.26 16:31:48 (*)     Instruction decoding
+Info: cpu: # 2023.04.26 16:31:48 (*)       Instruction fields
+Info: cpu: # 2023.04.26 16:31:48 (*)       Instruction decodes
+Info: cpu: # 2023.04.26 16:31:48 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2023.04.26 16:31:48 (*)       Instruction controls
+Info: cpu: # 2023.04.26 16:31:48 (*)     Pipeline frontend
+Info: cpu: # 2023.04.26 16:31:48 (*)     Pipeline backend
+Info: cpu: # 2023.04.26 16:31:50 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.04.26 16:31:50 (*)   Creating plain-text RTL
+Info: cpu: # 2023.04.26 16:31:51 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Nios_Buffer_NIOS_BUFF_cpu'
+Info: cpu: "NIOS_BUFF" instantiated altera_nios2_gen2_unit "cpu"
+Info: NIOS_BUFF_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "NIOS_BUFF_data_master_translator"
+Info: DEBUG_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "DEBUG_avalon_jtag_slave_translator"
+Info: NIOS_BUFF_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "NIOS_BUFF_data_master_agent"
+Info: DEBUG_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "DEBUG_avalon_jtag_slave_agent"
+Info: DEBUG_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "DEBUG_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: NIOS_BUFF_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "NIOS_BUFF_data_master_limiter"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Nios_Buffer: Done "Nios_Buffer" with 29 modules, 50 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

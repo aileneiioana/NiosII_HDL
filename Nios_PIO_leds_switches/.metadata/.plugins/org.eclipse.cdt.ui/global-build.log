@@ -1,0 +1,90 @@
+14:20:18 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:20:28 **** Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:20:29 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:20:46 **** Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:20:47 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:21:22 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:24:19 **** Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:24:22 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:32:50 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc.exe -xc -MP -MMD -c -Ic:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp//HAL/inc -Ic:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/ -Ic:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp//drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall  -mno-hw-div -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o "obj/default/hello_world_small.o" "hello_world_small.c"
+hello_world_small.c: In function 'main':
+hello_world_small.c:90:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   90 |  printf("%d", ans);
+      |  ^~~~~~
+hello_world_small.c:84:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   83 | #include "system.h"
+  +++ |+#include <stdio.h>
+   84 | int main()
+hello_world_small.c:90:2: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   90 |  printf("%d", ans);
+      |  ^~~~~~
+hello_world_small.c:90:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking adder_soft.elf
+nios2-elf-g++.exe -T'c:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp//linker.x' -msys-crt0='c:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -Lc:/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/ -msmallc  -Wl,-Map=adder_soft.map   -Os -g -Wall  -mno-hw-div -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o adder_soft.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert.exe adder_soft.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name adder_nios --quartus_project_dir "c:/Users/ailen/Desktop/licenta/adder" --jdi ../..//output_files/adder.jdi --sopcinfo c:/Users/ailen/Desktop/licenta/adder/adder_nios.sopcinfo
+Info: (adder_soft.elf) 3148 Bytes program size (code + initialized data).
+Info:                  28 KBytes free for stack + heap.
+Info: Creating adder_soft.objdump
+nios2-elf-objdump.exe --disassemble --syms --all-header --source adder_soft.elf >adder_soft.objdump
+[adder_soft build complete]
+14:32:53 **** Build of configuration Nios II for project adder_soft_bsp ****
+wsl make all 
+[BSP build complete]
+14:33:02 **** Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]
+14:33:03 **** Incremental Build of configuration Nios II for project adder_soft ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/adder/software/adder_soft_bsp/
+[BSP build complete]
+[adder_soft build complete]

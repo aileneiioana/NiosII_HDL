@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Apr  2 19:19:43 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : niosII_demo
+Top-level Entity Name : DE10_LITE_Golden_Top
+Family : MAX 10
+Total logic elements : 3,697
+    Total combinational functions : 3,010
+    Dedicated logic registers : 2,066
+Total registers : 2066
+Total pins : 185
+Total virtual pins : 0
+Total memory bits : 822,752
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

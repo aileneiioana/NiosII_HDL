@@ -1,0 +1,139 @@
+Flow report for adder
+Fri Apr 21 14:12:09 2023
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Fri Apr 21 14:12:01 2023          ;
+; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                      ; adder                                          ;
+; Top-level Entity Name              ; DE10_LITE_Golden_Top                           ;
+; Family                             ; MAX 10                                         ;
+; Device                             ; 10M50DAF484C6GES                               ;
+; Timing Models                      ; Preliminary                                    ;
+; Total logic elements               ; 1,707 / 49,760 ( 3 % )                         ;
+;     Total combinational functions  ; 1,604 / 49,760 ( 3 % )                         ;
+;     Dedicated logic registers      ; 899 / 49,760 ( 2 % )                           ;
+; Total registers                    ; 899                                            ;
+; Total pins                         ; 185 / 360 ( 51 % )                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 273,408 / 1,677,312 ( 16 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                                ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                                  ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                                  ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/21/2023 14:10:54 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; adder               ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                       ;
++-------------------------------------+--------------------------------------------------------------+---------------+----------------------+------------+
+; Assignment Name                     ; Value                                                        ; Default Value ; Entity Name          ; Section Id ;
++-------------------------------------+--------------------------------------------------------------+---------------+----------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 9447191139222.168207545406388                                ; --            ; --                   ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                           ; --            ; --                   ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                            ; --            ; --                   ; --         ;
+; MISC_FILE                           ; adder_nios/synthesis/../adder_nios.cmp                       ; --            ; --                   ; --         ;
+; MISC_FILE                           ; adder_nios/synthesis/../../adder_nios.qsys                   ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                            ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                            ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                   ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                   ; --            ; --                   ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                       ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                       ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                       ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                          ; --            ; --                   ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                        ; --            ; --                   ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                 ; --            ; --                   ; --         ;
+; SLD_FILE                            ; adder_nios/synthesis/adder_nios.regmap                       ; --            ; --                   ; --         ;
+; SLD_FILE                            ; adder_nios/synthesis/adder_nios.debuginfo                    ; --            ; --                   ; --         ;
+; SLD_INFO                            ; QSYS_NAME adder_nios HAS_SOPCINFO 1 GENERATION_ID 1682074733 ; --            ; adder_nios           ; --         ;
+; SOPCINFO_FILE                       ; adder_nios/synthesis/../../adder_nios.sopcinfo               ; --            ; --                   ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                           ; --            ; --                   ; --         ;
+; TOP_LEVEL_ENTITY                    ; DE10_LITE_Golden_Top                                         ; adder         ; --                   ; --         ;
++-------------------------------------+--------------------------------------------------------------+---------------+----------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4914 MB             ; 00:01:14                           ;
+; Fitter               ; 00:00:17     ; 1.3                     ; 5680 MB             ; 00:00:28                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4744 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.5                     ; 4858 MB             ; 00:00:09                           ;
+; Total                ; 00:01:07     ; --                      ; --                  ; 00:01:55                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off adder -c adder
+quartus_fit --read_settings_files=off --write_settings_files=off adder -c adder
+quartus_asm --read_settings_files=off --write_settings_files=off adder -c adder
+quartus_sta adder -c adder
+
+
+

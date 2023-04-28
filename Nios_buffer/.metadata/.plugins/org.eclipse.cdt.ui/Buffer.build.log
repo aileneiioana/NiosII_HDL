@@ -1,0 +1,9 @@
+16:49:50 **** Incremental Build of configuration Nios II for project Buffer ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/Nios_buffer/software/Buffer_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/Nios_buffer/software/Buffer_bsp/
+[BSP build complete]
+[Buffer build complete]
+
+16:49:51 Build Finished (took 805ms)
+

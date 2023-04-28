@@ -1,0 +1,6 @@
+	component Nios_Custom_IP2 is
+		port (
+			clk_clk : in std_logic := 'X'  -- clk
+		);
+	end component Nios_Custom_IP2;
+

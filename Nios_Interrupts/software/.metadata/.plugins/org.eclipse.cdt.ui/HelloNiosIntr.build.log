@@ -1,0 +1,9 @@
+13:04:16 **** Incremental Build of configuration Nios II for project HelloNiosIntr ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/NiosInterrupts/software/HelloNiosIntr_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/NiosInterrupts/software/HelloNiosIntr_bsp/
+[BSP build complete]
+[HelloNiosIntr build complete]
+
+13:04:16 Build Finished (took 859ms)
+

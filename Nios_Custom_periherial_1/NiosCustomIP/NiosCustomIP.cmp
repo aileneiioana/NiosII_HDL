@@ -1,0 +1,7 @@
+	component NiosCustomIP is
+		port (
+			clk_clk   : in  std_logic                    := 'X'; -- clk
+			leds_leds : out std_logic_vector(9 downto 0)         -- leds
+		);
+	end component NiosCustomIP;
+

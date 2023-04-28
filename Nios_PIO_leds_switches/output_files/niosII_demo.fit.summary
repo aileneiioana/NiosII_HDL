@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Apr  2 19:20:09 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : niosII_demo
+Top-level Entity Name : DE10_LITE_Golden_Top
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 3,423 / 49,760 ( 7 % )
+    Total combinational functions : 3,013 / 49,760 ( 6 % )
+    Dedicated logic registers : 1,992 / 49,760 ( 4 % )
+Total registers : 1992
+Total pins : 185 / 360 ( 51 % )
+Total virtual pins : 0
+Total memory bits : 822,752 / 1,677,312 ( 49 % )
+Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

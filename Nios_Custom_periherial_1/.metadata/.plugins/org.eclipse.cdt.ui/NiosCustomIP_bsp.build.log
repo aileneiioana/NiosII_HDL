@@ -1,0 +1,6 @@
+11:39:13 **** Clean-only build of configuration Nios II for project NiosCustomIP_bsp ****
+wsl make clean 
+[BSP clean complete]
+
+11:39:14 Build Finished (took 678ms)
+

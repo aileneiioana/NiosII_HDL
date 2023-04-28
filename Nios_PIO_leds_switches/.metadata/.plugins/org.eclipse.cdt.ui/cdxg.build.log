@@ -1,0 +1,6 @@
+00:19:07 **** Clean-only build of configuration Nios II for project cdxg ****
+wsl make clean 
+[cdxg clean complete]
+
+00:19:08 Build Finished (took 1s.250ms)
+

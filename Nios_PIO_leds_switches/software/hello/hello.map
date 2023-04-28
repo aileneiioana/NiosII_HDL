@@ -1,0 +1,1246 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o (alt_load)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o (alt_main)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/hello_world.o (usleep)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (close)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+                              c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000020000 0x0000000000000020
+onchip_memory2_0 0x0000000000020020 0x000000000001727c
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a
+LOAD c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a
+                0x0000000000020000                __alt_mem_onchip_memory2_0 = 0x20000
+
+.entry          0x0000000000020000       0x20
+ *(.entry)
+ .entry         0x0000000000020000       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+                0x0000000000020000                __reset
+
+.exceptions     0x0000000000020020      0x218
+                0x0000000000020020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0xc8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x00000000000201c4       0x74 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000201c4                alt_instruction_exception_entry
+                0x0000000000020238                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000020238     0x2530
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020238       0x4c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+                0x0000000000020238                _start
+ .text          0x0000000000020284       0x68 obj/default/hello_world.o
+                0x0000000000020284                main
+ .text          0x00000000000202ec       0xec c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000020354                alt_load
+ .text          0x00000000000203d8       0x7c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000203d8                alt_main
+ .text          0x0000000000020454       0x30 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x0000000000020454                usleep
+ .text          0x0000000000020484       0xb8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00000000000204b8                alt_irq_init
+                0x00000000000204f4                alt_sys_init
+ .text          0x000000000002053c      0x164 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000000000002053c                altera_avalon_jtag_uart_read_fd
+                0x000000000002059c                altera_avalon_jtag_uart_write_fd
+                0x00000000000205fc                altera_avalon_jtag_uart_close_fd
+                0x000000000002064c                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x00000000000206a0      0x3e4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x00000000000206a0                altera_avalon_jtag_uart_init
+                0x0000000000020a1c                altera_avalon_jtag_uart_close
+ .text          0x0000000000020a84       0xf4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000000020a84                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000020b78      0x220 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000020b78                altera_avalon_jtag_uart_read
+ .text          0x0000000000020d98      0x228 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000020d98                altera_avalon_jtag_uart_write
+ .text          0x0000000000020fc0      0x160 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x0000000000020fc0                alt_alarm_start
+ .text          0x0000000000021120      0x158 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000021120                alt_busy_sleep
+ .text          0x0000000000021278      0x10c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000000212b4                close
+ .text          0x0000000000021384       0x4c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000021384                alt_dcache_flush_all
+ .text          0x00000000000213d0       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000213fc       0xe4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000021438                alt_dev_llist_insert
+ .text          0x00000000000214e0       0x64 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000214e0                _do_ctors
+ .text          0x0000000000021544       0x64 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000021544                _do_dtors
+ .text          0x00000000000215a8        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000215a8       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000215a8                alt_icache_flush_all
+ .text          0x00000000000215dc      0x1b0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000000000215dc                alt_ic_isr_register
+                0x000000000002162c                alt_ic_irq_enable
+                0x00000000000216b4                alt_ic_irq_disable
+                0x0000000000021740                alt_ic_irq_enabled
+ .text          0x000000000002178c       0xe8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x000000000002178c                alt_iic_isr_register
+ .text          0x0000000000021874      0x12c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000021924                alt_io_redirect
+ .text          0x00000000000219a0        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00000000000219a0        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00000000000219a0        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00000000000219a0      0x248 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000021a94                open
+ .text          0x0000000000021be8       0x58 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000000021be8                alt_release_fd
+ .text          0x0000000000021c40      0x1d0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000021c40                alt_alarm_stop
+                0x0000000000021ce4                alt_tick
+ .text          0x0000000000021e10       0x24 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000021e10                altera_nios2_gen2_irq_init
+ .text          0x0000000000021e34        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000021e34       0x90 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000021e34                alt_find_dev
+ .text          0x0000000000021ec4      0x108 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x0000000000021ec4                alt_find_file
+ .text          0x0000000000021fcc       0xa0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000021fcc                alt_get_fd
+ .text          0x000000000002206c       0x90 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x000000000002206c                alt_icache_flush
+ .text          0x00000000000220fc       0x74 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000220fc                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000022170        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000022170       0x14 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0000000000022170                atexit
+ .text          0x0000000000022184        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000022184       0x34 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x0000000000022184                exit
+ .text          0x00000000000221b8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000000221b8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x00000000000221b8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000000221b8       0x78 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x00000000000221b8                memcmp
+ .text          0x0000000000022230        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000022230      0x100 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x0000000000022230                memcpy
+ .text          0x0000000000022330        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000022330       0x98 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x0000000000022330                strlen
+ .text          0x00000000000223c8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000000000223c8       0x90 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x00000000000223c8                __register_exitproc
+ .text          0x0000000000022458        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000022458      0x120 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000022458                __call_exitprocs
+ .text          0x0000000000022578      0x1b4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+                0x0000000000022578                __divsi3
+                0x00000000000225f8                __modsi3
+                0x000000000002266c                __udivsi3
+                0x00000000000226d0                __umodsi3
+ .text          0x000000000002272c       0x3c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000002272c                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000022768                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000022768                PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x0000000000022768                PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                0x0000000000022768                PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                0x0000000000022768                PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000022768                . = ALIGN (0x4)
+
+.rodata         0x0000000000022768       0x34
+                0x0000000000022768                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000022768                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000022768       0x11 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000000022779        0x3 
+ .rodata        0x000000000002277c       0x11 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x000000000002278d        0x3 
+ .rodata        0x0000000000022790        0xa c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x000000000002279c                . = ALIGN (0x4)
+ *fill*         0x000000000002279a        0x2 
+                0x000000000002279c                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000022768                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x000000000002279c     0x1658 load address 0x0000000000023df4
+                0x000000000002279c                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x000000000002279c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000002279c        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000002279c        0x0 obj/default/hello_world.o
+ .data          0x000000000002279c        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000000002279c        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000000002279c        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x000000000002279c     0x1060 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00000000000237fc        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000000000237fc      0x1a8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000237fc                alt_dev_null
+                0x0000000000023824                alt_fd_list
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x00000000000239a4        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x00000000000239a4        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000000239a4        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000000239a4        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000000239a4      0x424 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000023dc8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000023dc8        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000002bdc8                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000023dc8       0x14 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000023dc8                alt_fs_list
+                0x0000000000023dd0                alt_dev_list
+                0x0000000000023dd8                alt_max_fd
+ .sdata         0x0000000000023ddc        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000023ddc                alt_errno
+ .sdata         0x0000000000023de0        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000023de0                alt_priority_mask
+ .sdata         0x0000000000023de4        0x8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000023de4                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x0000000000023dec        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000023dec                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000023df0        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000023df0                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000023df4                . = ALIGN (0x4)
+                0x0000000000023df4                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000023df4                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000023df4                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x000000000002544c      0x128
+                0x000000000002544c                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000002544c        0x2 obj/default/hello_world.o
+                0x000000000002544c                SWITCHES_value
+ *fill*         0x000000000002544e        0x2 
+ .sbss          0x0000000000025450        0xc c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000025450                alt_argc
+                0x0000000000025454                alt_argv
+                0x0000000000025458                alt_envp
+ .sbss          0x000000000002545c        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000000000002545c                alt_irq_active
+ .sbss          0x0000000000025460        0xc c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000025460                _alt_tick_rate
+                0x0000000000025464                _alt_nticks
+ .sbss          0x000000000002546c        0x4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000002546c                alt_instruction_exception_handler
+ .sbss.errno    0x0000000000025470        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x0000000000025470                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000025474        0x0 obj/default/hello_world.o
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000025474        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000025474      0x100 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000025474                alt_irq
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000025574        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000025574        0x0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x0000000000025574                . = ALIGN (0x4)
+                0x0000000000025574                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000000000025574        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000000025574                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x0000000000025574                _end = ABSOLUTE (.)
+                0x0000000000025574                end = ABSOLUTE (.)
+                0x0000000000025574                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d obj/default/hello_world.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x610
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x0000000000000048       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000128       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000148       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000168       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x0000000000000188       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000208       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000228       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000248       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000268       0x18 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000280       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000300       0x30 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000330       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000350       0x18 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000368       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000388       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000003a8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000003e8       0x30 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000418       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000438       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x0000000000000458       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000478       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000498       0x28 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000000000004c0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000000000004e0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000500       0x18 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000518       0x18 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000530       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000550       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000570       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000590       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000005b0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000005d0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000000000005f0       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7e68
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022       0xe9 obj/default/hello_world.o
+ .debug_info    0x000000000000010b      0x144 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000024f      0x19d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000000000003ec       0xce c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00000000000004ba      0x577 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000a31      0x593 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000000fc4      0x421 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00000000000013e5      0x25f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000001644      0x358 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000199c      0x354 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000001cf0      0x2b9 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x0000000000001fa9       0xd5 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x000000000000207e      0x32f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00000000000023ad       0xa1 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000244e      0x567 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000029b5      0x1a8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000002b5d       0x83 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000002be0       0x83 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x0000000000002c63       0xa8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000002d0b       0xb2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000002dbd      0x339 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000000000030f6      0x218 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000330e      0x561 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000000000000386f       0x22 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x0000000000003891      0x170 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000003a01       0x88 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000003a89      0x415 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000003e9e      0x2ac c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000000000000414a      0x29e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00000000000043e8       0x8d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000004475       0x22 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000004497      0x323 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00000000000047ba      0x324 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000004ade      0x309 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000004de7       0xd8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000004ebf      0x1e8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x00000000000050a7      0x118 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x00000000000051bf      0x90e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x0000000000005acd      0x8c0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x000000000000638d       0x85 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000006412      0x12b c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x000000000000653d      0x157 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000006694       0xeb c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x000000000000677f      0x93f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000070be      0x981 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000007a3f      0x347 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000007d86       0xe2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x3152
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x83 obj/default/hello_world.o
+ .debug_abbrev  0x0000000000000095       0xc2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000157       0xfb c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000252       0x83 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x00000000000002d5      0x1e7 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000000000004bc      0x166 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000000622      0x1e4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000000000000806      0x114 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x000000000000091a      0x1d1 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000000aeb      0x1cf c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000cba      0x191 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x0000000000000e4b       0x88 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000000000000ed3      0x147 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000000000000101a       0x5d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001077      0x11b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001192      0x12b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000000000012bd       0x83 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000001340       0x83 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00000000000013c3       0x70 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001433       0x75 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000014a8      0x1a9 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001651      0x199 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000000000017ea      0x157 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000001941       0x12 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000001953      0x12f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000001a82       0x46 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000001ac8      0x191 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000000000001c59       0xea c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000000000001d43      0x17f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000000000001ec2       0x43 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000001f05       0x12 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000001f17      0x10c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000002023      0x11d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000002140      0x124 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000002264       0x97 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x00000000000022fb       0xed c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x00000000000023e8       0xc1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x00000000000024a9      0x23e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000026e7      0x1db c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000000028c2       0x39 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000000000028fb       0x90 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000000000000298b       0xb9 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000002a44       0x90 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000002ad4      0x261 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000002d35      0x266 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000002f9b      0x10c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000000000030a7       0xab c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x24b0
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072       0x82 obj/default/hello_world.o
+ .debug_line    0x00000000000000f4       0x8f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000183       0x99 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000021c       0x6e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x000000000000028a       0xb3 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x000000000000033d       0xb2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000000000003ef      0x1d9 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x00000000000005c8       0xdd c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x00000000000006a5      0x158 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000007fd      0x15e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000000000000095b       0xed c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000000a48       0xd2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000000b1a      0x116 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000000c30       0x69 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000c99       0x99 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000000d32       0xca c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000000dfc       0x69 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000000e65       0x69 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000000ece       0x4c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000000f1a       0x63 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000f7d       0xf4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000001071       0xbc c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000000000000112d       0xc9 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000011f6       0x6b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000001261       0xb4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000001315       0x43 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000001358      0x158 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x00000000000014b0       0x77 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000001527       0xf2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000001619       0x51 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x000000000000166a       0x9d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000001707       0xa1 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000017a8       0xd7 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x000000000000187f       0xb2 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000001931       0x8f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000019c0       0xa1 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000001a61       0x65 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000001ac6       0xa6 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x0000000000001b6c       0x56 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001bc2       0x3a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000001bfc       0xe1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000001cdd      0x131 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000001e0e       0xc6 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001ed4      0x100 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000001fd4      0x17f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000002153      0x2e3 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000002436       0x7a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0xb38
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x000000000000002c       0x5c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000088       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000b4       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x00000000000000ec       0x88 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000174       0xb0 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000224       0xa4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000000000002c8       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000000000002fc       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000334       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000000000000036c       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000000000003a0       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000000000003d8       0x60 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000438       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000000000000046c       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000000000004a0       0x60 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000500       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x0000000000000538       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x0000000000000570       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000000000005a8       0xa4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000000000000064c       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000684       0x60 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000000000006e4       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x000000000000071c       0x84 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000000000007a0       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000000000007d4       0x64 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000838       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x000000000000086c       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000008a4       0x38 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000000000008dc       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000910       0x34 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000944       0x5c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x00000000000009a0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000009c0       0x28 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000000009e8       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000a08       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000a28       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000a48       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000a68       0x54 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000abc       0x50 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000000b0c       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x1472
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x58 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000058       0xde obj/default/hello_world.o
+                                        0x127 (size before relaxing)
+ .debug_str     0x0000000000000136      0x108 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x1ed (size before relaxing)
+ .debug_str     0x000000000000023e       0x6f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x172 (size before relaxing)
+ .debug_str     0x00000000000002ad        0xf c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x113 (size before relaxing)
+ .debug_str     0x00000000000002bc      0x257 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x3c1 (size before relaxing)
+ .debug_str     0x0000000000000513       0x84 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x38d (size before relaxing)
+ .debug_str     0x0000000000000597       0xb4 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x2f1 (size before relaxing)
+ .debug_str     0x000000000000064b      0x1fb c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_str     0x000000000000064b       0x3e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x266 (size before relaxing)
+ .debug_str     0x0000000000000689       0x3e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x266 (size before relaxing)
+ .debug_str     0x0000000000000689       0x3b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x220 (size before relaxing)
+ .debug_str     0x00000000000006c4       0x1a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x116 (size before relaxing)
+ .debug_str     0x00000000000006de       0x3f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x1bd (size before relaxing)
+ .debug_str     0x000000000000071d       0xfa c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x000000000000071d      0x13e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x316 (size before relaxing)
+ .debug_str     0x000000000000085b      0x171 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x000000000000085b       0x27 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0x86 (size before relaxing)
+ .debug_str     0x0000000000000882       0x2b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0x85 (size before relaxing)
+ .debug_str     0x00000000000008ad        0x8 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+                                         0xf7 (size before relaxing)
+ .debug_str     0x00000000000008b5       0x11 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x113 (size before relaxing)
+ .debug_str     0x00000000000008c6       0x94 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x1f3 (size before relaxing)
+ .debug_str     0x000000000000095a       0x18 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1b2 (size before relaxing)
+ .debug_str     0x0000000000000972       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x321 (size before relaxing)
+ .debug_str     0x000000000000099e       0x18 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                                         0x61 (size before relaxing)
+ .debug_str     0x00000000000009b6       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x141 (size before relaxing)
+ .debug_str     0x00000000000009d6       0x12 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                         0xf0 (size before relaxing)
+ .debug_str     0x00000000000009e8       0x42 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x231 (size before relaxing)
+ .debug_str     0x0000000000000a2a      0x17a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_str     0x0000000000000a2a       0x37 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x1fb (size before relaxing)
+ .debug_str     0x0000000000000a61      0x100 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_str     0x0000000000000a61       0x1e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                                         0x67 (size before relaxing)
+ .debug_str     0x0000000000000a7f        0xe c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1a1 (size before relaxing)
+ .debug_str     0x0000000000000a8d      0x1ae c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x0000000000000a8d       0x10 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x1be (size before relaxing)
+ .debug_str     0x0000000000000a9d      0x104 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_str     0x0000000000000a9d      0x461 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x543 (size before relaxing)
+ .debug_str     0x0000000000000efe       0xa1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x13d (size before relaxing)
+ .debug_str     0x0000000000000f9f      0x38a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x4e6 (size before relaxing)
+ .debug_str     0x0000000000001329        0xc c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x4dd (size before relaxing)
+ .debug_str     0x0000000000001335       0xf8 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_str     0x0000000000001335      0x100 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_str     0x0000000000001335       0x27 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x127 (size before relaxing)
+ .debug_str     0x000000000000135c        0xd c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x113 (size before relaxing)
+ .debug_str     0x0000000000001369        0xd c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x513 (size before relaxing)
+ .debug_str     0x0000000000001369       0x27 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x507 (size before relaxing)
+ .debug_str     0x0000000000001390       0xcb c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+                                        0x116 (size before relaxing)
+ .debug_str     0x000000000000145b       0x17 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x102 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x000000000003729c                __alt_data_end = 0x3729c
+                0x000000000003729c                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x3729c)
+OUTPUT(hello.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x0000000000000000       0x70
+ .debug_ranges  0x0000000000000000       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x28 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000048       0x28 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exception_entry.o)
+
+.debug_line_str
+                0x0000000000000000      0xde9
+ .debug_line_str
+                0x0000000000000000       0xed obj/default/hello_world.o
+                                        0x150 (size before relaxing)
+ .debug_line_str
+                0x00000000000000ed       0x84 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_load.o)
+                                         0xe8 (size before relaxing)
+ .debug_line_str
+                0x0000000000000171       0xac c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1af (size before relaxing)
+ .debug_line_str
+                0x000000000000021d       0x26 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x13f (size before relaxing)
+ .debug_line_str
+                0x0000000000000243       0x9e c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x179 (size before relaxing)
+ .debug_line_str
+                0x00000000000002e1       0x35 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x195 (size before relaxing)
+ .debug_line_str
+                0x0000000000000316       0x2b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x18d (size before relaxing)
+ .debug_line_str
+                0x0000000000000341       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x177 (size before relaxing)
+ .debug_line_str
+                0x000000000000036d       0x9a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x24a (size before relaxing)
+ .debug_line_str
+                0x0000000000000407       0x2c c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x24d (size before relaxing)
+ .debug_line_str
+                0x0000000000000433       0x1a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x123 (size before relaxing)
+ .debug_line_str
+                0x000000000000044d       0x19 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                         0xd5 (size before relaxing)
+ .debug_line_str
+                0x0000000000000466       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x16b (size before relaxing)
+ .debug_line_str
+                0x0000000000000486       0x1f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                         0xd1 (size before relaxing)
+ .debug_line_str
+                0x00000000000004a5       0x97 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x1e6 (size before relaxing)
+ .debug_line_str
+                0x000000000000053c       0x1f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x116 (size before relaxing)
+ .debug_line_str
+                0x000000000000055b       0x17 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xb9 (size before relaxing)
+ .debug_line_str
+                0x0000000000000572       0x17 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xb9 (size before relaxing)
+ .debug_line_str
+                0x0000000000000589       0x14 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x124 (size before relaxing)
+ .debug_line_str
+                0x000000000000059d       0x1f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x101 (size before relaxing)
+ .debug_line_str
+                0x00000000000005bc       0x3a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x10f (size before relaxing)
+ .debug_line_str
+                0x00000000000005f6       0x2f c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x11e (size before relaxing)
+ .debug_line_str
+                0x0000000000000625       0x2b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x20f (size before relaxing)
+ .debug_line_str
+                0x0000000000000650       0x1a c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                         0xf0 (size before relaxing)
+ .debug_line_str
+                0x000000000000066a       0x17 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                         0xcf (size before relaxing)
+ .debug_line_str
+                0x0000000000000681       0x13 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x10d (size before relaxing)
+ .debug_line_str
+                0x0000000000000694       0x19 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x113 (size before relaxing)
+ .debug_line_str
+                0x00000000000006ad       0x13 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x10e (size before relaxing)
+ .debug_line_str
+                0x00000000000006c0       0x20 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                         0xd4 (size before relaxing)
+ .debug_line_str
+                0x00000000000006e0       0x17 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1b0 (size before relaxing)
+ .debug_line_str
+                0x00000000000006f7       0x18 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x1cd (size before relaxing)
+ .debug_line_str
+                0x000000000000070f       0x15 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x116 (size before relaxing)
+ .debug_line_str
+                0x0000000000000724       0x1b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                         0xdb (size before relaxing)
+ .debug_line_str
+                0x000000000000073f       0x3b c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x127 (size before relaxing)
+ .debug_line_str
+                0x000000000000077a      0x150 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x21b (size before relaxing)
+ .debug_line_str
+                0x00000000000008ca      0x115 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x30b (size before relaxing)
+ .debug_line_str
+                0x00000000000009df       0xe9 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x296 (size before relaxing)
+ .debug_line_str
+                0x0000000000000ac8       0x3e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                        0x1b2 (size before relaxing)
+ .debug_line_str
+                0x0000000000000b06       0xec c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                        0x288 (size before relaxing)
+ .debug_line_str
+                0x0000000000000bf2       0x3c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x288 (size before relaxing)
+ .debug_line_str
+                0x0000000000000c2e       0x3c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x288 (size before relaxing)
+ .debug_line_str
+                0x0000000000000c6a       0x3e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x2aa (size before relaxing)
+ .debug_line_str
+                0x0000000000000ca8       0x43 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x2b0 (size before relaxing)
+ .debug_line_str
+                0x0000000000000ceb       0xe1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+                                        0x197 (size before relaxing)
+ .debug_line_str
+                0x0000000000000dcc       0x1d c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_exit.o)
+                                         0xc5 (size before relaxing)
+
+.debug_rnglists
+                0x0000000000000000      0x143
+ .debug_rnglists
+                0x0000000000000000       0x22 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_rnglists
+                0x0000000000000022       0x16 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_rnglists
+                0x0000000000000038       0x14 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_rnglists
+                0x000000000000004c       0x19 c:/Users/ailen/Desktop/licenta/licenta/software/hello_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_rnglists
+                0x0000000000000065       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_rnglists
+                0x0000000000000078       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_rnglists
+                0x000000000000008b       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_rnglists
+                0x000000000000009e       0x14 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_rnglists
+                0x00000000000000b2       0x14 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_rnglists
+                0x00000000000000c6       0x14 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_rnglists
+                0x00000000000000da       0x2a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_rnglists
+                0x0000000000000104       0x3f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
+
+.debug_loclists
+                0x0000000000000000      0x90a
+ .debug_loclists
+                0x0000000000000000       0x2a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loclists
+                0x000000000000002a       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loclists
+                0x000000000000004a       0xe1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loclists
+                0x000000000000012b      0x23b c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loclists
+                0x0000000000000366       0x4d c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loclists
+                0x00000000000003b3       0xa8 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loclists
+                0x000000000000045b      0x135 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_loclists
+                0x0000000000000590      0x37a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1\libgcc.a(lib2-divmod.o)
