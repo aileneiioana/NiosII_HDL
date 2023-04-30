@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Apr 30 16:58:38 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : DMA
+Top-level Entity Name : DE10_LITE_Golden_Top
+Family : MAX 10
+Total logic elements : 5,011
+    Total combinational functions : 4,124
+    Dedicated logic registers : 2,679
+Total registers : 2679
+Total pins : 185
+Total virtual pins : 0
+Total memory bits : 428,992
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

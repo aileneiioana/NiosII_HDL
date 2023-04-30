@@ -1,0 +1,136 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\ailen\Desktop\licenta\Nios_msgDMA\dma.qsys --block-symbol-file --output-directory=C:\Users\ailen\Desktop\licenta\Nios_msgDMA\dma --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading Nios_msgDMA/dma.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding data_destination [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module data_destination
+Progress: Adding data_source [altera_avalon_data_pattern_generator 22.1]
+Progress: Parameterizing module data_source
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding msgdma_0 [altera_msgdma 22.1]
+Progress: Parameterizing module msgdma_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 22.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding ocram [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module ocram
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dma.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dma.msgdma_0: Response information port is disabled. Enable the response port if data transfer information is required by host
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\ailen\Desktop\licenta\Nios_msgDMA\dma.qsys --synthesis=VERILOG --output-directory=C:\Users\ailen\Desktop\licenta\Nios_msgDMA\dma\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading Nios_msgDMA/dma.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding data_destination [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module data_destination
+Progress: Adding data_source [altera_avalon_data_pattern_generator 22.1]
+Progress: Parameterizing module data_source
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding msgdma_0 [altera_msgdma 22.1]
+Progress: Parameterizing module msgdma_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 22.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding ocram [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module ocram
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dma.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dma.msgdma_0: Response information port is disabled. Enable the response port if data transfer information is required by host
+Info: dma: Generating dma "dma" for QUARTUS_SYNTH
+Info: data_destination: Starting RTL generation for module 'dma_data_destination'
+Info: data_destination:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=dma_data_destination --dir=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0002_data_destination_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0002_data_destination_gen//dma_data_destination_component_configuration.pl  --do_build_sim=0  ]
+Info: data_destination: Done RTL generation for module 'dma_data_destination'
+Info: data_destination: "dma" instantiated altera_avalon_onchip_memory2 "data_destination"
+Info: data_source: "dma" instantiated altera_avalon_data_pattern_generator "data_source"
+Info: jtag_uart_0: Starting RTL generation for module 'dma_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=dma_jtag_uart_0 --dir=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0003_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0003_jtag_uart_0_gen//dma_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'dma_jtag_uart_0'
+Info: jtag_uart_0: "dma" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: msgdma_0: "dma" instantiated altera_msgdma "msgdma_0"
+Info: nios2_gen2_0: "dma" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: ocram: Starting RTL generation for module 'dma_ocram'
+Info: ocram:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=dma_ocram --dir=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0004_ocram_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0004_ocram_gen//dma_ocram_component_configuration.pl  --do_build_sim=0  ]
+Info: ocram: Done RTL generation for module 'dma_ocram'
+Info: ocram: "dma" instantiated altera_avalon_onchip_memory2 "ocram"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dma" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "dma" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "dma" instantiated altera_reset_controller "rst_controller"
+Info: data_pattern_generator: "data_source" instantiated altera_avalon_data_pattern_generator_core "data_pattern_generator"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_reset_controller.v
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_reset_synchronizer.v
+Info: dispatcher_internal: "msgdma_0" instantiated modular_sgdma_dispatcher "dispatcher_internal"
+Info: write_mstr_internal: "msgdma_0" instantiated dma_write_master "write_mstr_internal"
+Info: cpu: Starting RTL generation for module 'dma_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=dma_nios2_gen2_0_cpu --dir=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0011_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/ailen/AppData/Local/Temp/alt9477_6432446705669708826.dir/0011_cpu_gen//dma_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.04.30 16:57:07 (*) Starting Nios II generation
+Info: cpu: # 2023.04.30 16:57:07 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.04.30 16:57:07 (*)   Creating all objects for CPU
+Info: cpu: # 2023.04.30 16:57:07 (*)     Testbench
+Info: cpu: # 2023.04.30 16:57:07 (*)     Instruction decoding
+Info: cpu: # 2023.04.30 16:57:07 (*)       Instruction fields
+Info: cpu: # 2023.04.30 16:57:07 (*)       Instruction decodes
+Info: cpu: # 2023.04.30 16:57:07 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2023.04.30 16:57:07 (*)       Instruction controls
+Info: cpu: # 2023.04.30 16:57:07 (*)     Pipeline frontend
+Info: cpu: # 2023.04.30 16:57:07 (*)     Pipeline backend
+Info: cpu: # 2023.04.30 16:57:09 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.04.30 16:57:09 (*)   Creating plain-text RTL
+Info: cpu: # 2023.04.30 16:57:10 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'dma_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: nios2_gen2_0_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_gen2_0_data_master_limiter"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: msgdma_0_descriptor_slave_cmd_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "msgdma_0_descriptor_slave_cmd_width_adapter"
+Info: Reusing file C:/Users/ailen/Desktop/licenta/Nios_msgDMA/dma/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_004: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_004"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_004" instantiated error_adapter "error_adapter_0"
+Info: dma: Done "dma" with 41 modules, 74 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

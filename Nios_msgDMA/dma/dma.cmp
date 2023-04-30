@@ -1,0 +1,6 @@
+	component dma is
+		port (
+			clk_clk : in std_logic := 'X'  -- clk
+		);
+	end component dma;
+

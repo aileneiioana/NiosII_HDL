@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include "altera_msgdma_descriptor_regs.h"
+#include "altera_msgdma_prefetcher_regs.h"
+#include "altera_msgdma_csr_regs.h"
+#include "altera_msgdma.h"
+#include "system.h"
+
+//Modular Scatter-Gather DMA Defines
+alt_msgdma_dev *STDATA_MSGDMA:
+alt_msgdma_standard_descriptor STDATA_MSGDMA_DESC;
+
+#define LEN 100
+
+alt_u32 *WRITE_ADDRESS = DATA_DESTINATON_BASE;
+
+int main()
+{ 
+  alt_putstr("Hello from Nios II!\n");
+
+  /* Event loop never exits. */
+  while (1);
+
+  return 0;
+}

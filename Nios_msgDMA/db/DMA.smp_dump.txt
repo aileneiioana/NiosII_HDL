@@ -1,0 +1,9 @@
+
+State Machine - |DE10_LITE_Golden_Top|dma:u0|dma_data_source:data_source|altera_avalon_data_pattern_generator:data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
