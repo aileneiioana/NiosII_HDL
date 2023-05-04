@@ -101,7 +101,7 @@ ACDS_VERSION := 21.1
 # BUILD_NUMBER: 850
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/ailen/Desktop/licenta/NiosInterrupts/HelloNiosIntr.sopcinfo
+SOPC_FILE := ../../HelloNiosIntr.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

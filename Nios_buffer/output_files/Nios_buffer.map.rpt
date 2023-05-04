@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Nios_buffer
-Wed Apr 26 16:36:40 2023
+Fri Apr 28 16:46:24 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -217,7 +217,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 26 16:36:40 2023          ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 28 16:46:24 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Nios_buffer                                    ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                           ;
@@ -7662,7 +7662,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:08     ;
 ; pzdyqx:nabboc  ; 00:00:00     ;
 +----------------+--------------+
 
@@ -7673,9 +7673,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Wed Apr 26 16:35:47 2023
+    Info: Processing started: Fri Apr 28 16:45:28 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Nios_buffer -c Nios_buffer
-Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file c:/intelfpga_lite/22.1std/quartus/bin64/assignment_defaults.qdf
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file nios_buffer/synthesis/nios_buffer.v
@@ -8550,7 +8549,7 @@ Info (12128): Elaborating entity "altera_reset_controller" for hierarchy "Nios_B
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "Nios_Buffer:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1" File: C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_reset_controller.v Line: 208
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "Nios_Buffer:u0|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_req_sync_uq1" File: C:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer/synthesis/submodules/altera_reset_controller.v Line: 220
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2023.04.26.16:36:16 Progress: Loading sldb551cb07/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2023.04.28.16:45:56 Progress: Loading sldb551cb07/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -8848,10 +8847,10 @@ Info (21057): Implemented 4374 device resources after synthesis - the final reso
     Info (21064): Implemented 329 RAM segments
     Info (21062): Implemented 6 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 220 warnings
-    Info: Peak virtual memory: 4961 megabytes
-    Info: Processing ended: Wed Apr 26 16:36:40 2023
-    Info: Elapsed time: 00:00:53
-    Info: Total CPU time (on all processors): 00:01:22
+    Info: Peak virtual memory: 4977 megabytes
+    Info: Processing ended: Fri Apr 28 16:46:24 2023
+    Info: Elapsed time: 00:00:56
+    Info: Total CPU time (on all processors): 00:01:24
 
 
 +------------------------------------------+

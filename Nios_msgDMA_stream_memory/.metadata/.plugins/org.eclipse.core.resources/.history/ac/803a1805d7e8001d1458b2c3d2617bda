@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include "altera_msgdma_descriptor_regs.h"
+#include "altera_msgdma_prefetcher_regs.h"
+#include "altera_msgdma_csr_regs.h"
+#include "altera_msgdma.h"
+#include "system.h"
+
+// Modular Scatter-Gather DMA Defines
+alt_msgdma_dev *STDATA_MSGDMA;
+alt_msgdma_standard_descriptor STDATA_MSGDMA_DESC;
+
+#define LEN 100
+alt_u32 *WRITE_ADDRESS = DATA_DESTINATION_BASE;
+
+// Function to initialize the data pattern generator
+void init_data_pattern_generator() {
+  IOWR(DATA_SOURCE_BASE, 1, 0x2); //to choose the preferred data pattern
+  IOWR(DATA_SOURCE_BASE, 0, 1); //to Enable the Pattern Generator
+}
+
+// Function to open the msgdma and construct the DMA descriptor
+int init_msgdma() {
+  STDATA_MSGDMA = alt_msgdma_open(MSGDMA_0_CSR_NAME);
+  if(STDATA_MSGDMA == NULL) {
+    printf("Could not open the msgDMA\n");
+    return 1;
+  }
+
+  alt_msgdma_construct_standard_st_to_mm_descriptor(
+    STDATA_MSGDMA,
+    &STDATA_MSGDMA_DESC,
+    WRITE_ADDRESS,
+    LEN,
+    ALTERA_MSGDMA_DESCRIPTOR_CONTROL_PARK_WRITES_MASK
+  );
+  return 0;
+}
+
+// Function to start the DMA transfer and wait for it to complete
+int start_dma_transfer() {
+  alt_msgdma_standard_descriptor_async_transfer(STDATA_MSGDMA, &STDATA_MSGDMA_DESC);
+  while (! alt_msgdma_standard_descriptor_async_transfer(STDATA_MSGDMA, &STDATA_MSGDMA_DESC));
+  return alt_msgdma_standard_descriptor_async_transfer_status(&STDATA_MSGDMA_DESC);
+}
+
+// Function to check for errors in the DMA transfer and print the data written by the DMA
+void verify_dma_transfer() {
+  int errors = 0;
+  printf("Data written by DMA:\n");
+  for (int i = 0; i < LEN; i++) {
+    printf("%08x ", *(WRITE_ADDRESS + i));
+    if (*(WRITE_ADDRESS + i) != 0xaaaaaaaa) {
+      printf("<<--- ERROR");
+      errors++;
+    }
+    if ((i + 1) % 8 == 0) printf("\n");
+  }
+
+  if (errors > 0) {
+    printf("Data verification failed with %d errors.\n", errors);
+  } else {
+    printf("Data verification succeeded!\n");
+  }
+}
+
+int main() {
+  printf("Starting DMA transfer...\n");
+
+  init_data_pattern_generator();
+  if (init_msgdma() != 0) return 1;
+
+  int status = start_dma_transfer();
+  if (status != 0) {
+    printf("DMA transfer failed with status %d\n", status);
+    return 1;
+  }
+
+  printf("DMA transfer completed successfully!\n");
+
+  verify_dma_transfer();
+
+  return 0;
+}

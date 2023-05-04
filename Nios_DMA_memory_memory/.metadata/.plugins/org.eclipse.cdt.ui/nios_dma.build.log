@@ -1,0 +1,9 @@
+14:34:56 **** Incremental Build of configuration Nios II for project nios_dma ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/Nios_DMA/software/nios_dma_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/Nios_DMA/software/nios_dma_bsp/
+[BSP build complete]
+[nios_dma build complete]
+
+14:34:57 Build Finished (took 802ms)
+

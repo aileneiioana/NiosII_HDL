@@ -101,7 +101,7 @@ ACDS_VERSION := 22.1
 # BUILD_NUMBER: 915
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := c:/Users/ailen/Desktop/licenta/Nios_Custom_Peripheral_2/Nios_Custom_IP2.sopcinfo
+SOPC_FILE := ../../Nios_Custom_IP2.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

@@ -1,0 +1,231 @@
+#include "system.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/alt_cache.h>
+#include <sys/alt_irq.h>
+// mSGDMA 転送関連
+#include <altera_msgdma_descriptor_regs.h>
+#include <altera_msgdma_csr_regs.h>
+#include <altera_msgdma.h>
+/*******************************************************************************
+ * re-definitions
+ * ※ このセクションは "system.h" で定義された定数を、
+ * 本ソースファイル内で使用するために再定義したものです。
+ * ご使用の際は右側の定数を "system.h" を参照の上、変更してお使いください。
+ *******************************************************************************/
+#define MSGDMA_NAME (MSGDMA_CSR_NAME) // mSGDMA のレジスタ名
+#define OCRAM0_BASE (OCRAM_0_BASE) // オンチップ RAM 0 のベースアドレス
+#define OCRAM1_BASE (OCRAM_1_BASE) // オンチップ RAM 1 のベースアドレス
+/****************************
+ * マクロ定義
+ ****************************/
+#define TRUE -1
+#define FALSE 0
+#define USE_ASYNC_XFER TRUE // DMA 転送 : TRUE = alt_msgdma_standard_descriptor_async_transfer() を使用
+ // FALSE = alt_msgdma_standard_descriptor_sync_transfer() を使用
+#define XFER_BYTES 1024 // DMA 転送のサイズ（バイト単位）: 1KByte
+/****************************
+ * グローバル変数
+ ****************************/
+volatile int xfer_cmp = FALSE; // 転送完了フラグ
+volatile int xfer_err = FALSE; // 転送エラーフラグ
+void msgdma_callback( void* context ); // mSGDMA 転送コールバック関数
+void init_ram( unsigned char *p_rd_adrs, unsigned char *p_wr_adrs, int bytes ); // RAM データ初期化関数
+void dump_ram( unsigned char *p_ram_adrs, int bytes ); // RAM データ・ダンプ関数
+int verify_ram( unsigned char *p_rd_adrs, unsigned char *p_wr_adrs, int bytes ); // RAM データ・ベリファイ関数
+/****************************
+ * 関数
+ ****************************/
+/********************************************
+ * main 関数
+ */
+int main()
+{
+ alt_msgdma_dev *p_msgdma; // mSGDMA インスタンスへのポインタ
+ alt_msgdma_standard_descriptor msgdma_desc; // スタンダード・ディスクリプタ構造体へのポインタ
+ unsigned char *p_dma_rd; // DMA 転送元アドレスのポインタ
+ unsigned char *p_dma_wr; // DMA 転送先アドレスのポインタ
+ int status = 0;
+// DMA 転送元アドレスのポインタ (非キャッシュ領域でポインタ生成)
+ p_dma_rd = (unsigned char*)( OCRAM0_BASE | 0x80000000 );
+// DMA 転送先アドレスのポインタ (非キャッシュ領域でポインタ生成)
+ p_dma_wr = (unsigned char*)( OCRAM1_BASE | 0x80000000 );
+ printf("<< Start Program!! >>\n");
+ //===================================================
+ // オンチップ RAM のデータを初期化
+ //===================================================
+ // 転送元オンチップ RAM に DMA 転送サイズ分のランダム・データを準備
+ // 転送先オンチップ RAM を DMA 転送サイズ分クリア
+ init_ram( p_dma_rd, p_dma_wr, XFER_BYTES );
+ //===================================================
+ // DMA 転送前のオンチップ RAM データをダンプ表示
+ //===================================================
+// 転送元オンチップ RAM データをダンプ表示
+ printf( "\n<Debug> On-Chip RAM 0 Contents Before DMA!!\n" );
+ dump_ram( p_dma_rd, XFER_BYTES );
+// 転送先オンチップ RAM データをダンプ表示
+ printf( "\n<Debug> On-Chip RAM 1 Contents Before DMA!!\n" );
+ dump_ram( p_dma_wr, XFER_BYTES );
+ //===================================================
+ // DMA 転送の実行
+ //===================================================
+ // mSGDMA インスタンスへのポインタを取得
+ p_msgdma = alt_msgdma_open( MSGDMA_NAME );
+ if ( p_msgdma == NULL )
+ {
+ printf( "Error: Could not open the mSGDMA\n" );
+ return -1;
+ }
+ // alt_msgdma_irq() からコールバックされる mSGDMA 転送コールバック関数を登録
+  alt_msgdma_register_callback( p_msgdma,
+  msgdma_callback,
+  ALTERA_MSGDMA_CSR_GLOBAL_INTERRUPT_MASK |
+  ALTERA_MSGDMA_CSR_STOP_ON_ERROR_MASK |
+  ALTERA_MSGDMA_CSR_STOP_ON_EARLY_TERMINATION_MASK,
+  p_msgdma );
+  // キャッシュ・フラッシュ
+  alt_dcache_flush_all();
+  // DMA ディスクリプタを構成
+  status = alt_msgdma_construct_standard_mm_to_mm_descriptor( p_msgdma,
+  &msgdma_desc,
+  (alt_u32*)p_dma_rd,
+  (alt_u32*)p_dma_wr,
+  XFER_BYTES,
+  ALTERA_MSGDMA_DESCRIPTOR_CONTROL_TRANSFER_COMPLETE_IRQ_MASK );
+  if( status != 0 )
+  {
+  printf( "Error: mSGDMA descriptor Fail[%d]\n", status );
+  return status;
+  }
+  // DMA 転送を開始
+  printf( "\n<Debug> mSGDMA Transfer Start!!\n" );
+ #if USE_ASYNC_XFER
+  status = alt_msgdma_standard_descriptor_async_transfer( p_msgdma, &msgdma_desc );
+  if ( 0 != status )
+  {
+  printf( "Error: mSGDMA async_transfer Fail[%d]\n", status );
+  return status;
+  }
+  // 転送完了（コールバック）待ちループ
+  while (1)
+  {
+  // 転送完了であればループを抜ける
+  if ( xfer_cmp == TRUE )
+  break;
+  // mSGDMA 転送エラーが検出されていればループを抜ける
+  if ( xfer_err )
+  break;
+  }
+ #else
+  status = alt_msgdma_standard_descriptor_sync_transfer( p_msgdma, &msgdma_desc );
+  if ( 0 != status )
+  {
+  printf( "Error: mSGDMA sync_transfer Fail[%d]\n", status );
+  return status;
+  }
+ #endif
+  //===================================================
+  // DMA 転送後のオンチップ RAM データをダンプ表示
+  //===================================================
+  // 転送元オンチップ RAM データをダンプ表示
+  printf( "\n<Debug> On-Chip RAM 0 Contents After DMA!!\n" );
+  dump_ram( p_dma_rd, XFER_BYTES );
+  // 転送先オンチップ RAM データをダンプ表示
+  printf( "\n<Debug> On-Chip RAM 1 Contents After DMA!!\n" );
+  dump_ram( p_dma_wr, XFER_BYTES );
+  printf( "\n<Debug> On-Chip RAM 0 and 1 Contents Verify!!\n" );
+   status = verify_ram( p_dma_rd, p_dma_wr, XFER_BYTES );
+   if ( 0 != status )
+   printf( "<Debug> Data Verify Error!!\n" );
+   else
+   printf( "<Debug> Data Verify OK!!\n" );
+   return status;
+  }
+  /********************************************
+   * mSGDMA 転送コールバック関数
+   *
+   * 引数： ユーザ定義コンテキストへのポインタ
+   * 戻り値： 無し
+   */
+  void msgdma_callback( void* context )
+  {
+   struct alt_msgdma_dev *p_msgdma = (alt_msgdma_dev*)context;
+   printf( "<Debug> mSGDMA Callback Function called!!\n" );
+  // mSGDMA の コントロール・レジスタ と ステータス・レジスタ の値を取得
+   int nCtrl = IORD_ALTERA_MSGDMA_CSR_CONTROL( p_msgdma->csr_base );
+   int nStat = IORD_ALTERA_MSGDMA_CSR_STATUS( p_msgdma->csr_base );
+  // 指定バイト数分転送完了したか?
+   if ( nStat & ALTERA_MSGDMA_CSR_DESCRIPTOR_BUFFER_EMPTY_MASK )
+   {
+  // Yes: 転送完了フラグを立てる
+   xfer_cmp = TRUE;
+   }
+   else
+   {
+  // それ以外の割り込みはエラーとする
+   xfer_err = TRUE;
+   printf( " mSGDMA_IRQ: stat_reg=%X. ctrl_reg=%X\n", nStat, nCtrl );
+   }
+  }
+  /********************************************
+   * RAM データ初期化関数
+   *
+   * 引数： *p_rd_adrs - 転送元 RAM のアドレス・ポインタ
+   * *p_wr_adrs - 転送先 RAM のアドレス・ポインタ
+   * bytes - 転送バイト数
+   * 戻り値： 無し
+   */
+  void init_ram( unsigned char *p_rd_adrs, unsigned char *p_wr_adrs, int bytes )
+  {
+   int i;
+   for ( i = 0; i < bytes; i++ )
+   {
+  // 転送元 RAM に DMA 転送サイズ分のランダム・データを準備
+   p_rd_adrs[i] = rand();
+   }
+  // 転送先 RAM を DMA 転送サイズ分クリア
+   memset( p_wr_adrs, 0x00, bytes );
+  }
+  void dump_ram( unsigned char *p_ram_adrs, int bytes )
+  {
+   int i;
+   unsigned char ucData;
+   // キャッシュ・フラッシュ
+   alt_dcache_flush_all();
+   printf( "\n0000: " );
+   for ( i = 0; i < bytes; i++ )
+   {
+   ucData = p_ram_adrs[i];
+   if(( i % 16 == 15 ) && ( i < bytes - 1 ))
+   printf( "%02X \n%04X: ", ucData, i + 1 );
+   else
+   printf( "%02X ", ucData );
+   }
+   printf( "\n" );
+  }
+  /********************************************
+   * RAM データ・ベリファイ関数
+   *
+   * 引数： *p_rd_adrs - 転送元 RAM のアドレス・ポインタ
+   * *p_wr_adrs - 転送先 RAM のアドレス・ポインタ
+   * bytes - 転送バイト数
+   * 戻り値： 0 = エラー無し、 -1 = ベリファイ・エラー
+   */
+  int verify_ram( unsigned char *p_rd_adrs, unsigned char *p_wr_adrs, int bytes )
+  {
+   int i;
+   int status = 0;
+   for ( i = 0; i < bytes; i++ )
+   {
+   if ( p_rd_adrs[i] != p_wr_adrs[i] )
+   {
+   printf( "<Debug> Data Verify Error!! Address = %05d\n", (unsigned int)i );
+   status = -1;
+   }
+   }
+   return status;
+  }
+
+

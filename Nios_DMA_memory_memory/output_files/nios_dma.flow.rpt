@@ -1,0 +1,139 @@
+Flow report for nios_dma
+Tue May  2 14:26:49 2023
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Tue May  2 14:26:41 2023          ;
+; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                      ; nios_dma                                       ;
+; Top-level Entity Name              ; DE10_LITE_Golden_Top                           ;
+; Family                             ; MAX 10                                         ;
+; Device                             ; 10M50DAF484C6GES                               ;
+; Timing Models                      ; Preliminary                                    ;
+; Total logic elements               ; 4,160 / 49,760 ( 8 % )                         ;
+;     Total combinational functions  ; 3,776 / 49,760 ( 8 % )                         ;
+;     Dedicated logic registers      ; 2,288 / 49,760 ( 5 % )                         ;
+; Total registers                    ; 2288                                           ;
+; Total pins                         ; 185 / 360 ( 51 % )                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 466,240 / 1,677,312 ( 28 % )                   ;
+; Embedded Multiplier 9-bit elements ; 6 / 288 ( 2 % )                                ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                                  ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                                  ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/02/2023 14:24:52 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; nios_dma            ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++-------------------------------------+-------------------------------------------------------+---------------+----------------------+------------+
+; Assignment Name                     ; Value                                                 ; Default Value ; Entity Name          ; Section Id ;
++-------------------------------------+-------------------------------------------------------+---------------+----------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 9447191139222.168302669202904                         ; --            ; --                   ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --            ; --                   ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                     ; --            ; --                   ; --         ;
+; MISC_FILE                           ; dma/synthesis/../dma.cmp                              ; --            ; --                   ; --         ;
+; MISC_FILE                           ; dma/synthesis/../../dma.qsys                          ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                     ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                     ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                            ; --            ; --                   ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                            ; --            ; --                   ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                   ; --            ; --                   ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                 ; --            ; --                   ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                          ; --            ; --                   ; --         ;
+; SLD_FILE                            ; dma/synthesis/dma.regmap                              ; --            ; --                   ; --         ;
+; SLD_FILE                            ; dma/synthesis/dma.debuginfo                           ; --            ; --                   ; --         ;
+; SLD_INFO                            ; QSYS_NAME dma HAS_SOPCINFO 1 GENERATION_ID 1683026641 ; --            ; dma                  ; --         ;
+; SOPCINFO_FILE                       ; dma/synthesis/../../dma.sopcinfo                      ; --            ; --                   ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --            ; --                   ; --         ;
+; TOP_LEVEL_ENTITY                    ; DE10_LITE_Golden_Top                                  ; nios_dma      ; --                   ; --         ;
++-------------------------------------+-------------------------------------------------------+---------------+----------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:57     ; 1.0                     ; 5022 MB             ; 00:01:22                           ;
+; Fitter               ; 00:00:37     ; 1.3                     ; 5738 MB             ; 00:00:52                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4747 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.8                     ; 4891 MB             ; 00:00:12                           ;
+; Total                ; 00:01:46     ; --                      ; --                  ; 00:02:30                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-TDRP5HG  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off nios_dma -c nios_dma
+quartus_fit --read_settings_files=off --write_settings_files=off nios_dma -c nios_dma
+quartus_asm --read_settings_files=off --write_settings_files=off nios_dma -c nios_dma
+quartus_sta nios_dma -c nios_dma
+
+
+

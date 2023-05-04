@@ -1,5 +1,5 @@
 Timing Analyzer report for Nios_buffer
-Wed Apr 26 16:37:14 2023
+Fri Apr 28 16:47:09 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -95,14 +95,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.81        ;
+; Average used               ; 1.98        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  27.1%      ;
-;     Processor 3            ;  27.0%      ;
-;     Processor 4            ;  26.9%      ;
+;     Processor 2            ;  32.8%      ;
+;     Processor 3            ;  32.6%      ;
+;     Processor 4            ;  32.6%      ;
 +----------------------------+-------------+
 
 
@@ -111,8 +111,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                                  ; Status ; Read at                  ;
 +----------------------------------------------------------------+--------+--------------------------+
-; Nios_Buffer/synthesis/submodules/altera_reset_controller.sdc   ; OK     ; Wed Apr 26 16:37:09 2023 ;
-; Nios_Buffer/synthesis/submodules/Nios_Buffer_NIOS_BUFF_cpu.sdc ; OK     ; Wed Apr 26 16:37:09 2023 ;
+; Nios_Buffer/synthesis/submodules/altera_reset_controller.sdc   ; OK     ; Fri Apr 28 16:47:04 2023 ;
+; Nios_Buffer/synthesis/submodules/Nios_Buffer_NIOS_BUFF_cpu.sdc ; OK     ; Fri Apr 28 16:47:04 2023 ;
 +----------------------------------------------------------------+--------+--------------------------+
 
 
@@ -1277,7 +1277,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Wed Apr 26 16:37:08 2023
+    Info: Processing started: Fri Apr 28 16:47:02 2023
 Info: Command: quartus_sta Nios_buffer -c Nios_buffer
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1466,9 +1466,9 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4887 megabytes
-    Info: Processing ended: Wed Apr 26 16:37:14 2023
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 4910 megabytes
+    Info: Processing ended: Fri Apr 28 16:47:09 2023
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:13
 
 

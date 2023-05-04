@@ -101,7 +101,7 @@ ACDS_VERSION := 22.1
 # BUILD_NUMBER: 915
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := c:/Users/ailen/Desktop/licenta/licenta/niosII_demo.sopcinfo
+SOPC_FILE := ../../niosII_demo.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

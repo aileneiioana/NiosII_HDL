@@ -101,7 +101,7 @@ ACDS_VERSION := 22.1
 # BUILD_NUMBER: 915
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := c:/Users/ailen/Desktop/licenta/Nios_buffer/Nios_Buffer.sopcinfo
+SOPC_FILE := ../../Nios_Buffer.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

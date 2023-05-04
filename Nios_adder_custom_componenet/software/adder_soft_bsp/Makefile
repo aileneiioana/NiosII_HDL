@@ -101,7 +101,7 @@ ACDS_VERSION := 22.1
 # BUILD_NUMBER: 915
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := c:/Users/ailen/Desktop/licenta/adder/adder_nios.sopcinfo
+SOPC_FILE := ../../adder_nios.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

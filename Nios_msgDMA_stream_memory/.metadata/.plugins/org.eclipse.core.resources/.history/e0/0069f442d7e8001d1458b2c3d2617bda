@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include "altera_msgdma_descriptor_regs.h"
+#include "altera_msgdma_prefetcher_regs.h"
+#include "altera_msgdma_csr_regs.h"
+#include "altera_msgdma.h"
+#include "system.h"
+
+//Modular Scatter-Gather DMA Defines
+alt_msgdma_dev *STDATA_MSGDMA;
+alt_msgdma_standard_descriptor STDATA_MSGDMA_DESC;
+
+#define LEN 25
+
+alt_u32 *WRITE_ADDRESS = DATA_DESTINATION_BASE;
+
+int main()
+{
+  printf("Starting DMA transfer...\n");
+
+  // Initialize the Data Pattern Generator, by defining the pattern required for testing.
+  IOWR(DATA_SOURCE_BASE, 1, 0x2); //to choose the preferred data pattern
+  IOWR(DATA_SOURCE_BASE, 0, 1); //to Enable the Pattern Generator
+
+  // Open the msgdma
+  STDATA_MSGDMA = alt_msgdma_open(MSGDMA_0_CSR_NAME);
+  if(STDATA_MSGDMA == NULL) {
+    printf("Could not open the msgDMA\n");
+    return 1;
+  }
+
+  // Construct the DMA desc
+  alt_msgdma_construct_standard_st_to_mm_descriptor(
+    STDATA_MSGDMA,
+    &STDATA_MSGDMA_DESC,
+    WRITE_ADDRESS,
+    LEN,
+    ALTERA_MSGDMA_DESCRIPTOR_CONTROL_PARK_WRITES_MASK
+  );
+
+  // Run the msgdma
+  alt_msgdma_standard_descriptor_async_transfer(STDATA_MSGDMA, &STDATA_MSGDMA_DESC);
+  // Wait for DMA transfer to complete
+  while (!alt_msgdma_standard_descriptor_async_transfer(STDATA_MSGDMA, &STDATA_MSGDMA_DESC)));
+
+  // Check for errors
+  if (alt_msgdma_standard_descriptor_async_transfer(STDATA_MSGDMA, &STDATA_MSGDMA_DESC) != 0) {
+    printf("DMA transfer failed with status %d\n", alt_msgdma_standard_descriptor_async_transfer_status(&STDATA_MSGDMA_DESC));
+    return 1;
+  }
+
+ /* // Print the data written by the DMA
+  printf("Data written by DMA:\n");
+  for (int i = 0; i < LEN; i++) {
+	  printf("%lx ", *(WRITE_ADDRESS + i));
+    if ((i + 1) % 8 == 0) printf("\n");
+  }
+  for (int i = 0; i < LEN; i++) {
+    printf("WRITE_ADDRESS[%d] = %lx\n", i, *(WRITE_ADDRESS + i));
+  }
+*/
+  // Verify data written by DMA
+   alt_u32 *READ_ADDRESS = (alt_u32 *)malloc(LEN * sizeof(alt_u32));
+   for (int i = 0; i < LEN; i++) {
+     *(READ_ADDRESS + i) = *(WRITE_ADDRESS + i);
+   }
+
+   int error_count = 0;
+   for (int i = 0; i < LEN; i++) {
+     if (*(READ_ADDRESS + i) != 0xAAAAAAAA) {
+       error_count++;
+       printf("Data verification error at index %d, expected %08x, actual %08x\n", i, 0xAAAAAAAA, *(READ_ADDRESS + i));
+     }
+   }
+
+   if (error_count == 0) {
+     printf("Data verification successful!\n");
+   }
+
+   free(READ_ADDRESS);
+
+  return 0;
+}
