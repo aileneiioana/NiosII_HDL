@@ -13,4 +13,4 @@ To run:
 - Open qpf file with Quartus, compile it and program the FPGA
 - Open Eclipse from Quartus -> Tools -> Nios II Software Build Tools for Eclipse
 - Import projects from software folder https://www.youtube.com/watch?v=o-t2e0hxNHc&ab_channel=roseindiatutorials
-- Build Project and run it as Nios Hardware
+- Build Projects (the one with C source code + bps) - first build bps - and run it as Nios Hardware
