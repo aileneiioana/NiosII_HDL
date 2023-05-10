@@ -1,0 +1,1741 @@
+
+nios_custom_dma.elf:     file format elf32-littlenios2
+nios_custom_dma.elf
+architecture: nios2:r1, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00020020
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x00020000 paddr 0x00020000 align 2**12
+         filesz 0x00000020 memsz 0x00000020 flags r-x
+    LOAD off    0x00001020 vaddr 0x00020020 paddr 0x00020020 align 2**12
+         filesz 0x00000ee8 memsz 0x00000ee8 flags r-x
+    LOAD off    0x00001f08 vaddr 0x00020f08 paddr 0x00021000 align 2**12
+         filesz 0x000000f8 memsz 0x000000f8 flags rw-
+    LOAD off    0x000000f8 vaddr 0x000210f8 paddr 0x000210f8 align 2**12
+         filesz 0x00000000 memsz 0x00000018 flags rw-
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .entry        00000020  00020000  00020000  00001000  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .exceptions   00000000  00020020  00020020  00002000  2**0
+                  CONTENTS
+  2 .text         00000db4  00020020  00020020  00001020  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .rodata       00000134  00020dd4  00020dd4  00001dd4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .rwdata       000000f8  00020f08  00021000  00001f08  2**2
+                  CONTENTS, ALLOC, LOAD, DATA, SMALL_DATA
+  5 .bss          00000018  000210f8  000210f8  000020f8  2**2
+                  ALLOC, SMALL_DATA
+  6 .program      00000000  00021110  00021110  00002000  2**0
+                  CONTENTS
+  7 .src_ram      00000000  00040000  00040000  00002000  2**0
+                  CONTENTS
+  8 .dst_ram      00000000  00041000  00041000  00002000  2**0
+                  CONTENTS
+  9 .comment      0000002d  00000000  00000000  00002000  2**0
+                  CONTENTS, READONLY
+ 10 .debug_aranges 00000350  00000000  00000000  00002030  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 11 .debug_info   000057ae  00000000  00000000  00002380  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 12 .debug_abbrev 00001e60  00000000  00000000  00007b2e  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_line   00001447  00000000  00000000  0000998e  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_frame  00000460  00000000  00000000  0000add8  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_str    000009ff  00000000  00000000  0000b238  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_alt_sim_info 00000030  00000000  00000000  0000bc38  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_ranges 00000020  00000000  00000000  0000bc68  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_loclists 00000a3b  00000000  00000000  0000bc88  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_rnglists 0000015e  00000000  00000000  0000c6c3  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 20 .debug_line_str 00000b6b  00000000  00000000  0000c821  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .thread_model 00000003  00000000  00000000  0000e72e  2**0
+                  CONTENTS, READONLY
+ 22 .cpu          0000000c  00000000  00000000  0000e731  2**0
+                  CONTENTS, READONLY
+ 23 .qsys         00000001  00000000  00000000  0000e73d  2**0
+                  CONTENTS, READONLY
+ 24 .simulation_enabled 00000001  00000000  00000000  0000e73e  2**0
+                  CONTENTS, READONLY
+ 25 .stderr_dev   0000000b  00000000  00000000  0000e73f  2**0
+                  CONTENTS, READONLY
+ 26 .stdin_dev    0000000b  00000000  00000000  0000e74a  2**0
+                  CONTENTS, READONLY
+ 27 .stdout_dev   0000000b  00000000  00000000  0000e755  2**0
+                  CONTENTS, READONLY
+ 28 .sopc_system_name 0000000f  00000000  00000000  0000e760  2**0
+                  CONTENTS, READONLY
+ 29 .quartus_project_dir 0000002e  00000000  00000000  0000e76f  2**0
+                  CONTENTS, READONLY
+ 30 .jdi          00005687  00000000  00000000  0000e79d  2**0
+                  CONTENTS, READONLY
+ 31 .sopcinfo     00061236  00000000  00000000  00013e24  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+00020000 l    d  .entry	00000000 .entry
+00020020 l    d  .exceptions	00000000 .exceptions
+00020020 l    d  .text	00000000 .text
+00020dd4 l    d  .rodata	00000000 .rodata
+00020f08 l    d  .rwdata	00000000 .rwdata
+000210f8 l    d  .bss	00000000 .bss
+00021110 l    d  .program	00000000 .program
+00040000 l    d  .src_ram	00000000 .src_ram
+00041000 l    d  .dst_ram	00000000 .dst_ram
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_alt_sim_info	00000000 .debug_alt_sim_info
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    df *ABS*	00000000 crt0.o
+00020068 l       .text	00000000 alt_after_alt_main
+00000000 l    df *ABS*	00000000 hello_world_small.c
+00000000 l    df *ABS*	00000000 malloc.c
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00020734 l     F .text	0000008c sbrk_aligned
+00000000 l    df *ABS*	00000000 puts.c
+00000000 l    df *ABS*	00000000 sbrkr.c
+00000000 l    df *ABS*	00000000 strlen.c
+00000000 l    df *ABS*	00000000 fvwrite_small_dev.c
+00000000 l    df *ABS*	00000000 impure.c
+00020f08 l     O .rwdata	000000e4 impure_data
+00000000 l    df *ABS*	00000000 int_errno.c
+00000000 l    df *ABS*	00000000 writer.c
+00000000 l    df *ABS*	00000000 alt_load.c
+00000000 l    df *ABS*	00000000 alt_main.c
+00000000 l    df *ABS*	00000000 alt_malloc_lock.c
+00000000 l    df *ABS*	00000000 alt_sbrk.c
+00020ff4 l     O .rwdata	00000004 heap_end
+00000000 l    df *ABS*	00000000 alt_write.c
+00000000 l    df *ABS*	00000000 alt_sys_init.c
+00000000 l    df *ABS*	00000000 altera_avalon_jtag_uart_write.c
+00000000 l    df *ABS*	00000000 alt_dcache_flush_all.c
+00000000 l    df *ABS*	00000000 alt_errno.c
+00000000 l    df *ABS*	00000000 alt_icache_flush_all.c
+00000000 l    df *ABS*	00000000 altera_nios2_gen2_irq.c
+00000000 l    df *ABS*	00000000 alt_icache_flush.c
+00000000 l    df *ABS*	00000000 memcpy.c
+00020090 g     F .text	00000024 pipelined_dma
+00020bf4 g     F .text	0000002c alt_main
+00020984 g     F .text	00000080 _puts_r
+00021000 g       *ABS*	00000000 __flash_rwdata_start
+00021110 g       *ABS*	00000000 __alt_heap_start
+00020c24 g     F .text	00000004 __malloc_unlock
+00020d48 g     F .text	00000008 altera_nios2_gen2_irq_init
+00020000 g     F .entry	0000001c __reset
+00040000 g       *ABS*	00000000 __alt_mem_src_ram
+00020020 g       *ABS*	00000000 __flash_exceptions_start
+00021100 g     O .bss	00000004 errno
+00021108 g     O .bss	00000004 alt_argv
+00028fec g       *ABS*	00000000 _gp
+00020dac g     F .text	00000028 memcpy
+00020a04 g     F .text	00000010 puts
+000205f4 g     F .text	00000010 malloc
+00020d50 g     F .text	0000005c alt_icache_flush
+00020148 g     F .text	0000000c clr_dst
+00020a14 g     F .text	00000048 _sbrk_r
+00020fec g     O .rwdata	00000004 _global_impure_ptr
+00021110 g       *ABS*	00000000 __bss_end
+00041000 g       *ABS*	00000000 __alt_mem_dst_ram
+0002006c g     F .text	00000024 burst_dma
+00020d24 g     F .text	00000018 alt_dcache_flush_all
+00021000 g       *ABS*	00000000 __ram_rwdata_end
+00020c74 g     F .text	0000005c write
+00020f08 g       *ABS*	00000000 __ram_rodata_end
+00020ff8 g     O .rwdata	00000004 jtag_uart_0
+00021110 g       *ABS*	00000000 end
+00034000 g       *ABS*	00000000 __alt_stack_pointer
+00020cf4 g     F .text	00000030 altera_avalon_jtag_uart_write
+00020634 g     F .text	00000100 _free_r
+00020000 g       *ABS*	00000000 __alt_mem_program
+00020020 g     F .text	0000004c _start
+00020cf0 g     F .text	00000004 alt_sys_init
+000200fc g     F .text	00000020 init_src
+00020f08 g       *ABS*	00000000 __ram_rwdata_start
+00020dd4 g       *ABS*	00000000 __ram_rodata_start
+00021110 g       *ABS*	00000000 __alt_stack_base
+000200d8 g     F .text	00000024 simple_dma
+00020c20 g     F .text	00000004 __malloc_lock
+00020c28 g     F .text	0000004c sbrk
+00020a78 g     F .text	000000a8 __sfvwrite_small_dev
+000210f8 g       *ABS*	00000000 __bss_start
+00020614 g     F .text	00000020 memset
+00020154 g     F .text	000004a0 main
+00021104 g     O .bss	00000004 alt_envp
+000200b4 g     F .text	00000024 block_dma
+00034000 g       *ABS*	00000000 __alt_heap_limit
+000207c0 g     F .text	000001c4 _malloc_r
+00020ffc g     O .rwdata	00000004 alt_errno
+00020dd4 g       *ABS*	00000000 __flash_rodata_start
+00020cd0 g     F .text	00000020 alt_irq_init
+00020b20 g     F .text	00000050 _write_r
+00020ff0 g     O .rwdata	00000004 _impure_ptr
+0002110c g     O .bss	00000004 alt_argc
+00020020 g       *ABS*	00000000 __ram_exceptions_start
+00021000 g       *ABS*	00000000 _edata
+00021110 g       *ABS*	00000000 _end
+0002011c g     F .text	0000002c check_dst
+00020020 g       *ABS*	00000000 __ram_exceptions_end
+00034000 g       *ABS*	00000000 __alt_data_end
+0002001c g       .entry	00000000 _exit
+00020a5c g     F .text	0000001c strlen
+000210f8 g     O .bss	00000004 __malloc_sbrk_start
+00020d3c g     F .text	0000000c alt_icache_flush_all
+000210fc g     O .bss	00000004 __malloc_free_list
+00020b70 g     F .text	00000084 alt_load
+00020604 g     F .text	00000010 free
+
+
+
+Disassembly of section .entry:
+
+00020000 <__reset>:
+#if NIOS2_ICACHE_SIZE > 0 && defined(ALT_ALLOW_CODE_AT_RESET) && (!defined(ALT_SIM_OPTIMIZE) || defined(NIOS2_ECC_PRESENT))
+    /* Assume the instruction cache size is always a power of two. */
+#if NIOS2_ICACHE_SIZE > 0x8000
+    movhi r2, %hi(NIOS2_ICACHE_SIZE)
+#else
+    movui r2, NIOS2_ICACHE_SIZE
+   20000:	00840014 	movui	r2,4096
+#endif
+
+0:
+    initi r2
+   20004:	1001483a 	initi	r2
+    addi r2, r2, -NIOS2_ICACHE_LINE_SIZE
+   20008:	10bff804 	addi	r2,r2,-32
+    bgt r2, zero, 0b
+   2000c:	00bffd16 	blt	zero,r2,20004 <__reset+0x4>
+ * Jump to the _start entry point in the .text section if reset code
+ * is allowed or if optimizing for RTL simulation.
+ */
+#if defined(ALT_ALLOW_CODE_AT_RESET) || defined(ALT_SIM_OPTIMIZE)
+    /* Jump to the _start entry point in the .text section. */
+    movhi r1, %hi(_start)
+   20010:	004000b4 	movhi	at,2
+    ori r1, r1, %lo(_start)
+   20014:	08400814 	ori	at,at,32
+    jmp r1
+   20018:	0800683a 	jmp	at
+
+0002001c <_exit>:
+   2001c:	00000000 	call	0 <__reset-0x20000>
+
+Disassembly of section .text:
+
+00020020 <_start>:
+
+    /* Assume the data cache size is always a power of two. */
+#if NIOS2_DCACHE_SIZE > 0x8000
+    movhi r2, %hi(NIOS2_DCACHE_SIZE)
+#else
+    movui r2, NIOS2_DCACHE_SIZE
+   20020:	00820014 	movui	r2,2048
+#endif
+
+0:
+    initd 0(r2)
+   20024:	10000033 	initd	0(r2)
+#ifdef NIOS2_ECC_PRESENT
+    addi r2, r2, -4
+#else
+    addi r2, r2, -NIOS2_DCACHE_LINE_SIZE
+   20028:	10bff804 	addi	r2,r2,-32
+#endif
+    bgt r2, zero, 0b
+   2002c:	00bffd16 	blt	zero,r2,20024 <_start+0x4>
+
+    /*
+     * Now that the caches are initialized, set up the stack pointer and global pointer.
+     * The values provided by the linker are assumed to be correctly aligned.
+     */
+    movhi sp, %hi(__alt_stack_pointer)
+   20030:	06c000f4 	movhi	sp,3
+    ori sp, sp, %lo(__alt_stack_pointer)
+   20034:	ded00014 	ori	sp,sp,16384
+    movhi gp, %hi(_gp)
+   20038:	068000b4 	movhi	gp,2
+    ori gp, gp, %lo(_gp)
+   2003c:	d6a3fb14 	ori	gp,gp,36844
+ */
+#ifndef ALT_SIM_OPTIMIZE
+    /* Log that the BSS is about to be cleared. */
+    ALT_LOG_PUTS(alt_log_msg_bss)
+
+    movhi r2, %hi(__bss_start)
+   20040:	008000b4 	movhi	r2,2
+    ori r2, r2, %lo(__bss_start)
+   20044:	10843e14 	ori	r2,r2,4344
+
+    movhi r3, %hi(__bss_end)
+   20048:	00c000b4 	movhi	r3,2
+    ori r3, r3, %lo(__bss_end)
+   2004c:	18c44414 	ori	r3,r3,4368
+
+    beq r2, r3, 1f
+   20050:	10c00326 	beq	r2,r3,20060 <_start+0x40>
+
+0:
+    stw zero, (r2)
+   20054:	10000015 	stw	zero,0(r2)
+    addi r2, r2, 4
+   20058:	10800104 	addi	r2,r2,4
+    bltu r2, r3, 0b
+   2005c:	10fffd36 	bltu	r2,r3,20054 <_start+0x34>
+     * section aren't defined until alt_load() has been called).
+     */
+    mov   et, zero
+#endif
+
+    call alt_load
+   20060:	0020b700 	call	20b70 <alt_load>
+
+    /* Log that alt_main is about to be called. */
+    ALT_LOG_PUTS(alt_log_msg_alt_main)
+
+    /* Call the C entry point. It should never return. */
+    call alt_main
+   20064:	0020bf40 	call	20bf4 <alt_main>
+
+00020068 <alt_after_alt_main>:
+
+    /* Wait in infinite loop in case alt_main does return. */
+alt_after_alt_main:
+    br alt_after_alt_main
+   20068:	003fff06 	br	20068 <alt_after_alt_main>
+
+0002006c <burst_dma>:
+#define ram_src (int*)SRC_RAM_BASE
+#define ram_dst (int*)DST_RAM_BASE
+
+void burst_dma (int* src_ptr, int* dst_ptr)
+{
+    IOWR (BURST_DMA_BASE, 2, (int)src_ptr);
+   2006c:	00800134 	movhi	r2,4
+   20070:	110c0635 	stwio	r4,12312(r2)
+    IOWR (BURST_DMA_BASE, 3, (int)dst_ptr);
+   20074:	114c0735 	stwio	r5,12316(r2)
+    IOWR (BURST_DMA_BASE, 0, 0x1);
+   20078:	00c00044 	movi	r3,1
+   2007c:	10cc0435 	stwio	r3,12304(r2)
+    while (IORD (BURST_DMA_BASE, 1));
+   20080:	00800134 	movhi	r2,4
+   20084:	108c0537 	ldwio	r2,12308(r2)
+   20088:	103ffd1e 	bne	r2,zero,20080 <burst_dma+0x14>
+}
+   2008c:	f800283a 	ret
+
+00020090 <pipelined_dma>:
+
+void pipelined_dma (int* src_ptr, int* dst_ptr)
+{
+    IOWR (PIPELINED_DMA_BASE, 2, (int)src_ptr);
+   20090:	00800134 	movhi	r2,4
+   20094:	110c0a35 	stwio	r4,12328(r2)
+    IOWR (PIPELINED_DMA_BASE, 3, (int)dst_ptr);
+   20098:	114c0b35 	stwio	r5,12332(r2)
+    IOWR (PIPELINED_DMA_BASE, 0, 0x1);
+   2009c:	00c00044 	movi	r3,1
+   200a0:	10cc0835 	stwio	r3,12320(r2)
+    while (IORD (PIPELINED_DMA_BASE, 1));
+   200a4:	00800134 	movhi	r2,4
+   200a8:	108c0937 	ldwio	r2,12324(r2)
+   200ac:	103ffd1e 	bne	r2,zero,200a4 <pipelined_dma+0x14>
+}
+   200b0:	f800283a 	ret
+
+000200b4 <block_dma>:
+
+void block_dma (int* src_ptr, int* dst_ptr)
+{
+    IOWR (BLOCK_DMA_BASE, 2, (int)src_ptr);
+   200b4:	00800134 	movhi	r2,4
+   200b8:	110c0235 	stwio	r4,12296(r2)
+    IOWR (BLOCK_DMA_BASE, 3, (int)dst_ptr);
+   200bc:	114c0335 	stwio	r5,12300(r2)
+    IOWR (BLOCK_DMA_BASE, 0, 0x1);
+   200c0:	00c00044 	movi	r3,1
+   200c4:	10cc0035 	stwio	r3,12288(r2)
+    while (IORD (BLOCK_DMA_BASE, 1));
+   200c8:	00800134 	movhi	r2,4
+   200cc:	108c0137 	ldwio	r2,12292(r2)
+   200d0:	103ffd1e 	bne	r2,zero,200c8 <block_dma+0x14>
+}
+   200d4:	f800283a 	ret
+
+000200d8 <simple_dma>:
+
+void simple_dma (int* src_ptr, int* dst_ptr)
+{
+    IOWR (SIMPLE_DMA_BASE, 2, (int)src_ptr);
+   200d8:	00800134 	movhi	r2,4
+   200dc:	110c0e35 	stwio	r4,12344(r2)
+    IOWR (SIMPLE_DMA_BASE, 3, (int)dst_ptr);
+   200e0:	114c0f35 	stwio	r5,12348(r2)
+    IOWR (SIMPLE_DMA_BASE, 0, 0x1);
+   200e4:	00c00044 	movi	r3,1
+   200e8:	10cc0c35 	stwio	r3,12336(r2)
+    while (IORD (SIMPLE_DMA_BASE, 1));
+   200ec:	00800134 	movhi	r2,4
+   200f0:	108c0d37 	ldwio	r2,12340(r2)
+   200f4:	103ffd1e 	bne	r2,zero,200ec <simple_dma+0x14>
+}
+   200f8:	f800283a 	ret
+
+000200fc <init_src>:
+
+void init_src (int* ptr)
+{
+  int i;
+  for (i=0; i<0x100; i++)
+   200fc:	0005883a 	mov	r2,zero
+  {
+    *ptr = i;
+   20100:	100690ba 	slli	r3,r2,2
+   20104:	20c7883a 	add	r3,r4,r3
+   20108:	18800015 	stw	r2,0(r3)
+  for (i=0; i<0x100; i++)
+   2010c:	10800044 	addi	r2,r2,1
+   20110:	10c04018 	cmpnei	r3,r2,256
+   20114:	183ffa1e 	bne	r3,zero,20100 <init_src+0x4>
+    ptr++;
+  }
+}
+   20118:	f800283a 	ret
+
+0002011c <check_dst>:
+
+int check_dst (int* ptr)
+{
+  int pass = 0;
+  int i;
+  for (i=0; i<0x100; i++)
+   2011c:	0007883a 	mov	r3,zero
+  int pass = 0;
+   20120:	0005883a 	mov	r2,zero
+  {
+    if (*ptr != i)
+   20124:	180a90ba 	slli	r5,r3,2
+   20128:	214b883a 	add	r5,r4,r5
+   2012c:	29400017 	ldw	r5,0(r5)
+   20130:	28c00126 	beq	r5,r3,20138 <check_dst+0x1c>
+        pass++;
+   20134:	10800044 	addi	r2,r2,1
+  for (i=0; i<0x100; i++)
+   20138:	18c00044 	addi	r3,r3,1
+   2013c:	19404018 	cmpnei	r5,r3,256
+   20140:	283ff81e 	bne	r5,zero,20124 <check_dst+0x8>
+    ptr++;
+  }
+  return pass;
+}
+   20144:	f800283a 	ret
+
+00020148 <clr_dst>:
+void clr_dst (int* ptr)
+{
+  int i;
+  for (i=0; i<0x100; i++)
+  {
+    *ptr = 0;
+   20148:	01810004 	movi	r6,1024
+   2014c:	000b883a 	mov	r5,zero
+   20150:	00206141 	jmpi	20614 <memset>
+
+00020154 <main>:
+    ptr++;
+  }
+}
+
+int main()
+{ 
+   20154:	defffd04 	addi	sp,sp,-12
+  int* sdram_dst;
+  int* sdram_src;
+
+  // allocate source and destination memory
+  sdram_src = malloc (4 * 0x100);
+   20158:	01010004 	movi	r4,1024
+{ 
+   2015c:	dfc00215 	stw	ra,8(sp)
+   20160:	dc400115 	stw	r17,4(sp)
+   20164:	dc000015 	stw	r16,0(sp)
+  sdram_src = malloc (4 * 0x100);
+   20168:	00205f40 	call	205f4 <malloc>
+  sdram_dst = malloc (4 * 0x100);
+   2016c:	01010004 	movi	r4,1024
+  sdram_src = malloc (4 * 0x100);
+   20170:	1023883a 	mov	r17,r2
+  sdram_dst = malloc (4 * 0x100);
+   20174:	00205f40 	call	205f4 <malloc>
+
+  // initialise memory
+  init_src (sdram_src);
+   20178:	8809883a 	mov	r4,r17
+  sdram_dst = malloc (4 * 0x100);
+   2017c:	1021883a 	mov	r16,r2
+  init_src (sdram_src);
+   20180:	00200fc0 	call	200fc <init_src>
+  init_src (ram_src);
+   20184:	01000134 	movhi	r4,4
+   20188:	00200fc0 	call	200fc <init_src>
+
+  puts ("Initialisation done\n");
+   2018c:	010000b4 	movhi	r4,2
+   20190:	21037504 	addi	r4,r4,3540
+   20194:	0020a040 	call	20a04 <puts>
+
+  /************************/
+  /* simple example tests */
+  /************************/
+  puts ("");
+   20198:	010000b4 	movhi	r4,2
+   2019c:	21037a04 	addi	r4,r4,3560
+   201a0:	0020a040 	call	20a04 <puts>
+  puts ("Simple Master:");
+   201a4:	010000b4 	movhi	r4,2
+   201a8:	21037b04 	addi	r4,r4,3564
+   201ac:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   201b0:	8009883a 	mov	r4,r16
+   201b4:	00201480 	call	20148 <clr_dst>
+  simple_dma (sdram_src, sdram_dst);
+   201b8:	8809883a 	mov	r4,r17
+   201bc:	800b883a 	mov	r5,r16
+   201c0:	00200d80 	call	200d8 <simple_dma>
+  if (check_dst(sdram_dst))
+   201c4:	8009883a 	mov	r4,r16
+   201c8:	002011c0 	call	2011c <check_dst>
+   201cc:	1000d926 	beq	r2,zero,20534 <main+0x3e0>
+    puts ("Balanced slow: Passed");
+   201d0:	010000b4 	movhi	r4,2
+   201d4:	21037f04 	addi	r4,r4,3580
+  else
+    puts ("Balanced slow: FAILED!");
+   201d8:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   201dc:	01000134 	movhi	r4,4
+   201e0:	21040004 	addi	r4,r4,4096
+   201e4:	00201480 	call	20148 <clr_dst>
+  simple_dma (ram_src, ram_dst);
+   201e8:	01400134 	movhi	r5,4
+   201ec:	01000134 	movhi	r4,4
+   201f0:	29440004 	addi	r5,r5,4096
+   201f4:	00200d80 	call	200d8 <simple_dma>
+  if (check_dst(ram_dst))
+   201f8:	01000134 	movhi	r4,4
+   201fc:	21040004 	addi	r4,r4,4096
+   20200:	002011c0 	call	2011c <check_dst>
+   20204:	1000ce26 	beq	r2,zero,20540 <main+0x3ec>
+    puts ("Balanced fast: Passed");
+   20208:	010000b4 	movhi	r4,2
+   2020c:	21038b04 	addi	r4,r4,3628
+  else
+    puts ("Balanced fast: FAILED!");
+   20210:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   20214:	01000134 	movhi	r4,4
+   20218:	21040004 	addi	r4,r4,4096
+   2021c:	00201480 	call	20148 <clr_dst>
+  simple_dma (sdram_src, ram_dst);
+   20220:	01400134 	movhi	r5,4
+   20224:	8809883a 	mov	r4,r17
+   20228:	29440004 	addi	r5,r5,4096
+   2022c:	00200d80 	call	200d8 <simple_dma>
+  if (check_dst(ram_dst))
+   20230:	01000134 	movhi	r4,4
+   20234:	21040004 	addi	r4,r4,4096
+   20238:	002011c0 	call	2011c <check_dst>
+   2023c:	1000c326 	beq	r2,zero,2054c <main+0x3f8>
+    puts ("Slow to fast: Passed");
+   20240:	010000b4 	movhi	r4,2
+   20244:	21039704 	addi	r4,r4,3676
+  else
+    puts ("Slow to fast: FAILED!");
+   20248:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   2024c:	8009883a 	mov	r4,r16
+   20250:	00201480 	call	20148 <clr_dst>
+  simple_dma (ram_src, sdram_dst);
+   20254:	01000134 	movhi	r4,4
+   20258:	800b883a 	mov	r5,r16
+   2025c:	00200d80 	call	200d8 <simple_dma>
+  if (check_dst(sdram_dst))
+   20260:	8009883a 	mov	r4,r16
+   20264:	002011c0 	call	2011c <check_dst>
+   20268:	1000bb26 	beq	r2,zero,20558 <main+0x404>
+    puts ("Fast to slow: Passed");
+   2026c:	010000b4 	movhi	r4,2
+   20270:	2103a304 	addi	r4,r4,3724
+  else
+    puts ("Fast to slow: FAILED!");
+   20274:	0020a040 	call	20a04 <puts>
+
+
+  /***********************/
+  /* block example tests */
+  /***********************/
+  puts ("");
+   20278:	010000b4 	movhi	r4,2
+   2027c:	21037a04 	addi	r4,r4,3560
+   20280:	0020a040 	call	20a04 <puts>
+  puts ("Block Based Master:");
+   20284:	010000b4 	movhi	r4,2
+   20288:	2103af04 	addi	r4,r4,3772
+   2028c:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   20290:	8009883a 	mov	r4,r16
+   20294:	00201480 	call	20148 <clr_dst>
+  block_dma (sdram_src, sdram_dst);
+   20298:	8809883a 	mov	r4,r17
+   2029c:	800b883a 	mov	r5,r16
+   202a0:	00200b40 	call	200b4 <block_dma>
+  if (check_dst(sdram_dst))
+   202a4:	8009883a 	mov	r4,r16
+   202a8:	002011c0 	call	2011c <check_dst>
+   202ac:	1000ad26 	beq	r2,zero,20564 <main+0x410>
+    puts ("Balanced slow: Passed");
+   202b0:	010000b4 	movhi	r4,2
+   202b4:	21037f04 	addi	r4,r4,3580
+  else
+    puts ("Balanced slow: FAILED!");
+   202b8:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   202bc:	01000134 	movhi	r4,4
+   202c0:	21040004 	addi	r4,r4,4096
+   202c4:	00201480 	call	20148 <clr_dst>
+  block_dma (ram_src, ram_dst);
+   202c8:	01400134 	movhi	r5,4
+   202cc:	01000134 	movhi	r4,4
+   202d0:	29440004 	addi	r5,r5,4096
+   202d4:	00200b40 	call	200b4 <block_dma>
+  if (check_dst(ram_dst))
+   202d8:	01000134 	movhi	r4,4
+   202dc:	21040004 	addi	r4,r4,4096
+   202e0:	002011c0 	call	2011c <check_dst>
+   202e4:	1000a226 	beq	r2,zero,20570 <main+0x41c>
+    puts ("Balanced fast: Passed");
+   202e8:	010000b4 	movhi	r4,2
+   202ec:	21038b04 	addi	r4,r4,3628
+  else
+    puts ("Balanced fast: FAILED!");
+   202f0:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   202f4:	01000134 	movhi	r4,4
+   202f8:	21040004 	addi	r4,r4,4096
+   202fc:	00201480 	call	20148 <clr_dst>
+  block_dma (sdram_src, ram_dst);
+   20300:	01400134 	movhi	r5,4
+   20304:	8809883a 	mov	r4,r17
+   20308:	29440004 	addi	r5,r5,4096
+   2030c:	00200b40 	call	200b4 <block_dma>
+  if (check_dst(ram_dst))
+   20310:	01000134 	movhi	r4,4
+   20314:	21040004 	addi	r4,r4,4096
+   20318:	002011c0 	call	2011c <check_dst>
+   2031c:	10009726 	beq	r2,zero,2057c <main+0x428>
+    puts ("Slow to fast: Passed");
+   20320:	010000b4 	movhi	r4,2
+   20324:	21039704 	addi	r4,r4,3676
+  else
+    puts ("Slow to fast: FAILED!");
+   20328:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   2032c:	8009883a 	mov	r4,r16
+   20330:	00201480 	call	20148 <clr_dst>
+  block_dma (ram_src, sdram_dst);
+   20334:	01000134 	movhi	r4,4
+   20338:	800b883a 	mov	r5,r16
+   2033c:	00200b40 	call	200b4 <block_dma>
+  if (check_dst(sdram_dst))
+   20340:	8009883a 	mov	r4,r16
+   20344:	002011c0 	call	2011c <check_dst>
+   20348:	10008f26 	beq	r2,zero,20588 <main+0x434>
+    puts ("Fast to slow: Passed");
+   2034c:	010000b4 	movhi	r4,2
+   20350:	2103a304 	addi	r4,r4,3724
+  else
+    puts ("Fast to slow: FAILED!");
+   20354:	0020a040 	call	20a04 <puts>
+
+
+  /***************************/
+  /* pipelined example tests */
+  /***************************/
+  puts ("");
+   20358:	010000b4 	movhi	r4,2
+   2035c:	21037a04 	addi	r4,r4,3560
+   20360:	0020a040 	call	20a04 <puts>
+  puts ("Pipelined Master:");
+   20364:	010000b4 	movhi	r4,2
+   20368:	2103b404 	addi	r4,r4,3792
+   2036c:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   20370:	8009883a 	mov	r4,r16
+   20374:	00201480 	call	20148 <clr_dst>
+  pipelined_dma (sdram_src, sdram_dst);
+   20378:	8809883a 	mov	r4,r17
+   2037c:	800b883a 	mov	r5,r16
+   20380:	00200900 	call	20090 <pipelined_dma>
+  if (check_dst(sdram_dst))
+   20384:	8009883a 	mov	r4,r16
+   20388:	002011c0 	call	2011c <check_dst>
+   2038c:	10008126 	beq	r2,zero,20594 <main+0x440>
+    puts ("Balanced slow: Passed");
+   20390:	010000b4 	movhi	r4,2
+   20394:	21037f04 	addi	r4,r4,3580
+  else
+    puts ("Balanced slow: FAILED!");
+   20398:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   2039c:	01000134 	movhi	r4,4
+   203a0:	21040004 	addi	r4,r4,4096
+   203a4:	00201480 	call	20148 <clr_dst>
+  pipelined_dma (ram_src, ram_dst);
+   203a8:	01400134 	movhi	r5,4
+   203ac:	01000134 	movhi	r4,4
+   203b0:	29440004 	addi	r5,r5,4096
+   203b4:	00200900 	call	20090 <pipelined_dma>
+  if (check_dst(ram_dst))
+   203b8:	01000134 	movhi	r4,4
+   203bc:	21040004 	addi	r4,r4,4096
+   203c0:	002011c0 	call	2011c <check_dst>
+   203c4:	10007626 	beq	r2,zero,205a0 <main+0x44c>
+    puts ("Balanced fast: Passed");
+   203c8:	010000b4 	movhi	r4,2
+   203cc:	21038b04 	addi	r4,r4,3628
+  else
+    puts ("Balanced fast: FAILED!");
+   203d0:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   203d4:	01000134 	movhi	r4,4
+   203d8:	21040004 	addi	r4,r4,4096
+   203dc:	00201480 	call	20148 <clr_dst>
+  pipelined_dma (sdram_src, ram_dst);
+   203e0:	01400134 	movhi	r5,4
+   203e4:	8809883a 	mov	r4,r17
+   203e8:	29440004 	addi	r5,r5,4096
+   203ec:	00200900 	call	20090 <pipelined_dma>
+  if (check_dst(ram_dst))
+   203f0:	01000134 	movhi	r4,4
+   203f4:	21040004 	addi	r4,r4,4096
+   203f8:	002011c0 	call	2011c <check_dst>
+   203fc:	10006b26 	beq	r2,zero,205ac <main+0x458>
+    puts ("Slow to fast: Passed");
+   20400:	010000b4 	movhi	r4,2
+   20404:	21039704 	addi	r4,r4,3676
+  else
+    puts ("Slow to fast: FAILED!");
+   20408:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   2040c:	8009883a 	mov	r4,r16
+   20410:	00201480 	call	20148 <clr_dst>
+  pipelined_dma (ram_src, sdram_dst);
+   20414:	01000134 	movhi	r4,4
+   20418:	800b883a 	mov	r5,r16
+   2041c:	00200900 	call	20090 <pipelined_dma>
+  if (check_dst(sdram_dst))
+   20420:	8009883a 	mov	r4,r16
+   20424:	002011c0 	call	2011c <check_dst>
+   20428:	10006326 	beq	r2,zero,205b8 <main+0x464>
+    puts ("Fast to slow: Passed");
+   2042c:	010000b4 	movhi	r4,2
+   20430:	2103a304 	addi	r4,r4,3724
+  else
+    puts ("Fast to slow: FAILED!");
+   20434:	0020a040 	call	20a04 <puts>
+
+
+  /***********************/
+  /* Burst example tests */
+  /***********************/
+  puts ("");
+   20438:	010000b4 	movhi	r4,2
+   2043c:	21037a04 	addi	r4,r4,3560
+   20440:	0020a040 	call	20a04 <puts>
+  puts ("Burst Master:");
+   20444:	010000b4 	movhi	r4,2
+   20448:	2103b904 	addi	r4,r4,3812
+   2044c:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   20450:	8009883a 	mov	r4,r16
+   20454:	00201480 	call	20148 <clr_dst>
+  burst_dma (sdram_src, sdram_dst);
+   20458:	8809883a 	mov	r4,r17
+   2045c:	800b883a 	mov	r5,r16
+   20460:	002006c0 	call	2006c <burst_dma>
+  if (check_dst(sdram_dst))
+   20464:	8009883a 	mov	r4,r16
+   20468:	002011c0 	call	2011c <check_dst>
+   2046c:	10005526 	beq	r2,zero,205c4 <main+0x470>
+    puts ("Balanced slow: Passed");
+   20470:	010000b4 	movhi	r4,2
+   20474:	21037f04 	addi	r4,r4,3580
+  else
+    puts ("Balanced slow: FAILED!");
+   20478:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   2047c:	01000134 	movhi	r4,4
+   20480:	21040004 	addi	r4,r4,4096
+   20484:	00201480 	call	20148 <clr_dst>
+  burst_dma (ram_src, ram_dst);
+   20488:	01400134 	movhi	r5,4
+   2048c:	01000134 	movhi	r4,4
+   20490:	29440004 	addi	r5,r5,4096
+   20494:	002006c0 	call	2006c <burst_dma>
+  if (check_dst(ram_dst))
+   20498:	01000134 	movhi	r4,4
+   2049c:	21040004 	addi	r4,r4,4096
+   204a0:	002011c0 	call	2011c <check_dst>
+   204a4:	10004a26 	beq	r2,zero,205d0 <main+0x47c>
+    puts ("Balanced fast: Passed");
+   204a8:	010000b4 	movhi	r4,2
+   204ac:	21038b04 	addi	r4,r4,3628
+  else
+    puts ("Balanced fast: FAILED!");
+   204b0:	0020a040 	call	20a04 <puts>
+
+  clr_dst (ram_dst);
+   204b4:	01000134 	movhi	r4,4
+   204b8:	21040004 	addi	r4,r4,4096
+   204bc:	00201480 	call	20148 <clr_dst>
+  burst_dma (sdram_src, ram_dst);
+   204c0:	01400134 	movhi	r5,4
+   204c4:	8809883a 	mov	r4,r17
+   204c8:	29440004 	addi	r5,r5,4096
+   204cc:	002006c0 	call	2006c <burst_dma>
+  if (check_dst(ram_dst))
+   204d0:	01000134 	movhi	r4,4
+   204d4:	21040004 	addi	r4,r4,4096
+   204d8:	002011c0 	call	2011c <check_dst>
+   204dc:	10003f26 	beq	r2,zero,205dc <main+0x488>
+    puts ("Slow to fast: Passed");
+   204e0:	010000b4 	movhi	r4,2
+   204e4:	21039704 	addi	r4,r4,3676
+  else
+    puts ("Slow to fast: FAILED!");
+   204e8:	0020a040 	call	20a04 <puts>
+
+  clr_dst (sdram_dst);
+   204ec:	8009883a 	mov	r4,r16
+   204f0:	00201480 	call	20148 <clr_dst>
+  burst_dma (ram_src, sdram_dst);
+   204f4:	01000134 	movhi	r4,4
+   204f8:	800b883a 	mov	r5,r16
+   204fc:	002006c0 	call	2006c <burst_dma>
+  if (check_dst(sdram_dst))
+   20500:	8009883a 	mov	r4,r16
+   20504:	002011c0 	call	2011c <check_dst>
+   20508:	10003726 	beq	r2,zero,205e8 <main+0x494>
+    puts ("Fast to slow: Passed");
+   2050c:	010000b4 	movhi	r4,2
+   20510:	2103a304 	addi	r4,r4,3724
+  else
+    puts ("Fast to slow: FAILED!");
+   20514:	0020a040 	call	20a04 <puts>
+
+
+  puts ("");
+   20518:	010000b4 	movhi	r4,2
+   2051c:	21037a04 	addi	r4,r4,3560
+   20520:	0020a040 	call	20a04 <puts>
+  puts ("Tests Complete!");
+   20524:	010000b4 	movhi	r4,2
+   20528:	2103bd04 	addi	r4,r4,3828
+   2052c:	0020a040 	call	20a04 <puts>
+
+  /* Event loop never exits. */
+  while (1);
+   20530:	003fff06 	br	20530 <main+0x3dc>
+    puts ("Balanced slow: FAILED!");
+   20534:	010000b4 	movhi	r4,2
+   20538:	21038504 	addi	r4,r4,3604
+   2053c:	003f2606 	br	201d8 <main+0x84>
+    puts ("Balanced fast: FAILED!");
+   20540:	010000b4 	movhi	r4,2
+   20544:	21039104 	addi	r4,r4,3652
+   20548:	003f3106 	br	20210 <main+0xbc>
+    puts ("Slow to fast: FAILED!");
+   2054c:	010000b4 	movhi	r4,2
+   20550:	21039d04 	addi	r4,r4,3700
+   20554:	003f3c06 	br	20248 <main+0xf4>
+    puts ("Fast to slow: FAILED!");
+   20558:	010000b4 	movhi	r4,2
+   2055c:	2103a904 	addi	r4,r4,3748
+   20560:	003f4406 	br	20274 <main+0x120>
+    puts ("Balanced slow: FAILED!");
+   20564:	010000b4 	movhi	r4,2
+   20568:	21038504 	addi	r4,r4,3604
+   2056c:	003f5206 	br	202b8 <main+0x164>
+    puts ("Balanced fast: FAILED!");
+   20570:	010000b4 	movhi	r4,2
+   20574:	21039104 	addi	r4,r4,3652
+   20578:	003f5d06 	br	202f0 <main+0x19c>
+    puts ("Slow to fast: FAILED!");
+   2057c:	010000b4 	movhi	r4,2
+   20580:	21039d04 	addi	r4,r4,3700
+   20584:	003f6806 	br	20328 <main+0x1d4>
+    puts ("Fast to slow: FAILED!");
+   20588:	010000b4 	movhi	r4,2
+   2058c:	2103a904 	addi	r4,r4,3748
+   20590:	003f7006 	br	20354 <main+0x200>
+    puts ("Balanced slow: FAILED!");
+   20594:	010000b4 	movhi	r4,2
+   20598:	21038504 	addi	r4,r4,3604
+   2059c:	003f7e06 	br	20398 <main+0x244>
+    puts ("Balanced fast: FAILED!");
+   205a0:	010000b4 	movhi	r4,2
+   205a4:	21039104 	addi	r4,r4,3652
+   205a8:	003f8906 	br	203d0 <main+0x27c>
+    puts ("Slow to fast: FAILED!");
+   205ac:	010000b4 	movhi	r4,2
+   205b0:	21039d04 	addi	r4,r4,3700
+   205b4:	003f9406 	br	20408 <main+0x2b4>
+    puts ("Fast to slow: FAILED!");
+   205b8:	010000b4 	movhi	r4,2
+   205bc:	2103a904 	addi	r4,r4,3748
+   205c0:	003f9c06 	br	20434 <main+0x2e0>
+    puts ("Balanced slow: FAILED!");
+   205c4:	010000b4 	movhi	r4,2
+   205c8:	21038504 	addi	r4,r4,3604
+   205cc:	003faa06 	br	20478 <main+0x324>
+    puts ("Balanced fast: FAILED!");
+   205d0:	010000b4 	movhi	r4,2
+   205d4:	21039104 	addi	r4,r4,3652
+   205d8:	003fb506 	br	204b0 <main+0x35c>
+    puts ("Slow to fast: FAILED!");
+   205dc:	010000b4 	movhi	r4,2
+   205e0:	21039d04 	addi	r4,r4,3700
+   205e4:	003fc006 	br	204e8 <main+0x394>
+    puts ("Fast to slow: FAILED!");
+   205e8:	010000b4 	movhi	r4,2
+   205ec:	2103a904 	addi	r4,r4,3748
+   205f0:	003fc806 	br	20514 <main+0x3c0>
+
+000205f4 <malloc>:
+   205f4:	008000b4 	movhi	r2,2
+   205f8:	200b883a 	mov	r5,r4
+   205fc:	1103fc17 	ldw	r4,4080(r2)
+   20600:	00207c01 	jmpi	207c0 <_malloc_r>
+
+00020604 <free>:
+   20604:	008000b4 	movhi	r2,2
+   20608:	200b883a 	mov	r5,r4
+   2060c:	1103fc17 	ldw	r4,4080(r2)
+   20610:	00206341 	jmpi	20634 <_free_r>
+
+00020614 <memset>:
+   20614:	2005883a 	mov	r2,r4
+   20618:	218d883a 	add	r6,r4,r6
+   2061c:	2007883a 	mov	r3,r4
+   20620:	1980011e 	bne	r3,r6,20628 <memset+0x14>
+   20624:	f800283a 	ret
+   20628:	18c00044 	addi	r3,r3,1
+   2062c:	197fffc5 	stb	r5,-1(r3)
+   20630:	003ffb06 	br	20620 <memset+0xc>
+
+00020634 <_free_r>:
+   20634:	28003e26 	beq	r5,zero,20730 <_free_r+0xfc>
+   20638:	28bfff17 	ldw	r2,-4(r5)
+   2063c:	defffd04 	addi	sp,sp,-12
+   20640:	dc000115 	stw	r16,4(sp)
+   20644:	dfc00215 	stw	ra,8(sp)
+   20648:	2c3fff04 	addi	r16,r5,-4
+   2064c:	1000010e 	bge	r2,zero,20654 <_free_r+0x20>
+   20650:	80a1883a 	add	r16,r16,r2
+   20654:	d9000015 	stw	r4,0(sp)
+   20658:	0020c200 	call	20c20 <__malloc_lock>
+   2065c:	008000b4 	movhi	r2,2
+   20660:	10843f17 	ldw	r2,4348(r2)
+   20664:	d9000017 	ldw	r4,0(sp)
+   20668:	1000071e 	bne	r2,zero,20688 <_free_r+0x54>
+   2066c:	80000115 	stw	zero,4(r16)
+   20670:	008000b4 	movhi	r2,2
+   20674:	14043f15 	stw	r16,4348(r2)
+   20678:	dfc00217 	ldw	ra,8(sp)
+   2067c:	dc000117 	ldw	r16,4(sp)
+   20680:	dec00304 	addi	sp,sp,12
+   20684:	0020c241 	jmpi	20c24 <__malloc_unlock>
+   20688:	8080092e 	bgeu	r16,r2,206b0 <_free_r+0x7c>
+   2068c:	81400017 	ldw	r5,0(r16)
+   20690:	8147883a 	add	r3,r16,r5
+   20694:	10c0041e 	bne	r2,r3,206a8 <_free_r+0x74>
+   20698:	10c00017 	ldw	r3,0(r2)
+   2069c:	10800117 	ldw	r2,4(r2)
+   206a0:	1947883a 	add	r3,r3,r5
+   206a4:	80c00015 	stw	r3,0(r16)
+   206a8:	80800115 	stw	r2,4(r16)
+   206ac:	003ff006 	br	20670 <_free_r+0x3c>
+   206b0:	1007883a 	mov	r3,r2
+   206b4:	10800117 	ldw	r2,4(r2)
+   206b8:	10000126 	beq	r2,zero,206c0 <_free_r+0x8c>
+   206bc:	80bffc2e 	bgeu	r16,r2,206b0 <_free_r+0x7c>
+   206c0:	19400017 	ldw	r5,0(r3)
+   206c4:	194d883a 	add	r6,r3,r5
+   206c8:	34000b1e 	bne	r6,r16,206f8 <_free_r+0xc4>
+   206cc:	81800017 	ldw	r6,0(r16)
+   206d0:	298b883a 	add	r5,r5,r6
+   206d4:	19400015 	stw	r5,0(r3)
+   206d8:	194d883a 	add	r6,r3,r5
+   206dc:	11bfe61e 	bne	r2,r6,20678 <_free_r+0x44>
+   206e0:	11800017 	ldw	r6,0(r2)
+   206e4:	10800117 	ldw	r2,4(r2)
+   206e8:	314b883a 	add	r5,r6,r5
+   206ec:	19400015 	stw	r5,0(r3)
+   206f0:	18800115 	stw	r2,4(r3)
+   206f4:	003fe006 	br	20678 <_free_r+0x44>
+   206f8:	8180032e 	bgeu	r16,r6,20708 <_free_r+0xd4>
+   206fc:	00800304 	movi	r2,12
+   20700:	20800015 	stw	r2,0(r4)
+   20704:	003fdc06 	br	20678 <_free_r+0x44>
+   20708:	81800017 	ldw	r6,0(r16)
+   2070c:	818b883a 	add	r5,r16,r6
+   20710:	1140041e 	bne	r2,r5,20724 <_free_r+0xf0>
+   20714:	11400017 	ldw	r5,0(r2)
+   20718:	10800117 	ldw	r2,4(r2)
+   2071c:	298b883a 	add	r5,r5,r6
+   20720:	81400015 	stw	r5,0(r16)
+   20724:	80800115 	stw	r2,4(r16)
+   20728:	1c000115 	stw	r16,4(r3)
+   2072c:	003fd206 	br	20678 <_free_r+0x44>
+   20730:	f800283a 	ret
+
+00020734 <sbrk_aligned>:
+   20734:	008000b4 	movhi	r2,2
+   20738:	10843e17 	ldw	r2,4344(r2)
+   2073c:	defffd04 	addi	sp,sp,-12
+   20740:	dc400115 	stw	r17,4(sp)
+   20744:	dc000015 	stw	r16,0(sp)
+   20748:	dfc00215 	stw	ra,8(sp)
+   2074c:	2023883a 	mov	r17,r4
+   20750:	2821883a 	mov	r16,r5
+   20754:	1000041e 	bne	r2,zero,20768 <sbrk_aligned+0x34>
+   20758:	000b883a 	mov	r5,zero
+   2075c:	0020a140 	call	20a14 <_sbrk_r>
+   20760:	00c000b4 	movhi	r3,2
+   20764:	18843e15 	stw	r2,4344(r3)
+   20768:	800b883a 	mov	r5,r16
+   2076c:	8809883a 	mov	r4,r17
+   20770:	0020a140 	call	20a14 <_sbrk_r>
+   20774:	10ffffd8 	cmpnei	r3,r2,-1
+   20778:	1800071e 	bne	r3,zero,20798 <sbrk_aligned+0x64>
+   2077c:	043fffc4 	movi	r16,-1
+   20780:	8005883a 	mov	r2,r16
+   20784:	dfc00217 	ldw	ra,8(sp)
+   20788:	dc400117 	ldw	r17,4(sp)
+   2078c:	dc000017 	ldw	r16,0(sp)
+   20790:	dec00304 	addi	sp,sp,12
+   20794:	f800283a 	ret
+   20798:	140000c4 	addi	r16,r2,3
+   2079c:	00ffff04 	movi	r3,-4
+   207a0:	80e0703a 	and	r16,r16,r3
+   207a4:	143ff626 	beq	r2,r16,20780 <sbrk_aligned+0x4c>
+   207a8:	808bc83a 	sub	r5,r16,r2
+   207ac:	8809883a 	mov	r4,r17
+   207b0:	0020a140 	call	20a14 <_sbrk_r>
+   207b4:	10bfffe0 	cmpeqi	r2,r2,-1
+   207b8:	103ff126 	beq	r2,zero,20780 <sbrk_aligned+0x4c>
+   207bc:	003fef06 	br	2077c <sbrk_aligned+0x48>
+
+000207c0 <_malloc_r>:
+   207c0:	defffb04 	addi	sp,sp,-20
+   207c4:	00bfff04 	movi	r2,-4
+   207c8:	dc400115 	stw	r17,4(sp)
+   207cc:	2c4000c4 	addi	r17,r5,3
+   207d0:	88a2703a 	and	r17,r17,r2
+   207d4:	8c400204 	addi	r17,r17,8
+   207d8:	dc800215 	stw	r18,8(sp)
+   207dc:	dfc00415 	stw	ra,16(sp)
+   207e0:	dcc00315 	stw	r19,12(sp)
+   207e4:	dc000015 	stw	r16,0(sp)
+   207e8:	88800328 	cmpgeui	r2,r17,12
+   207ec:	2025883a 	mov	r18,r4
+   207f0:	10002a1e 	bne	r2,zero,2089c <_malloc_r+0xdc>
+   207f4:	04400304 	movi	r17,12
+   207f8:	89402936 	bltu	r17,r5,208a0 <_malloc_r+0xe0>
+   207fc:	9009883a 	mov	r4,r18
+   20800:	0020c200 	call	20c20 <__malloc_lock>
+   20804:	008000b4 	movhi	r2,2
+   20808:	10843f17 	ldw	r2,4348(r2)
+   2080c:	1021883a 	mov	r16,r2
+   20810:	80002d1e 	bne	r16,zero,208c8 <_malloc_r+0x108>
+   20814:	880b883a 	mov	r5,r17
+   20818:	9009883a 	mov	r4,r18
+   2081c:	00207340 	call	20734 <sbrk_aligned>
+   20820:	1021883a 	mov	r16,r2
+   20824:	10bfffd8 	cmpnei	r2,r2,-1
+   20828:	1000541e 	bne	r2,zero,2097c <_malloc_r+0x1bc>
+   2082c:	008000b4 	movhi	r2,2
+   20830:	14043f17 	ldw	r16,4348(r2)
+   20834:	8005883a 	mov	r2,r16
+   20838:	1000481e 	bne	r2,zero,2095c <_malloc_r+0x19c>
+   2083c:	84c00017 	ldw	r19,0(r16)
+   20840:	000b883a 	mov	r5,zero
+   20844:	9009883a 	mov	r4,r18
+   20848:	84e7883a 	add	r19,r16,r19
+   2084c:	0020a140 	call	20a14 <_sbrk_r>
+   20850:	9880451e 	bne	r19,r2,20968 <_malloc_r+0x1a8>
+   20854:	80800017 	ldw	r2,0(r16)
+   20858:	8c4000c4 	addi	r17,r17,3
+   2085c:	88a3c83a 	sub	r17,r17,r2
+   20860:	00bfff04 	movi	r2,-4
+   20864:	88a2703a 	and	r17,r17,r2
+   20868:	8c400204 	addi	r17,r17,8
+   2086c:	88800328 	cmpgeui	r2,r17,12
+   20870:	1000011e 	bne	r2,zero,20878 <_malloc_r+0xb8>
+   20874:	04400304 	movi	r17,12
+   20878:	880b883a 	mov	r5,r17
+   2087c:	9009883a 	mov	r4,r18
+   20880:	00207340 	call	20734 <sbrk_aligned>
+   20884:	10bfffe0 	cmpeqi	r2,r2,-1
+   20888:	1000371e 	bne	r2,zero,20968 <_malloc_r+0x1a8>
+   2088c:	80800017 	ldw	r2,0(r16)
+   20890:	1445883a 	add	r2,r2,r17
+   20894:	80800015 	stw	r2,0(r16)
+   20898:	00001806 	br	208fc <_malloc_r+0x13c>
+   2089c:	883fd60e 	bge	r17,zero,207f8 <_malloc_r+0x38>
+   208a0:	00800304 	movi	r2,12
+   208a4:	90800015 	stw	r2,0(r18)
+   208a8:	0005883a 	mov	r2,zero
+   208ac:	dfc00417 	ldw	ra,16(sp)
+   208b0:	dcc00317 	ldw	r19,12(sp)
+   208b4:	dc800217 	ldw	r18,8(sp)
+   208b8:	dc400117 	ldw	r17,4(sp)
+   208bc:	dc000017 	ldw	r16,0(sp)
+   208c0:	dec00504 	addi	sp,sp,20
+   208c4:	f800283a 	ret
+   208c8:	81000017 	ldw	r4,0(r16)
+   208cc:	2449c83a 	sub	r4,r4,r17
+   208d0:	20001f16 	blt	r4,zero,20950 <_malloc_r+0x190>
+   208d4:	20c00330 	cmpltui	r3,r4,12
+   208d8:	1800161e 	bne	r3,zero,20934 <_malloc_r+0x174>
+   208dc:	84400015 	stw	r17,0(r16)
+   208e0:	8447883a 	add	r3,r16,r17
+   208e4:	1400111e 	bne	r2,r16,2092c <_malloc_r+0x16c>
+   208e8:	008000b4 	movhi	r2,2
+   208ec:	10c43f15 	stw	r3,4348(r2)
+   208f0:	80800117 	ldw	r2,4(r16)
+   208f4:	19000015 	stw	r4,0(r3)
+   208f8:	18800115 	stw	r2,4(r3)
+   208fc:	9009883a 	mov	r4,r18
+   20900:	0020c240 	call	20c24 <__malloc_unlock>
+   20904:	013ffe04 	movi	r4,-8
+   20908:	808002c4 	addi	r2,r16,11
+   2090c:	80c00104 	addi	r3,r16,4
+   20910:	1104703a 	and	r2,r2,r4
+   20914:	10c9c83a 	sub	r4,r2,r3
+   20918:	10ffe426 	beq	r2,r3,208ac <_malloc_r+0xec>
+   2091c:	8121883a 	add	r16,r16,r4
+   20920:	1887c83a 	sub	r3,r3,r2
+   20924:	80c00015 	stw	r3,0(r16)
+   20928:	003fe006 	br	208ac <_malloc_r+0xec>
+   2092c:	10c00115 	stw	r3,4(r2)
+   20930:	003fef06 	br	208f0 <_malloc_r+0x130>
+   20934:	80c00117 	ldw	r3,4(r16)
+   20938:	1400031e 	bne	r2,r16,20948 <_malloc_r+0x188>
+   2093c:	008000b4 	movhi	r2,2
+   20940:	10c43f15 	stw	r3,4348(r2)
+   20944:	003fed06 	br	208fc <_malloc_r+0x13c>
+   20948:	10c00115 	stw	r3,4(r2)
+   2094c:	003feb06 	br	208fc <_malloc_r+0x13c>
+   20950:	8005883a 	mov	r2,r16
+   20954:	84000117 	ldw	r16,4(r16)
+   20958:	003fad06 	br	20810 <_malloc_r+0x50>
+   2095c:	1021883a 	mov	r16,r2
+   20960:	10800117 	ldw	r2,4(r2)
+   20964:	003fb406 	br	20838 <_malloc_r+0x78>
+   20968:	00800304 	movi	r2,12
+   2096c:	90800015 	stw	r2,0(r18)
+   20970:	9009883a 	mov	r4,r18
+   20974:	0020c240 	call	20c24 <__malloc_unlock>
+   20978:	003fcb06 	br	208a8 <_malloc_r+0xe8>
+   2097c:	84400015 	stw	r17,0(r16)
+   20980:	003fde06 	br	208fc <_malloc_r+0x13c>
+
+00020984 <_puts_r>:
+   20984:	defffd04 	addi	sp,sp,-12
+   20988:	dc000015 	stw	r16,0(sp)
+   2098c:	2021883a 	mov	r16,r4
+   20990:	2809883a 	mov	r4,r5
+   20994:	dfc00215 	stw	ra,8(sp)
+   20998:	dc400115 	stw	r17,4(sp)
+   2099c:	2823883a 	mov	r17,r5
+   209a0:	0020a5c0 	call	20a5c <strlen>
+   209a4:	81400217 	ldw	r5,8(r16)
+   209a8:	00c000b4 	movhi	r3,2
+   209ac:	18c29e04 	addi	r3,r3,2680
+   209b0:	28c00115 	stw	r3,4(r5)
+   209b4:	100f883a 	mov	r7,r2
+   209b8:	880d883a 	mov	r6,r17
+   209bc:	8009883a 	mov	r4,r16
+   209c0:	0020a780 	call	20a78 <__sfvwrite_small_dev>
+   209c4:	10ffffe0 	cmpeqi	r3,r2,-1
+   209c8:	1800091e 	bne	r3,zero,209f0 <_puts_r+0x6c>
+   209cc:	81400217 	ldw	r5,8(r16)
+   209d0:	018000b4 	movhi	r6,2
+   209d4:	01c00044 	movi	r7,1
+   209d8:	28800117 	ldw	r2,4(r5)
+   209dc:	3183c104 	addi	r6,r6,3844
+   209e0:	8009883a 	mov	r4,r16
+   209e4:	103ee83a 	callr	r2
+   209e8:	10bfffe0 	cmpeqi	r2,r2,-1
+   209ec:	0085c83a 	sub	r2,zero,r2
+   209f0:	dfc00217 	ldw	ra,8(sp)
+   209f4:	dc400117 	ldw	r17,4(sp)
+   209f8:	dc000017 	ldw	r16,0(sp)
+   209fc:	dec00304 	addi	sp,sp,12
+   20a00:	f800283a 	ret
+
+00020a04 <puts>:
+   20a04:	008000b4 	movhi	r2,2
+   20a08:	200b883a 	mov	r5,r4
+   20a0c:	1103fc17 	ldw	r4,4080(r2)
+   20a10:	00209841 	jmpi	20984 <_puts_r>
+
+00020a14 <_sbrk_r>:
+   20a14:	defffe04 	addi	sp,sp,-8
+   20a18:	dc000015 	stw	r16,0(sp)
+   20a1c:	008000b4 	movhi	r2,2
+   20a20:	2021883a 	mov	r16,r4
+   20a24:	2809883a 	mov	r4,r5
+   20a28:	dfc00115 	stw	ra,4(sp)
+   20a2c:	10044015 	stw	zero,4352(r2)
+   20a30:	0020c280 	call	20c28 <sbrk>
+   20a34:	10ffffd8 	cmpnei	r3,r2,-1
+   20a38:	1800041e 	bne	r3,zero,20a4c <_sbrk_r+0x38>
+   20a3c:	00c000b4 	movhi	r3,2
+   20a40:	18c44017 	ldw	r3,4352(r3)
+   20a44:	18000126 	beq	r3,zero,20a4c <_sbrk_r+0x38>
+   20a48:	80c00015 	stw	r3,0(r16)
+   20a4c:	dfc00117 	ldw	ra,4(sp)
+   20a50:	dc000017 	ldw	r16,0(sp)
+   20a54:	dec00204 	addi	sp,sp,8
+   20a58:	f800283a 	ret
+
+00020a5c <strlen>:
+   20a5c:	2005883a 	mov	r2,r4
+   20a60:	10c00007 	ldb	r3,0(r2)
+   20a64:	1800021e 	bne	r3,zero,20a70 <strlen+0x14>
+   20a68:	1105c83a 	sub	r2,r2,r4
+   20a6c:	f800283a 	ret
+   20a70:	10800044 	addi	r2,r2,1
+   20a74:	003ffa06 	br	20a60 <strlen+0x4>
+
+00020a78 <__sfvwrite_small_dev>:
+   20a78:	2880000b 	ldhu	r2,0(r5)
+   20a7c:	1080020c 	andi	r2,r2,8
+   20a80:	10002526 	beq	r2,zero,20b18 <__sfvwrite_small_dev+0xa0>
+   20a84:	2880008f 	ldh	r2,2(r5)
+   20a88:	defffb04 	addi	sp,sp,-20
+   20a8c:	dcc00315 	stw	r19,12(sp)
+   20a90:	dc800215 	stw	r18,8(sp)
+   20a94:	dc400115 	stw	r17,4(sp)
+   20a98:	dc000015 	stw	r16,0(sp)
+   20a9c:	dfc00415 	stw	ra,16(sp)
+   20aa0:	2027883a 	mov	r19,r4
+   20aa4:	2821883a 	mov	r16,r5
+   20aa8:	3025883a 	mov	r18,r6
+   20aac:	3823883a 	mov	r17,r7
+   20ab0:	1000100e 	bge	r2,zero,20af4 <__sfvwrite_small_dev+0x7c>
+   20ab4:	8080000b 	ldhu	r2,0(r16)
+   20ab8:	10801014 	ori	r2,r2,64
+   20abc:	8080000d 	sth	r2,0(r16)
+   20ac0:	00bfffc4 	movi	r2,-1
+   20ac4:	00000d06 	br	20afc <__sfvwrite_small_dev+0x84>
+   20ac8:	88810050 	cmplti	r2,r17,1025
+   20acc:	880f883a 	mov	r7,r17
+   20ad0:	1000011e 	bne	r2,zero,20ad8 <__sfvwrite_small_dev+0x60>
+   20ad4:	01c10004 	movi	r7,1024
+   20ad8:	8140008f 	ldh	r5,2(r16)
+   20adc:	900d883a 	mov	r6,r18
+   20ae0:	9809883a 	mov	r4,r19
+   20ae4:	0020b200 	call	20b20 <_write_r>
+   20ae8:	00bff20e 	bge	zero,r2,20ab4 <__sfvwrite_small_dev+0x3c>
+   20aec:	88a3c83a 	sub	r17,r17,r2
+   20af0:	90a5883a 	add	r18,r18,r2
+   20af4:	047ff416 	blt	zero,r17,20ac8 <__sfvwrite_small_dev+0x50>
+   20af8:	0005883a 	mov	r2,zero
+   20afc:	dfc00417 	ldw	ra,16(sp)
+   20b00:	dcc00317 	ldw	r19,12(sp)
+   20b04:	dc800217 	ldw	r18,8(sp)
+   20b08:	dc400117 	ldw	r17,4(sp)
+   20b0c:	dc000017 	ldw	r16,0(sp)
+   20b10:	dec00504 	addi	sp,sp,20
+   20b14:	f800283a 	ret
+   20b18:	00bfffc4 	movi	r2,-1
+   20b1c:	f800283a 	ret
+
+00020b20 <_write_r>:
+   20b20:	defffe04 	addi	sp,sp,-8
+   20b24:	dc000015 	stw	r16,0(sp)
+   20b28:	008000b4 	movhi	r2,2
+   20b2c:	2021883a 	mov	r16,r4
+   20b30:	2809883a 	mov	r4,r5
+   20b34:	300b883a 	mov	r5,r6
+   20b38:	380d883a 	mov	r6,r7
+   20b3c:	dfc00115 	stw	ra,4(sp)
+   20b40:	10044015 	stw	zero,4352(r2)
+   20b44:	0020c740 	call	20c74 <write>
+   20b48:	10ffffd8 	cmpnei	r3,r2,-1
+   20b4c:	1800041e 	bne	r3,zero,20b60 <_write_r+0x40>
+   20b50:	00c000b4 	movhi	r3,2
+   20b54:	18c44017 	ldw	r3,4352(r3)
+   20b58:	18000126 	beq	r3,zero,20b60 <_write_r+0x40>
+   20b5c:	80c00015 	stw	r3,0(r16)
+   20b60:	dfc00117 	ldw	ra,4(sp)
+   20b64:	dc000017 	ldw	r16,0(sp)
+   20b68:	dec00204 	addi	sp,sp,8
+   20b6c:	f800283a 	ret
+
+00020b70 <alt_load>:
+ * there is no bootloader, so this application is responsible for loading to
+ * RAM any sections that are required.
+ */  
+
+void alt_load (void)
+{
+   20b70:	deffff04 	addi	sp,sp,-4
+
+static void ALT_INLINE alt_load_section (alt_u32* from, 
+                                         alt_u32* to, 
+                                         alt_u32* end)
+{
+  if (to != from)
+   20b74:	010000b4 	movhi	r4,2
+   20b78:	014000b4 	movhi	r5,2
+   20b7c:	dfc00015 	stw	ra,0(sp)
+   20b80:	2103c204 	addi	r4,r4,3848
+   20b84:	29440004 	addi	r5,r5,4096
+   20b88:	21400426 	beq	r4,r5,20b9c <alt_load+0x2c>
+  {
+    while( to != end )
+    {
+      *to++ = *from++;
+   20b8c:	018000b4 	movhi	r6,2
+   20b90:	31840004 	addi	r6,r6,4096
+   20b94:	310dc83a 	sub	r6,r6,r4
+   20b98:	0020dac0 	call	20dac <memcpy>
+  if (to != from)
+   20b9c:	010000b4 	movhi	r4,2
+   20ba0:	014000b4 	movhi	r5,2
+   20ba4:	21000804 	addi	r4,r4,32
+   20ba8:	29400804 	addi	r5,r5,32
+   20bac:	21400426 	beq	r4,r5,20bc0 <alt_load+0x50>
+      *to++ = *from++;
+   20bb0:	018000b4 	movhi	r6,2
+   20bb4:	31800804 	addi	r6,r6,32
+   20bb8:	310dc83a 	sub	r6,r6,r4
+   20bbc:	0020dac0 	call	20dac <memcpy>
+  if (to != from)
+   20bc0:	010000b4 	movhi	r4,2
+   20bc4:	014000b4 	movhi	r5,2
+   20bc8:	21037504 	addi	r4,r4,3540
+   20bcc:	29437504 	addi	r5,r5,3540
+   20bd0:	21400426 	beq	r4,r5,20be4 <alt_load+0x74>
+      *to++ = *from++;
+   20bd4:	018000b4 	movhi	r6,2
+   20bd8:	3183c204 	addi	r6,r6,3848
+   20bdc:	310dc83a 	sub	r6,r6,r4
+   20be0:	0020dac0 	call	20dac <memcpy>
+  
+  /*
+   * Now ensure that the caches are in synch.
+   */
+  
+  alt_dcache_flush_all();
+   20be4:	0020d240 	call	20d24 <alt_dcache_flush_all>
+  alt_icache_flush_all();
+}
+   20be8:	dfc00017 	ldw	ra,0(sp)
+   20bec:	dec00104 	addi	sp,sp,4
+  alt_icache_flush_all();
+   20bf0:	0020d3c1 	jmpi	20d3c <alt_icache_flush_all>
+
+00020bf4 <alt_main>:
+ * devices/filesystems/components in the system; and call the entry point for
+ * the users application, i.e. main().
+ */
+
+void alt_main (void)
+{
+   20bf4:	deffff04 	addi	sp,sp,-4
+#endif
+
+  /* ALT LOG - please see HAL/sys/alt_log_printf.h for details */
+  ALT_LOG_PRINT_BOOT("[alt_main.c] Entering alt_main, calling alt_irq_init.\r\n");
+  /* Initialize the interrupt controller. */
+  alt_irq_init (NULL);
+   20bf8:	0009883a 	mov	r4,zero
+{
+   20bfc:	dfc00015 	stw	ra,0(sp)
+  alt_irq_init (NULL);
+   20c00:	0020cd00 	call	20cd0 <alt_irq_init>
+  ALT_LOG_PRINT_BOOT("[alt_main.c] Done OS Init, calling alt_sem_create.\r\n");
+  ALT_SEM_CREATE (&alt_fd_list_lock, 1);
+
+  /* Initialize the device drivers/software components. */
+  ALT_LOG_PRINT_BOOT("[alt_main.c] Calling alt_sys_init.\r\n");
+  alt_sys_init();
+   20c04:	0020cf00 	call	20cf0 <alt_sys_init>
+   */
+
+  ALT_LOG_PRINT_BOOT("[alt_main.c] Calling main.\r\n");
+
+#ifdef ALT_NO_EXIT
+  main (alt_argc, alt_argv, alt_envp);
+   20c08:	d1a04617 	ldw	r6,-32488(gp)
+   20c0c:	d1604717 	ldw	r5,-32484(gp)
+   20c10:	d1204817 	ldw	r4,-32480(gp)
+  close(STDOUT_FILENO);
+  exit (result);
+#endif
+
+  ALT_LOG_PRINT_BOOT("[alt_main.c] After main - we should not be here?.\r\n");
+}
+   20c14:	dfc00017 	ldw	ra,0(sp)
+   20c18:	dec00104 	addi	sp,sp,4
+  main (alt_argc, alt_argv, alt_envp);
+   20c1c:	00201541 	jmpi	20154 <main>
+
+00020c20 <__malloc_lock>:
+ * this requires that malloc is never called by an interrupt service routine.
+ */
+
+void __malloc_lock ( struct _reent *_r )
+{
+}
+   20c20:	f800283a 	ret
+
+00020c24 <__malloc_unlock>:
+
+/*
+ *
+ */
+
+void __malloc_unlock ( struct _reent *_r )
+   20c24:	f800283a 	ret
+
+00020c28 <sbrk>:
+static ALT_INLINE alt_irq_context ALT_ALWAYS_INLINE 
+       alt_irq_disable_all (void)
+{
+  alt_irq_context context;
+
+  NIOS2_READ_STATUS (context);
+   20c28:	0007303a 	rdctl	r3,status
+
+  NIOS2_WRITE_STATUS (context & ~NIOS2_STATUS_PIE_MSK);
+   20c2c:	00bfff84 	movi	r2,-2
+   20c30:	1884703a 	and	r2,r3,r2
+   20c34:	1001703a 	wrctl	status,r2
+  char *prev_heap_end; 
+
+  context = alt_irq_disable_all();
+
+  /* Always return data aligned on a word boundary */
+  heap_end = (char *)(((unsigned int)heap_end + 3) & ~3);
+   20c38:	d0a00217 	ldw	r2,-32760(gp)
+   20c3c:	017fff04 	movi	r5,-4
+   20c40:	108000c4 	addi	r2,r2,3
+   20c44:	1144703a 	and	r2,r2,r5
+  if (((heap_end + incr) - __alt_heap_start) > ALT_MAX_HEAP_BYTES) {
+    alt_irq_enable_all(context);
+    return (caddr_t)-1;
+  }
+#else
+  if ((heap_end + incr) > __alt_heap_limit) {
+   20c48:	014000f4 	movhi	r5,3
+  heap_end = (char *)(((unsigned int)heap_end + 3) & ~3);
+   20c4c:	d0a00215 	stw	r2,-32760(gp)
+  if ((heap_end + incr) > __alt_heap_limit) {
+   20c50:	1109883a 	add	r4,r2,r4
+   20c54:	29500004 	addi	r5,r5,16384
+   20c58:	2900032e 	bgeu	r5,r4,20c68 <sbrk+0x40>
+  status &= ~NIOS2_STATUS_PIE_MSK;
+  status |= (context & NIOS2_STATUS_PIE_MSK);
+  
+  NIOS2_WRITE_STATUS (status);
+#else
+  NIOS2_WRITE_STATUS (context);
+   20c5c:	1801703a 	wrctl	status,r3
+    alt_irq_enable_all(context);
+    return (caddr_t)-1;
+   20c60:	00bfffc4 	movi	r2,-1
+   20c64:	f800283a 	ret
+  }
+#endif
+
+  prev_heap_end = heap_end; 
+  heap_end += incr; 
+   20c68:	d1200215 	stw	r4,-32760(gp)
+   20c6c:	1801703a 	wrctl	status,r3
+#endif
+
+  alt_irq_enable_all(context);
+
+  return (caddr_t) prev_heap_end; 
+} 
+   20c70:	f800283a 	ret
+
+00020c74 <write>:
+#if !defined(ALT_STDOUT_PRESENT) && !defined(ALT_STDERR_PRESENT)
+    /* Generate a link time warning, should this function ever be called. */
+    ALT_STUB_WARNING(write);
+#endif
+
+    switch (file) {
+   20c74:	213fffc4 	addi	r4,r4,-1
+   20c78:	210000a8 	cmpgeui	r4,r4,2
+   20c7c:	2000041e 	bne	r4,zero,20c90 <write+0x1c>
+#ifdef ALT_STDOUT_PRESENT
+    case 1: /* stdout file descriptor */
+        return ALT_DRIVER_WRITE(ALT_STDOUT_DEV, ptr, len, 0);
+   20c80:	010000b4 	movhi	r4,2
+   20c84:	000f883a 	mov	r7,zero
+   20c88:	2103fe04 	addi	r4,r4,4088
+   20c8c:	0020cf41 	jmpi	20cf4 <altera_avalon_jtag_uart_write>
+
+extern int errno;
+
+static ALT_INLINE int* alt_get_errno(void)
+{
+  return ((alt_errno) ? alt_errno() : &errno);
+   20c90:	d0a00417 	ldw	r2,-32752(gp)
+   20c94:	10000926 	beq	r2,zero,20cbc <write+0x48>
+{
+   20c98:	deffff04 	addi	sp,sp,-4
+   20c9c:	dfc00015 	stw	ra,0(sp)
+   20ca0:	103ee83a 	callr	r2
+#ifdef ALT_STDERR_PRESENT
+    case 2: /* stderr file descriptor */
+        return ALT_DRIVER_WRITE(ALT_STDERR_DEV, ptr, len, 0);
+#endif /* ALT_STDERR_PRESENT */
+    default:
+        ALT_ERRNO = EBADFD;
+   20ca4:	00c01444 	movi	r3,81
+   20ca8:	10c00015 	stw	r3,0(r2)
+        return -1;
+    }
+}
+   20cac:	00bfffc4 	movi	r2,-1
+   20cb0:	dfc00017 	ldw	ra,0(sp)
+   20cb4:	dec00104 	addi	sp,sp,4
+   20cb8:	f800283a 	ret
+   20cbc:	d0a04504 	addi	r2,gp,-32492
+        ALT_ERRNO = EBADFD;
+   20cc0:	00c01444 	movi	r3,81
+   20cc4:	10c00015 	stw	r3,0(r2)
+}
+   20cc8:	00bfffc4 	movi	r2,-1
+   20ccc:	f800283a 	ret
+
+00020cd0 <alt_irq_init>:
+ * The "base" parameter is ignored and only
+ * present for backwards-compatibility.
+ */
+
+void alt_irq_init ( const void* base )
+{
+   20cd0:	deffff04 	addi	sp,sp,-4
+   20cd4:	dfc00015 	stw	ra,0(sp)
+    ALTERA_NIOS2_GEN2_IRQ_INIT ( NIOS2_GEN2_0, nios2_gen2_0);
+   20cd8:	0020d480 	call	20d48 <altera_nios2_gen2_irq_init>
+ * alt_irq_cpu_enable_interrupts() enables the CPU to start taking interrupts.
+ */
+static ALT_INLINE void ALT_ALWAYS_INLINE 
+       alt_irq_cpu_enable_interrupts (void)
+{
+    NIOS2_WRITE_STATUS(NIOS2_STATUS_PIE_MSK
+   20cdc:	00800044 	movi	r2,1
+   20ce0:	1001703a 	wrctl	status,r2
+    alt_irq_cpu_enable_interrupts();
+}
+   20ce4:	dfc00017 	ldw	ra,0(sp)
+   20ce8:	dec00104 	addi	sp,sp,4
+   20cec:	f800283a 	ret
+
+00020cf0 <alt_sys_init>:
+ */
+
+void alt_sys_init( void )
+{
+    ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART_0, jtag_uart_0);
+}
+   20cf0:	f800283a 	ret
+
+00020cf4 <altera_avalon_jtag_uart_write>:
+ */
+
+int altera_avalon_jtag_uart_write(altera_avalon_jtag_uart_state* sp, 
+  const char * ptr, int count, int flags)
+{
+  unsigned int base = sp->base;
+   20cf4:	20c00017 	ldw	r3,0(r4)
+{
+   20cf8:	3005883a 	mov	r2,r6
+
+  const char * end = ptr + count;
+   20cfc:	2989883a 	add	r4,r5,r6
+
+  while (ptr < end)
+    if ((IORD_ALTERA_AVALON_JTAG_UART_CONTROL(base) & ALTERA_AVALON_JTAG_UART_CONTROL_WSPACE_MSK) != 0)
+   20d00:	01bfffd4 	movui	r6,65535
+  while (ptr < end)
+   20d04:	29000136 	bltu	r5,r4,20d0c <altera_avalon_jtag_uart_write+0x18>
+      IOWR_ALTERA_AVALON_JTAG_UART_DATA(base, *ptr++);
+
+  return count;
+}
+   20d08:	f800283a 	ret
+    if ((IORD_ALTERA_AVALON_JTAG_UART_CONTROL(base) & ALTERA_AVALON_JTAG_UART_CONTROL_WSPACE_MSK) != 0)
+   20d0c:	19c00137 	ldwio	r7,4(r3)
+   20d10:	31fffc2e 	bgeu	r6,r7,20d04 <altera_avalon_jtag_uart_write+0x10>
+      IOWR_ALTERA_AVALON_JTAG_UART_DATA(base, *ptr++);
+   20d14:	29c00007 	ldb	r7,0(r5)
+   20d18:	29400044 	addi	r5,r5,1
+   20d1c:	19c00035 	stwio	r7,0(r3)
+   20d20:	003ff806 	br	20d04 <altera_avalon_jtag_uart_write+0x10>
+
+00020d24 <alt_dcache_flush_all>:
+void alt_dcache_flush_all (void)
+{
+#if NIOS2_DCACHE_SIZE > 0
+  char* i;
+  
+  for (i = (char*) 0; i < (char*) NIOS2_DCACHE_SIZE; i+= NIOS2_DCACHE_LINE_SIZE)
+   20d24:	0005883a 	mov	r2,zero
+  { 
+    __asm__ volatile ("flushd (%0)" :: "r" (i));
+   20d28:	1000003b 	flushd	0(r2)
+  for (i = (char*) 0; i < (char*) NIOS2_DCACHE_SIZE; i+= NIOS2_DCACHE_LINE_SIZE)
+   20d2c:	10800804 	addi	r2,r2,32
+   20d30:	10c20018 	cmpnei	r3,r2,2048
+   20d34:	183ffc1e 	bne	r3,zero,20d28 <alt_dcache_flush_all+0x4>
+  }
+#endif /* NIOS2_DCACHE_SIZE > 0 */
+}
+   20d38:	f800283a 	ret
+
+00020d3c <alt_icache_flush_all>:
+ */
+
+void alt_icache_flush_all (void)
+{
+#if NIOS2_ICACHE_SIZE > 0
+  alt_icache_flush (0, NIOS2_ICACHE_SIZE);
+   20d3c:	01440004 	movi	r5,4096
+   20d40:	0009883a 	mov	r4,zero
+   20d44:	0020d501 	jmpi	20d50 <alt_icache_flush>
+
+00020d48 <altera_nios2_gen2_irq_init>:
+ * To initialize the internal interrupt controller, just clear the IENABLE
+ * register so that all possible IRQs are disabled.
+ */
+void altera_nios2_gen2_irq_init(void) 
+{
+    NIOS2_WRITE_IENABLE(0);
+   20d48:	000170fa 	wrctl	ienable,zero
+}
+   20d4c:	f800283a 	ret
+
+00020d50 <alt_icache_flush>:
+
+  /*
+   * This is the most we would ever need to flush.
+   */
+ 
+  if (len > NIOS2_ICACHE_SIZE)
+   20d50:	28840070 	cmpltui	r2,r5,4097
+   20d54:	1000011e 	bne	r2,zero,20d5c <alt_icache_flush+0xc>
+   20d58:	01440004 	movi	r5,4096
+  {
+    len = NIOS2_ICACHE_SIZE;
+  }
+
+  end = ((char*) start) + len;
+   20d5c:	214b883a 	add	r5,r4,r5
+
+  for (i = start; i < end; i+= NIOS2_ICACHE_LINE_SIZE)
+   20d60:	2005883a 	mov	r2,r4
+   20d64:	11400c36 	bltu	r2,r5,20d98 <alt_icache_flush+0x48>
+   * For an unaligned flush request, we've got one more line left.
+   * Note that this is dependent on NIOS2_ICACHE_LINE_SIZE to be a 
+   * multiple of 2 (which it always is).
+   */
+
+  if (((alt_u32) start) & (NIOS2_ICACHE_LINE_SIZE - 1))
+   20d68:	208007cc 	andi	r2,r4,31
+   20d6c:	10000826 	beq	r2,zero,20d90 <alt_icache_flush+0x40>
+  {
+    __asm__ volatile ("flushi %0" :: "r" (i));
+   20d70:	20bff844 	addi	r2,r4,-31
+   20d74:	28800b36 	bltu	r5,r2,20da4 <alt_icache_flush+0x54>
+   20d78:	290bc83a 	sub	r5,r5,r4
+   20d7c:	294007c4 	addi	r5,r5,31
+   20d80:	280ad17a 	srli	r5,r5,5
+   20d84:	280a917a 	slli	r5,r5,5
+   20d88:	2149883a 	add	r4,r4,r5
+   20d8c:	2000603a 	flushi	r4
+  /* 
+   * Having flushed the cache, flush any stale instructions in the 
+   * pipeline 
+   */
+
+  __asm__ volatile ("flushp");
+   20d90:	0000203a 	flushp
+
+#endif /* NIOS2_ICACHE_SIZE > 0 */
+}
+   20d94:	f800283a 	ret
+    __asm__ volatile ("flushi %0" :: "r" (i)); 
+   20d98:	1000603a 	flushi	r2
+  for (i = start; i < end; i+= NIOS2_ICACHE_LINE_SIZE)
+   20d9c:	10800804 	addi	r2,r2,32
+   20da0:	003ff006 	br	20d64 <alt_icache_flush+0x14>
+    __asm__ volatile ("flushi %0" :: "r" (i));
+   20da4:	000b883a 	mov	r5,zero
+   20da8:	003ff706 	br	20d88 <alt_icache_flush+0x38>
+
+00020dac <memcpy>:
+   20dac:	2005883a 	mov	r2,r4
+   20db0:	0007883a 	mov	r3,zero
+   20db4:	30c0011e 	bne	r6,r3,20dbc <memcpy+0x10>
+   20db8:	f800283a 	ret
+   20dbc:	28cf883a 	add	r7,r5,r3
+   20dc0:	39c00003 	ldbu	r7,0(r7)
+   20dc4:	10c9883a 	add	r4,r2,r3
+   20dc8:	18c00044 	addi	r3,r3,1
+   20dcc:	21c00005 	stb	r7,0(r4)
+   20dd0:	003ff806 	br	20db4 <memcpy+0x8>

@@ -1,0 +1,61 @@
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|nios_custom_dma_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:src_ram_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|nios_custom_dma_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:dst_ram_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|simple_example:simple_dma|read_state
+Name read_state.stopping read_state.running read_state.idle 
+read_state.idle 0 0 0 
+read_state.running 0 1 1 
+read_state.stopping 1 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|pipelined_read_example:pipelined_dma|write_state
+Name write_state.final_block write_state.writing write_state.fifo_wait write_state.idle 
+write_state.idle 0 0 0 0 
+write_state.fifo_wait 0 0 1 1 
+write_state.writing 0 1 0 1 
+write_state.final_block 1 0 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|pipelined_read_example:pipelined_dma|read_state
+Name read_state.finish_reads read_state.reading read_state.fifo_wait read_state.idle 
+read_state.idle 0 0 0 0 
+read_state.fifo_wait 0 0 1 1 
+read_state.reading 0 1 0 1 
+read_state.finish_reads 1 0 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|burst_example:burst_dma|write_state
+Name write_state.final_burst write_state.mid_burst write_state.fifo_wait write_state.idle 
+write_state.idle 0 0 0 0 
+write_state.fifo_wait 0 0 1 1 
+write_state.mid_burst 0 1 0 1 
+write_state.final_burst 1 0 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|burst_example:burst_dma|read_state
+Name read_state.finish_reads read_state.mid_burst read_state.fifo_wait read_state.idle 
+read_state.idle 0 0 0 0 
+read_state.fifo_wait 0 0 1 1 
+read_state.mid_burst 0 1 0 1 
+read_state.finish_reads 1 0 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|block_transaction_example:block_dma|write_state
+Name write_state.final_block write_state.writing write_state.fifo_wait write_state.idle 
+write_state.idle 0 0 0 0 
+write_state.fifo_wait 0 0 1 1 
+write_state.writing 0 1 0 1 
+write_state.final_block 1 0 0 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_custom_dma:u0|block_transaction_example:block_dma|read_state
+Name read_state.reading read_state.fifo_wait read_state.idle 
+read_state.idle 0 0 0 
+read_state.fifo_wait 0 1 1 
+read_state.reading 1 0 1 

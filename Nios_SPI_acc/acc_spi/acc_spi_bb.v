@@ -1,0 +1,14 @@
+
+module acc_spi (
+	accelerometer_spi_0_external_interface_I2C_SDAT,
+	accelerometer_spi_0_external_interface_I2C_SCLK,
+	accelerometer_spi_0_external_interface_G_SENSOR_CS_N,
+	accelerometer_spi_0_external_interface_G_SENSOR_INT,
+	clk_clk);	
+
+	inout		accelerometer_spi_0_external_interface_I2C_SDAT;
+	output		accelerometer_spi_0_external_interface_I2C_SCLK;
+	output		accelerometer_spi_0_external_interface_G_SENSOR_CS_N;
+	input		accelerometer_spi_0_external_interface_G_SENSOR_INT;
+	input		clk_clk;
+endmodule
