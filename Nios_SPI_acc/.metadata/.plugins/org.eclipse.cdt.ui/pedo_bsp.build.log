@@ -1,0 +1,6 @@
+10:13:21 **** Build of configuration Nios II for project pedo_bsp ****
+wsl make all 
+[BSP build complete]
+
+10:13:22 Build Finished (took 707ms)
+

@@ -1,0 +1,16 @@
+09:44:02 **** Build of configuration Nios II for project acceltask1 ****
+make all 
+The system cannot find the path specified.
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+The system cannot find the path specified.
+Info: Building ../acceltask1_bsp/
+make --no-print-directory -C ../acceltask1_bsp/
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+make[1]: *** No rule to make target `/system.h', needed by `all'.  Stop.
+make: *** [../acceltask1_bsp/-recurs-make-lib] Error 2
+
+09:44:03 Build Finished (took 938ms)
+

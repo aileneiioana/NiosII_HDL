@@ -1,0 +1,15 @@
+10:06:04 **** Incremental Build of configuration Nios II for project small_pedo ****
+make all 
+The system cannot find the path specified.
+The system cannot find the path specified.
+Info: Building ../small_pedo_bsp/
+make --no-print-directory -C ../small_pedo_bsp/
+'cygpath' is not recognized as an internal or external command,
+operable program or batch file.
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+makefile:551: Warning: SOPC File ../../nios_accelerometer.sopcinfo could not be found.
+make[1]: *** No rule to make target `/system.h', needed by `all'.  Stop.
+make: *** [../small_pedo_bsp/-recurs-make-lib] Error 2
+
+10:06:05 Build Finished (took 831ms)
+

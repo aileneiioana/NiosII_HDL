@@ -61,6 +61,17 @@ int check_dst (int* ptr)
   return pass;
 }
 
+void print (int* ptr)
+{
+	int i;
+    for (i=0; i<0x100; i++)
+	{
+		printf(" at addr %x data: %d \n", i, ptr[i]);
+		ptr++;
+	}
+}
+
+
 void clr_dst (int* ptr)
 {
   int i;
@@ -84,6 +95,9 @@ int main()
   init_src (sdram_src);
   init_src (ram_src);
 
+  printf("ram_dst before simple_dma\n");
+  print(ram_dst);
+
   puts ("Initialisation done\n");
 
   /************************/
@@ -93,7 +107,9 @@ int main()
   puts ("Simple Master:");
 
   clr_dst (sdram_dst);
+
   simple_dma (sdram_src, sdram_dst);
+
   if (check_dst(sdram_dst))
     puts ("Balanced slow: Passed");
   else
@@ -105,6 +121,10 @@ int main()
     puts ("Balanced fast: Passed");
   else
     puts ("Balanced fast: FAILED!");
+
+  printf("ram_dst after simple_dma\n");
+   print(ram_dst);
+
 
   clr_dst (ram_dst);
   simple_dma (sdram_src, ram_dst);

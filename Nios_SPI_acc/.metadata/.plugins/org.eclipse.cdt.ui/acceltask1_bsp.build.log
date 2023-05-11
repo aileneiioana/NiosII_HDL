@@ -1,0 +1,9 @@
+09:55:59 **** Incremental Build of configuration Nios II for project acceltask1_bsp ****
+make all 
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+make: *** No rule to make target `/system.h', needed by `all'.  Stop.
+
+09:56:00 Build Finished (took 921ms)
+

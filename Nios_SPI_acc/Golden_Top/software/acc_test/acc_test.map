@@ -1,0 +1,861 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              obj/default/hello_world_small.o (__modsi3)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              obj/default/hello_world_small.o (__mulsi3)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+                              obj/default/hello_world_small.o (memcpy)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                              obj/default/hello_world_small.o (printf)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o) (_impure_ptr)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o) (strlen)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o) (errno)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o (alt_load)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o (alt_main)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o) (write)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o) (altera_avalon_jtag_uart_write)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+                              obj/default/hello_world_small.o (alt_up_accelerometer_spi_open_dev)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o) (alt_find_dev)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                              c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000010000 0x0000000000000020
+onchip_memory    0x0000000000010020 0x000000000000ffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a
+LOAD c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a
+                0x0000000000010000                __alt_mem_onchip_memory = 0x10000
+
+.entry          0x0000000000010000       0x20
+ *(.entry)
+ .entry         0x0000000000010000       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000010000                __reset
+                0x000000000001000c                _exit
+
+.exceptions     0x0000000000010020        0x0
+                0x0000000000010020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000010020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000010020                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000010020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000010020     0x1210
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010020       0x3c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000010020                _start
+ .text          0x000000000001005c      0x354 obj/default/hello_world_small.o
+                0x000000000001005c                insert
+                0x000000000001008c                filterProduct
+                0x0000000000010120                fir
+                0x0000000000010150                userA
+                0x0000000000010170                gravitationalA
+                0x0000000000010178                insertA
+                0x00000000000101a8                insertAccelerometer
+                0x0000000000010208                userAccelerationGravitationalDirection
+                0x00000000000102b0                firAccelerometer
+                0x0000000000010348                filter
+                0x0000000000010388                run_filter
+ .text.startup  0x00000000000103b0      0x158 obj/default/hello_world_small.o
+                0x00000000000103b0                main
+ .text          0x0000000000010508      0x1b4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x0000000000010508                __divsi3
+                0x0000000000010588                __modsi3
+                0x00000000000105fc                __udivsi3
+                0x0000000000010660                __umodsi3
+ .text          0x00000000000106bc       0x28 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00000000000106bc                __mulsi3
+ .text          0x00000000000106e4        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000000106e4       0x28 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+                0x00000000000106e4                memcpy
+ .text          0x000000000001070c        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .text._printf_r
+                0x000000000001070c       0x3c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                0x000000000001070c                _printf_r
+ .text.printf   0x0000000000010748       0x48 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                0x0000000000010748                printf
+ .text          0x0000000000010790        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .text.print_repeat
+                0x0000000000010790       0x6c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x00000000000107fc      0x51c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                0x00000000000107fc                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x0000000000010d18       0x18 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000010d18                __vfprintf_internal
+ .text          0x0000000000010d30        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x0000000000010d30       0xa8 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x0000000000010d30                __sfvwrite_small_dev
+ .text          0x0000000000010dd8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000010dd8        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000010dd8       0x1c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000010dd8                strlen
+ .text          0x0000000000010df4        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x0000000000010df4       0x50 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                0x0000000000010df4                _write_r
+ .text          0x0000000000010e44        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000010e44       0x84 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000010e44                alt_load
+ .text          0x0000000000010ec8       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000010ec8                alt_main
+ .text          0x0000000000010ef4       0x5c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+                0x0000000000010ef4                write
+ .text          0x0000000000010f50       0x30 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000010f50                alt_irq_init
+                0x0000000000010f70                alt_sys_init
+ .text          0x0000000000010f80       0x30 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000010f80                altera_avalon_jtag_uart_write
+ .text          0x0000000000010fb0      0x160 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+                0x0000000000010fb0                alt_up_accelerometer_spi_open_dev
+                0x0000000000010fb8                alt_up_accelerometer_spi_read_address_register
+                0x0000000000010fcc                alt_up_accelerometer_spi_read
+                0x0000000000010fec                alt_up_accelerometer_spi_write
+                0x0000000000011008                alt_up_accelerometer_spi_read_x_axis
+                0x0000000000011060                alt_up_accelerometer_spi_read_y_axis
+                0x00000000000110b8                alt_up_accelerometer_spi_read_z_axis
+ .text          0x0000000000011110        0x4 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000011110                alt_dcache_flush_all
+ .text          0x0000000000011114        0x8 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000000000001111c       0x68 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000000000001111c                alt_dev_llist_insert
+ .text          0x0000000000011184        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000011184       0x70 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000011184                alt_find_dev
+ .text          0x00000000000111f4        0x4 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000111f4                alt_icache_flush_all
+ .text          0x00000000000111f8        0x8 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000111f8                altera_nios2_gen2_irq_init
+ .text          0x0000000000011200        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000011200       0x30 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                0x0000000000011200                memcmp
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000011230                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000011230                . = ALIGN (0x4)
+
+.rodata         0x0000000000011230      0xa28
+                0x0000000000011230                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000011230                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000011230       0x1d obj/default/hello_world_small.o
+ *fill*         0x000000000001124d        0x3 
+ .rodata        0x0000000000011250      0x9fc obj/default/hello_world_small.o
+ .rodata.str1.4
+                0x0000000000011c4c       0x17 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata.str1.4
+                0x0000000000011c4c        0xa c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x0000000000011c64                . = ALIGN (0x4)
+ *fill*         0x0000000000011c56        0x2 
+                0x0000000000011c58                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000011230                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000000000011c58      0x18c load address 0x0000000000011de4
+                0x0000000000011c58                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000000000011c58                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000011c58        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000011c58        0x0 obj/default/hello_world_small.o
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000000000011c58        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000011c58       0xe4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000011d3c        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000011d3c        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000011d3c        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000011d3c        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000011d3c        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000011d3c        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x0000000000011d3c       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000011d68        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000011d68        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .data          0x0000000000011d68        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000011d68       0x58 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000011d68                alt_fd_list
+                0x0000000000011d98                alt_dev_null
+ .data          0x0000000000011dc0        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000011dc0        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000011dc0        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000011dc0        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000011dc0        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000011dc0        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                0x0000000000019dc0                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x0000000000011dc0        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000011dc0                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000011dc4        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000011dc4                _impure_ptr
+ .sdata         0x0000000000011dc8        0x4 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000011dc8                jtag_uart
+ .sdata         0x0000000000011dcc       0x14 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000011dcc                alt_max_fd
+                0x0000000000011dd0                alt_dev_list
+                0x0000000000011dd8                alt_fs_list
+ .sdata         0x0000000000011de0        0x4 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000011de0                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000011de4                . = ALIGN (0x4)
+                0x0000000000011de4                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000011de4                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000011de4                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000011f70       0x10
+                0x0000000000011f70                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.errno    0x0000000000011f70        0x4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000011f70                errno
+ .sbss          0x0000000000011f74        0xc c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000011f74                alt_envp
+                0x0000000000011f78                alt_argv
+                0x0000000000011f7c                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000011f80        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000011f80        0x0 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000011f80        0x0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ *(COMMON)
+                0x0000000000011f80                . = ALIGN (0x4)
+                0x0000000000011f80                __bss_end = ABSOLUTE (.)
+
+.onchip_memory  0x0000000000011f80        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_start = ABSOLUTE (.))
+ *(.onchip_memory .onchip_memory. onchip_memory.*)
+                0x0000000000011f80                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_end = ABSOLUTE (.))
+                0x0000000000011f80                _end = ABSOLUTE (.)
+                0x0000000000011f80                end = ABSOLUTE (.)
+                0x0000000000011f80                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_load_addr = LOADADDR (.onchip_memory))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d obj/default/hello_world_small.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x350
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x28 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000050       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000070       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x0000000000000090       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000000b0       0x28 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x00000000000000d8       0x30 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000128       0x18 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000180       0x18 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000198       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000218       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000238       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_aranges
+                0x0000000000000258       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000278       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000298       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000002b8       0x18 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000002d0       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000002f0       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000310       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000330       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5826
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0xc33 obj/default/hello_world_small.o
+ .debug_info    0x0000000000000c55      0x347 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000f9c       0xc4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x0000000000001060      0x121 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000001181      0x733 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_info    0x00000000000018b4      0xe55 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x0000000000002709      0x691 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000002d9a      0x5cf c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000003369       0xd1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x000000000000343a      0x671 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000003aab       0x85 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000003b30      0x239 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000003d69      0x13e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000003ea7      0x1a8 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x000000000000404f      0x428 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000004477      0x149 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00000000000045c0      0x490 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_info    0x0000000000004a50       0x8d c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000004add      0x564 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000005041      0x1c9 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000000000000520a       0xa8 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00000000000052b2      0x361 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000005613       0x8d c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00000000000056a0       0x8d c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000000000000572d       0xf9 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_abbrev   0x0000000000000000     0x1d12
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x2e7 obj/default/hello_world_small.o
+ .debug_abbrev  0x00000000000002f9      0x10c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000000405       0x80 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x0000000000000485       0xc1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000546      0x21e c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000000764      0x2e6 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x0000000000000a4a      0x1fb c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000000c45      0x185 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000dca       0x8c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000e56      0x1e0 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000001036       0x39 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x000000000000106f      0x12c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000000000119b       0xeb c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000001286      0x117 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x000000000000139d      0x1dc c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000001579       0xdc c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000001655      0x14f c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_abbrev  0x00000000000017a4       0x43 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000017e7      0x11b c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001902      0x147 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001a49       0x70 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001ab9      0x132 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000001beb       0x43 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001c2e       0x43 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000001c71       0xa1 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_line     0x0000000000000000     0x1b36
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x4bc obj/default/hello_world_small.o
+ .debug_line    0x0000000000000522      0x2e3 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000805       0x88 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x000000000000088d       0x8c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000919       0xd4 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_line    0x00000000000009ed      0x586 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000000f73       0xd7 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x000000000000104a       0x51 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x000000000000109b       0x7c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001117       0xae c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x00000000000011c5       0x3a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x00000000000011ff       0xd2 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000012d1       0xa2 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000001373       0xc5 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000001438       0xcc c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000001504       0x93 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000001597      0x188 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_line    0x000000000000171f       0x4e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x000000000000176d       0x9a c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000001807       0xfd c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001904       0x4c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000001950       0xb7 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000001a07       0x4c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001a53       0x54 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001aa7       0x8f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_frame    0x0000000000000000      0x600
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x1a0 obj/default/hello_world_small.o
+ .debug_frame   0x00000000000001a0       0x50 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000001f0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000000210       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000230       0x48 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000278       0x90 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000308       0x3c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x0000000000000344       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000364       0x30 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000394       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000003c0       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000003ec       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000418       0x3c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000454       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000474       0x80 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_frame   0x00000000000004f4       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000514       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000534       0x2c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000560       0x40 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000005a0       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000000000005c0       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000000000005e0       0x20 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_str      0x0000000000000000      0xf8a
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x6b c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x000000000000006b      0x3a8 obj/default/hello_world_small.o
+                                        0x43b (size before relaxing)
+ .debug_str     0x0000000000000413       0xce c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x122 (size before relaxing)
+ .debug_str     0x00000000000004e1       0xe6 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_str     0x00000000000004e1       0x72 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+                                        0x115 (size before relaxing)
+ .debug_str     0x0000000000000553      0x31b c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                                        0x455 (size before relaxing)
+ .debug_str     0x000000000000086e      0x28f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                                        0x79c (size before relaxing)
+ .debug_str     0x0000000000000afd       0x25 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x410 (size before relaxing)
+ .debug_str     0x0000000000000b22       0x1f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                                        0x3f5 (size before relaxing)
+ .debug_str     0x0000000000000b41       0x1f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x107 (size before relaxing)
+ .debug_str     0x0000000000000b41       0x1f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                                        0x3ef (size before relaxing)
+ .debug_str     0x0000000000000b41       0xf9 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_str     0x0000000000000b41      0x108 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x208 (size before relaxing)
+ .debug_str     0x0000000000000c49       0x4b c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x138 (size before relaxing)
+ .debug_str     0x0000000000000c94       0x60 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x160 (size before relaxing)
+ .debug_str     0x0000000000000cf4       0xa5 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x286 (size before relaxing)
+ .debug_str     0x0000000000000d99       0xa5 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x15c (size before relaxing)
+ .debug_str     0x0000000000000d99       0x88 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+                                        0x2e4 (size before relaxing)
+ .debug_str     0x0000000000000e21       0xfd c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x0000000000000e21      0x143 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x319 (size before relaxing)
+ .debug_str     0x0000000000000f64       0x17 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x174 (size before relaxing)
+ .debug_str     0x0000000000000f7b        0x8 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+                                         0xfa (size before relaxing)
+ .debug_str     0x0000000000000f83        0x7 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1a4 (size before relaxing)
+ .debug_str     0x0000000000000f8a       0xfd c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x0000000000000f8a      0x103 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_str     0x0000000000000f8a      0x101 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000020000                __alt_data_end = 0x20000
+                0x0000000000020000                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x20000)
+OUTPUT(acc_test.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp//obj/HAL/src/crt0.o
+
+.debug_loclists
+                0x0000000000000000     0x1531
+ .debug_loclists
+                0x0000000000000000      0x3c8 obj/default/hello_world_small.o
+ .debug_loclists
+                0x00000000000003c8      0x37a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loclists
+                0x0000000000000742       0x5b c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loclists
+                0x000000000000079d       0xcc c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_loclists
+                0x0000000000000869       0xaa c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_loclists
+                0x0000000000000913      0x822 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_loclists
+                0x0000000000001135       0xc5 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loclists
+                0x00000000000011fa       0x32 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_loclists
+                0x000000000000122c       0x88 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_loclists
+                0x00000000000012b4       0x7b c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_loclists
+                0x000000000000132f       0x1e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loclists
+                0x000000000000134d       0x5e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loclists
+                0x00000000000013ab       0x42 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+ .debug_loclists
+                0x00000000000013ed       0x4e c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loclists
+                0x000000000000143b       0x6a c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loclists
+                0x00000000000014a5       0x8c c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_rnglists
+                0x0000000000000000      0x1f4
+ .debug_rnglists
+                0x0000000000000000       0x56 obj/default/hello_world_small.o
+ .debug_rnglists
+                0x0000000000000056       0x3f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_rnglists
+                0x0000000000000095       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+ .debug_rnglists
+                0x00000000000000a8       0x19 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_rnglists
+                0x00000000000000c1       0x84 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_rnglists
+                0x0000000000000145       0x14 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_rnglists
+                0x0000000000000159       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_rnglists
+                0x000000000000016c       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_rnglists
+                0x000000000000017f       0x23 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_rnglists
+                0x00000000000001a2       0x16 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_rnglists
+                0x00000000000001b8       0x13 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_rnglists
+                0x00000000000001cb       0x16 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_rnglists
+                0x00000000000001e1       0x13 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+
+.debug_line_str
+                0x0000000000000000      0xd45
+ .debug_line_str
+                0x0000000000000000      0x20c obj/default/hello_world_small.o
+                                        0x27d (size before relaxing)
+ .debug_line_str
+                0x000000000000020c       0xf2 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x1b6 (size before relaxing)
+ .debug_line_str
+                0x00000000000002fe       0x3a c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x1ad (size before relaxing)
+ .debug_line_str
+                0x0000000000000338      0x1dd c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcpy.o)
+                                        0x2b3 (size before relaxing)
+ .debug_line_str
+                0x0000000000000515      0x182 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                                        0x338 (size before relaxing)
+ .debug_line_str
+                0x0000000000000697       0x9d c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                                        0x39b (size before relaxing)
+ .debug_line_str
+                0x0000000000000734       0x49 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x33e (size before relaxing)
+ .debug_line_str
+                0x000000000000077d      0x100 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                                        0x2ba (size before relaxing)
+ .debug_line_str
+                0x000000000000087d       0x3f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x2b3 (size before relaxing)
+ .debug_line_str
+                0x00000000000008bc       0x47 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                                        0x326 (size before relaxing)
+ .debug_line_str
+                0x0000000000000903       0x41 c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                                        0x1dd (size before relaxing)
+ .debug_line_str
+                0x0000000000000944       0x97 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x119 (size before relaxing)
+ .debug_line_str
+                0x00000000000009db       0x4a c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x118 (size before relaxing)
+ .debug_line_str
+                0x0000000000000a25       0xcf c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x1b1 (size before relaxing)
+ .debug_line_str
+                0x0000000000000af4       0x5f c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x18f (size before relaxing)
+ .debug_line_str
+                0x0000000000000b53       0x38 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x15c (size before relaxing)
+ .debug_line_str
+                0x0000000000000b8b       0x3c c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_up_avalon_accelerometer_spi.o)
+                                        0x1b4 (size before relaxing)
+ .debug_line_str
+                0x0000000000000bc7       0x1f c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                         0xf7 (size before relaxing)
+ .debug_line_str
+                0x0000000000000be6       0x97 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x20c (size before relaxing)
+ .debug_line_str
+                0x0000000000000c7d       0x1f c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x13c (size before relaxing)
+ .debug_line_str
+                0x0000000000000c9c       0x14 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x0000000000000cb0       0x17 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1d6 (size before relaxing)
+ .debug_line_str
+                0x0000000000000cc7       0x1f c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                         0xf7 (size before relaxing)
+ .debug_line_str
+                0x0000000000000ce6       0x20 c:/Users/ailen/Desktop/licenta/Nios_SPI_acc/Golden_Top/software/acc_test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                         0xfa (size before relaxing)
+ .debug_line_str
+                0x0000000000000d06       0x3f c:/intelfpga_lite/22.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                                        0x2b3 (size before relaxing)
