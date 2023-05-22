@@ -1,0 +1,20 @@
+
+State Machine - |DE10_LITE_Golden_Top|nios_i2c_acc:u0|i2c_avalon_mm_if:i2c_avalon_mm_if_0|state
+Name state.sWAIT_DATA state.sWRITE_DATA state.sADDR state.sIDLE state.sWAIT_STOP 
+state.sIDLE 0 0 0 0 0 
+state.sADDR 0 0 1 1 0 
+state.sWRITE_DATA 0 1 0 1 0 
+state.sWAIT_DATA 1 0 0 1 0 
+state.sWAIT_STOP 0 0 0 1 1 
+
+State Machine - |DE10_LITE_Golden_Top|nios_i2c_acc:u0|i2c_avalon_mm_if:i2c_avalon_mm_if_0|i2c_master:i2c_master_inst|state
+Name state.sMACK state.sACK2 state.sREAD state.sWRITE state.sACK1 state.sADDR state.sSTART state.sIDLE state.sSTOP 
+state.sIDLE 0 0 0 0 0 0 0 0 0 
+state.sSTART 0 0 0 0 0 0 1 1 0 
+state.sADDR 0 0 0 0 0 1 0 1 0 
+state.sACK1 0 0 0 0 1 0 0 1 0 
+state.sWRITE 0 0 0 1 0 0 0 1 0 
+state.sREAD 0 0 1 0 0 0 0 1 0 
+state.sACK2 0 1 0 0 0 0 0 1 0 
+state.sMACK 1 0 0 0 0 0 0 1 0 
+state.sSTOP 0 0 0 0 0 0 0 1 1 

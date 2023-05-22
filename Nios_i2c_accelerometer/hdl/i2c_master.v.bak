@@ -1,0 +1,263 @@
+module i2c_master
+  #(
+    parameter GC_SYSTEM_CLK = 50000000,
+    parameter GC_I2C_CLK = 200000
+    )
+  (
+    input clk,
+    input arst_n,
+    input valid,
+    input [6:0] addr,
+    input rnw,
+    input [7:0] data_wr,
+    output reg [7:0] data_rd,
+    output reg busy,
+    output ack_error,
+    inout sda,
+    inout scl
+    );
+	
+
+parameter C_SCL_PERIOD      = GC_SYSTEM_CLK/GC_I2C_CLK;
+parameter C_SCL_HALF_PERIOD = C_SCL_PERIOD/2;
+parameter C_STATE_TRIGGER   = C_SCL_PERIOD/4;
+parameter C_SCL_TRIGGER     = C_SCL_PERIOD*3/4;
+
+reg scl_clk;
+reg scl_high_ena;
+reg state_ena;
+reg scl_oe;
+reg ack_error_i;
+reg sda_i;
+reg [7:0] addr_rnw_i;
+reg [7:0] data_tx;
+reg [7:0] data_rx;
+reg [2:0] bit_cnt;
+
+assign rnw_i = addr_rnw_i[0];
+
+
+    localparam sIDLE  = 4'b0000;
+	localparam sSTART = 4'b0001;
+	localparam sADDR  = 4'b0010;
+	localparam sACK1  = 4'b0011;
+	localparam sWRITE = 4'b0100;
+	localparam sREAD  = 4'b0101;
+	localparam sACK2  = 4'b0110; 
+	localparam sMACK  = 4'b0111;
+	localparam sSTOP  = 4'b1000; 
+
+reg [3:0] state;
+
+  reg [31:0] cnt1, cnt2; 
+// Process to generate the SCL clock
+always @(posedge clk or negedge arst_n) begin
+cnt1<='b0;
+  if (!arst_n) begin
+    cnt1 <= 0;
+    scl_clk <= 1'b0;
+  end else begin
+    cnt1 <= cnt1 + 1;
+    if (cnt1 == C_SCL_PERIOD) begin
+      cnt1 <= 0;
+    end
+    if (cnt1 < C_SCL_HALF_PERIOD) begin   // low for the first half period
+      scl_clk <= 1'b0;
+    end else if (cnt1 < C_SCL_PERIOD) begin     // high for the second half period
+      scl_clk <= 1'b1;
+    end
+  end
+end
+
+// Process to generate the to control signals state_ena and scl_high_ena
+always @(posedge clk or negedge arst_n) begin
+  cnt2<='b0;
+  if (!arst_n) begin
+    cnt2 <= 0;
+    state_ena <= 1'b0;
+    scl_high_ena <= 1'b0;
+  end else begin
+    // default values to make sure trigger signals will only be set for 1 system
+    // clk periods
+    state_ena <= 1'b0;
+    scl_high_ena <= 1'b0;
+
+    cnt2 <= cnt2 + 1;
+    if (cnt2 == C_SCL_PERIOD) begin
+      cnt2 <= 0;
+    end
+    if (cnt2 == C_STATE_TRIGGER) begin     // low for the first half period
+      state_ena <= 1'b1;
+    end else if (cnt2 == C_SCL_TRIGGER) begin    // high for the second half period
+      scl_high_ena <= 1'b1;
+    end
+  end
+end
+always @(posedge clk or negedge arst_n) begin
+    if (~arst_n) begin
+        state <= sIDLE;
+    end 
+	
+	else begin
+        scl_oe <= 1'b1;
+        case (state)
+            sIDLE:
+                begin
+                    scl_oe  <= 1'b0;
+                    busy    <= 1'b0;
+                    sda_i   <= 1'b1;
+                    bit_cnt <= 3'b111;
+                    if (valid && state_ena) begin
+                        addr_rnw_i  <= {addr, rnw};
+                        data_tx     <= data_wr;
+                        state       <= sSTART;
+                        ack_error_i <= 1'b0;
+                    end
+                end
+
+            sSTART:
+                begin
+                    busy <= 1'b1;
+                    if (state_ena) begin
+                        state <= sADDR;
+                    end
+                    if (scl_high_ena) begin
+                        sda_i <= 1'b0;
+                    end
+                end
+
+            sADDR:
+                begin
+                    busy  <= 1'b1;
+                    sda_i <= addr_rnw_i[bit_cnt];
+                    if (state_ena) begin
+                        if (bit_cnt == 3'b000) begin
+                            state   <= sACK1;
+                            bit_cnt <= 3'b111;
+                        end else begin
+                            bit_cnt <= bit_cnt - 1;
+                        end
+                    end
+                end
+
+            sACK1:
+                begin
+                    busy  <= 1'b1;
+                    sda_i <= 1'b1;
+                    if (state_ena) begin
+                        if (rnw_i) begin
+                            state <= sREAD;
+                        end else begin
+                            state <= sWRITE;
+                        end
+                    end
+                    if (scl_high_ena && (sda != 1'b0)) begin
+                        ack_error_i <= 1'b1;
+                    end
+                end
+
+            sREAD:
+                begin
+                    busy  <= 1'b1;
+                    sda_i <= 1'b1;
+                    if (state_ena) begin
+                        if (bit_cnt == 3'b000) begin
+                            state   <= sMACK;
+                            bit_cnt <= 3'b111;
+                            data_rd <= data_rx;
+                        end else begin
+                            bit_cnt <= bit_cnt - 1;
+                        end
+                    end
+                    if (scl_high_ena) begin
+                        data_rx[bit_cnt] <= sda;
+                    end
+                end
+
+            sWRITE:
+                begin
+                    busy  <= 1'b1;
+                    sda_i <= data_tx[bit_cnt];
+                    if (state_ena) begin
+                        if (bit_cnt == 3'b000) begin
+                            state   <= sACK2;
+                            bit_cnt <= 3'b111;
+                        end else begin
+                            bit_cnt <= bit_cnt - 1;
+                        end
+                    end
+                end
+
+            sACK2:
+                begin
+                    sda_i <= 1'b1;
+                    busy  <= 1'b0;
+                    if (state_ena) begin
+                        if (valid) begin
+                            if (rnw == 1'b0) begin
+                                data_tx <= data_wr;
+                                state   <= sWRITE;
+                            end else begin
+                                addr_rnw_i <= {addr, rnw};
+                                state      <= sSTART;
+								end
+						end
+						else begin 
+							state <= sSTOP;
+							sda_i <= 'b0;
+					    end
+					end
+					
+					//Check if acknowledge is given by slave(ack by pulling sda low)
+					if (scl_high_ena && (sda != 1'b0)) begin
+						ack_error_i <= 1'b1;
+					end else begin
+						ack_error_i <= 1'b0;
+					end
+				end
+			sMACK: begin
+				  busy <= 0;
+				  sda_i <= 1;
+				  if (valid == 1) begin
+					sda_i <= 0;
+				  end
+				  if (state_ena == 1) begin
+					if (valid == 1) begin
+					  if (rnw == 1) begin //continue to read another byte
+						state <= sREAD;
+					  end
+					  else begin
+						addr_rnw_i <= {addr, rnw};
+						state <= sSTART;
+						data_tx <= data_wr;
+					  end
+					end
+					else begin
+					  state <= sSTOP;
+					  sda_i <= 0;
+					end
+				  end
+			end
+				
+			sSTOP:begin
+				busy <= 1'b1;
+				if (state_ena) begin
+				  state <= sIDLE;
+				end
+				if (scl_high_ena) begin
+				  sda_i <= 1'b1;
+				end
+			end
+      
+	  
+			default:
+				state <= sIDLE;
+    endcase
+  end
+end 
+
+assign ack_error = ack_error_i;
+assign sda = (sda_i == 1'b0) ? 1'b0 : 1'bz;
+assign scl = (scl_clk == 1'b0 && scl_oe == 1'b1) ? 1'b0 : 1'bz;
+				
+endmodule

@@ -1,0 +1,129 @@
+/*
+Author: Bjørn-Jostein Singstad
+
+ */
+//#include "led_switch.h"
+//#include "interrupt.h"
+#include <stdio.h>
+#include <io.h>
+#include <system.h> // access to information about the Nios II hardware sytem
+#include <altera_avalon_pio_regs.h> // access to functions that can read and write to the PIO core
+#include <sys/alt_irq.h> // access to the IRQ routines
+#include "i2c_avalon_mm_if.h"
+#include "adxl345.h"
+#include "unistd.h"
+
+
+
+volatile int edge_capture;
+
+
+
+
+/* This is the ISR which will be called when the system signals an interrupt. */
+
+static void handle_interrupts(void* context)
+{
+	//Cast context to edge_capture's type
+	//Volatile to avoid compiler optimization
+  //this will point to the edge_capture variable.
+	volatile int* edge_capture_ptr = (volatile int*) context;
+
+	//Read the edge capture register on the PIO and store the value
+  //The value will be stored in the edge_capture variable and accessible
+  //from other parts of the code.
+	*edge_capture_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(INTERRUPT_PIO_BASE);
+
+	//Write to edge capture register to reset it
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(INTERRUPT_PIO_BASE,0);
+}
+
+
+/* This function is used to initializes and registers the interrupt handler. */
+static void init_interrupt_pio()
+{
+	//Recast the edge_capture point to match the
+	//alt_irq_register() function prototypo
+	void* edge_capture_ptr = (void*)&edge_capture;
+
+	//Enable all 3 interrupt inputs by writing a one to the corresponding interruptmask bit locations
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(INTERRUPT_PIO_BASE,0x7);
+
+	//Reset the edge capture register
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(INTERRUPT_PIO_BASE,0);
+
+	//Register the interrupt handler in the system
+  //The ID and PIO_IRQ number is available from the system.h file.
+	alt_ic_isr_register(INTERRUPT_PIO_IRQ_INTERRUPT_CONTROLLER_ID,
+			INTERRUPT_PIO_IRQ, handle_interrupts, edge_capture_ptr, 0x0);
+}
+int main(void)
+{
+  //-----------------------------------
+  // Hentet fra fasit
+
+    alt_u8 dev_id =  0;
+    adxl345_data_t accel_data;
+
+    alt_u8 adxl345_int_reg;
+//-----------------------------------
+  //Initialize the interrupts
+	init_interrupt_pio();
+
+  //Variable to hold values from switches
+	int sw_data = 0;
+	printf("Hello from Nios II!\n");
+
+//-------------------------------------
+// Hentet fra fasit
+    dev_id = read_device_id();
+    if(dev_id != ADXL345_DEV_ID){
+      printf("Wrong device ID: 0x%x!\n",dev_id);
+      usleep(5000000); //Wait for 5 seconds
+    }
+    config_device(ACCEL_RANGE_8G);
+
+    //Variable to hold values from switches
+
+    //alt_u64 adxl345_data = 0;
+    accel_data = read_acceleration_data();
+//-----------------------------------------
+
+
+	while(1){
+
+    //use the IORD and IOWR functions to read and write from LEDs and SW
+		sw_data = IORD(SW_PIO_BASE,0);
+	  IOWR(LED_PIO_BASE,0,sw_data);
+
+    //When an interrupt event has occurred, the edge_capture variable has been updated
+
+	  if (edge_capture == 0x1) //bit position 0 corresponds to button press
+	  	  {
+		   printf("Hi from interrupt routine, Key1 was pressed!\n");
+		   edge_capture = 0; // reset variable to "unregister" event
+	  	  }
+	  else if (edge_capture == 0x2)      // bit position 1 corresponds to ADXL345 IRQ 0, set to DATA_READY from ADXL345, that is print only when a convertion has produced data.
+        {
+            //printf("Hi from interrupt routine, ADXL345 IRQ 0 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
+            accel_data = read_acceleration_data(); // Reading data registers will clear data related interrupts
+            edge_capture = 0;                     // reset variable to "unregister" event
+            printf("ax: %-.5f, ay: %-.5f, az: %-.5f\n",accel_data.x,accel_data.y,accel_data.z);
+
+        }
+    else if (edge_capture == 0x4)                 // bit position 2 corresponds to ADXL345 IRQ 1
+        {
+            adxl345_int_reg = read_irq_reg();  //Read ADXL345 INT SOURCE register to clear interrupt
+            printf("Hi from interrupt routine, ADXL345 IRQ 1 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
+            edge_capture = 0;                     // reset variable to "unregister" event
+        }
+    else if (edge_capture == 6)
+        {
+          accel_data = read_acceleration_data(); // Reading data registers will clear data related interrupts
+          printf("Hi from interrupt routine, ADXL345 IRQ 1 and 0 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
+          edge_capture = 0;
+        }
+  }
+  return 0;
+
+}

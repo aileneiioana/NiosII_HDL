@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl
+vi2c_avalon_mm_if
+Z1 !s110 1684391360
+!i10b 1
+!s100 A09:eP>8gXPm?WhK^4>2S3
+IDnmd80U2Tf1YY4cfaJVno3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1684218861
+8C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_avalon_mm_if.v
+FC:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_avalon_mm_if.v
+L0 1
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1684391360.000000
+!s107 C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_avalon_mm_if.v|
+!s90 -reportprogress|300|-work|work|C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_avalon_mm_if.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+Z6 tCvgOpt 0
+vi2c_master
+R1
+!i10b 1
+!s100 73H_9WF?KoOTE]4WV4]><0
+IRH7ALXZ<RZ<83WC:YcE?83
+R2
+R0
+w1684231327
+8C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_master.v
+FC:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_master.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_master.v|
+!s90 -reportprogress|300|-work|work|C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/i2c_master.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop
+!s110 1684391362
+!i10b 1
+!s100 BaK>;?fjn=a7II651o`:A2
+I`Im03I5Il=0BOkk`i1V_@3
+R2
+R0
+w1684232371
+8C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/top.v
+FC:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1684391362.000000
+!s107 C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/top.v|
+!s90 -reportprogress|300|-work|work|C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/hdl/top.v|
+!s101 -O0
+!i113 1
+R5
+R6

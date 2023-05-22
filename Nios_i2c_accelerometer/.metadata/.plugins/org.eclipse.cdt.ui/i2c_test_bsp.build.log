@@ -1,0 +1,6 @@
+11:14:03 **** Incremental Build of configuration Nios II for project i2c_test_bsp ****
+wsl make all 
+[BSP build complete]
+
+11:14:03 Build Finished (took 303ms)
+
