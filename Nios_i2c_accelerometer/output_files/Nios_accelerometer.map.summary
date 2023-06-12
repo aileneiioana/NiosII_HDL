@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu May 18 11:39:52 2023
+Analysis & Synthesis Status : Successful - Thu May 25 14:11:10 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : Nios_accelerometer
 Top-level Entity Name : DE10_LITE_Golden_Top
 Family : MAX 10
-Total logic elements : 4,573
-    Total combinational functions : 3,609
+Total logic elements : 4,571
+    Total combinational functions : 3,625
     Dedicated logic registers : 2,561
 Total registers : 2561
 Total pins : 29

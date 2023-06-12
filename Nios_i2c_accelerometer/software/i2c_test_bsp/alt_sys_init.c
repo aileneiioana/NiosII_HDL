@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'nios_i2c_acc'
  * SOPC Builder design path: C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/nios_i2c_acc.sopcinfo
  *
- * Generated: Thu May 18 11:21:10 EEST 2023
+ * Generated: Thu May 25 14:10:51 EEST 2023
  */
 
 /*

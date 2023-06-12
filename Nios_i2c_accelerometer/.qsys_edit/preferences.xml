@@ -5,9 +5,15 @@
   <columns>
    <connections preferredWidth="143" />
    <irq preferredWidth="34" />
+   <export preferredWidth="239" />
+   <description preferredWidth="158" />
+   <baseaddress preferredWidth="88" />
+   <endaddress preferredWidth="91" />
+   <tags preferredWidth="38" />
+   <opcodeName preferredWidth="87" />
   </columns>
  </systemtable>
- <library expandedCategories="Project,Library" />
- <window width="974" height="1015" x="572" y="7" />
+ <library expandedCategories="Library,Project" />
+ <window width="1936" height="1056" x="-8" y="-8" />
  <hdlexample language="VERILOG" />
 </preferences>

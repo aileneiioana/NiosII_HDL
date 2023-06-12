@@ -1,5 +1,5 @@
 Flow report for Nios_accelerometer
-Thu May 18 11:40:27 2023
+Thu May 25 14:11:48 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Thu May 18 11:40:21 2023          ;
+; Flow Status                        ; Successful - Thu May 25 14:11:41 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Nios_accelerometer                             ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                           ;
 ; Family                             ; MAX 10                                         ;
 ; Device                             ; 10M50DAF484C6GES                               ;
 ; Timing Models                      ; Preliminary                                    ;
-; Total logic elements               ; 4,100 / 49,760 ( 8 % )                         ;
-;     Total combinational functions  ; 3,612 / 49,760 ( 7 % )                         ;
+; Total logic elements               ; 4,123 / 49,760 ( 8 % )                         ;
+;     Total combinational functions  ; 3,628 / 49,760 ( 7 % )                         ;
 ;     Dedicated logic registers      ; 2,487 / 49,760 ( 5 % )                         ;
 ; Total registers                    ; 2487                                           ;
 ; Total pins                         ; 29 / 360 ( 8 % )                               ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/18/2023 11:39:10 ;
+; Start date & time ; 05/25/2023 14:10:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Nios_accelerometer  ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------------------------------+--------------------+----------------------+------------+
 ; Assignment Name                     ; Value                                                          ; Default Value      ; Entity Name          ; Section Id ;
 +-------------------------------------+----------------------------------------------------------------+--------------------+----------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 24062491136.168439915007448                                    ; --                 ; --                   ; --         ;
+; COMPILER_SIGNATURE_ID               ; 24062491136.168501301401292                                    ; --                 ; --                   ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                             ; --                 ; --                   ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                              ; --                 ; --                   ; --         ;
 ; MISC_FILE                           ; nios_i2c_acc/synthesis/../nios_i2c_acc.cmp                     ; --                 ; --                   ; --         ;
@@ -95,7 +95,7 @@ https://fpgasoftware.intel.com/eula.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                   ; --                 ; --                   ; --         ;
 ; SLD_FILE                            ; nios_i2c_acc/synthesis/nios_i2c_acc.regmap                     ; --                 ; --                   ; --         ;
 ; SLD_FILE                            ; nios_i2c_acc/synthesis/nios_i2c_acc.debuginfo                  ; --                 ; --                   ; --         ;
-; SLD_INFO                            ; QSYS_NAME nios_i2c_acc HAS_SOPCINFO 1 GENERATION_ID 1684220878 ; --                 ; nios_i2c_acc         ; --         ;
+; SLD_INFO                            ; QSYS_NAME nios_i2c_acc HAS_SOPCINFO 1 GENERATION_ID 1685012951 ; --                 ; nios_i2c_acc         ; --         ;
 ; SOPCINFO_FILE                       ; nios_i2c_acc/synthesis/../../nios_i2c_acc.sopcinfo             ; --                 ; --                   ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                             ; --                 ; --                   ; --         ;
 ; TOP_LEVEL_ENTITY                    ; DE10_LITE_Golden_Top                                           ; Nios_accelerometer ; --                   ; --         ;
@@ -107,11 +107,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4997 MB             ; 00:01:01                           ;
-; Fitter               ; 00:00:22     ; 1.6                     ; 5727 MB             ; 00:00:39                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4755 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:05     ; 2.4                     ; 4894 MB             ; 00:00:11                           ;
-; Total                ; 00:01:10     ; --                      ; --                  ; 00:01:55                           ;
+; Analysis & Synthesis ; 00:00:53     ; 1.0                     ; 4985 MB             ; 00:01:18                           ;
+; Fitter               ; 00:00:24     ; 1.5                     ; 5724 MB             ; 00:00:43                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4763 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:05     ; 2.5                     ; 4902 MB             ; 00:00:12                           ;
+; Total                ; 00:01:25     ; --                      ; --                  ; 00:02:17                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

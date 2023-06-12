@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="36def74f610d87602e29"/>
+    <hash md5_digest_80b="a04922baa1bcc275af2f"/>
   </project>
   <file_info>
     <file device="10M50DAF484C6GES" path="Nios_accelerometer_time_limited.sof" usercode="0xFFFFFFFF"/>
@@ -140,7 +140,7 @@
   <sld_infos>
     <sld_info hpath="nios_i2c_acc:u0" name="u0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME nios_i2c_acc HAS_SOPCINFO 1 GENERATION_ID 1684220878"/>
+        <assignment_value text="QSYS_NAME nios_i2c_acc HAS_SOPCINFO 1 GENERATION_ID 1685012951"/>
       </assignment_values>
       <parameters/>
     </sld_info>

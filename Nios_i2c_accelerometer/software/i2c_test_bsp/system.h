@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'nios_i2c_acc'
  * SOPC Builder design path: C:/Users/ailen/Desktop/licenta/Nios_i2c_accelerometer/nios_i2c_acc.sopcinfo
  *
- * Generated: Thu May 18 11:21:10 EEST 2023
+ * Generated: Thu May 25 14:10:51 EEST 2023
  */
 
 /*
@@ -353,15 +353,15 @@
 #define SYS_CLK_TIMER_FREQ 50000000
 #define SYS_CLK_TIMER_IRQ 1
 #define SYS_CLK_TIMER_IRQ_INTERRUPT_CONTROLLER_ID 0
-#define SYS_CLK_TIMER_LOAD_VALUE 49999
-#define SYS_CLK_TIMER_MULT 0.001
+#define SYS_CLK_TIMER_LOAD_VALUE 49999999
+#define SYS_CLK_TIMER_MULT 1.0
 #define SYS_CLK_TIMER_NAME "/dev/sys_clk_timer"
 #define SYS_CLK_TIMER_PERIOD 1
-#define SYS_CLK_TIMER_PERIOD_UNITS "ms"
+#define SYS_CLK_TIMER_PERIOD_UNITS "s"
 #define SYS_CLK_TIMER_RESET_OUTPUT 0
 #define SYS_CLK_TIMER_SNAPSHOT 1
 #define SYS_CLK_TIMER_SPAN 32
-#define SYS_CLK_TIMER_TICKS_PER_SEC 1000
+#define SYS_CLK_TIMER_TICKS_PER_SEC 1
 #define SYS_CLK_TIMER_TIMEOUT_PULSE_OUTPUT 0
 #define SYS_CLK_TIMER_TIMER_DEVICE_TYPE 1
 #define SYS_CLK_TIMER_TYPE "altera_avalon_timer"

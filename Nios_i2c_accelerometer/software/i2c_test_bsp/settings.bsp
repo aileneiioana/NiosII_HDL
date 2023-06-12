@@ -2,12 +2,12 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>18.05.2023 11:21:10</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1684398070176</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>25.05.2023 14:10:51</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1685013051283</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\ailen\Desktop\licenta\Nios_i2c_accelerometer\software\i2c_test_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\Users\ailen\Desktop\licenta\Nios_i2c_accelerometer\nios_i2c_acc.sopcinfo</SopcDesignFile>
-        <SystemFileHash>4b1290deb7d62c247e1e5115f9e4fea7e52e1a3fbadcbc69b37ef7cc5aa</SystemFileHash>
+        <SystemFileHash>c0bda3be1278cc5114ab6c4e3591e4f08033c951267544d06010d0fbd54ac6c0</SystemFileHash>
         <JdiFile>default</JdiFile>
         <Cpu>cpu</Cpu>
         <SchemaVersion>1.9</SchemaVersion>

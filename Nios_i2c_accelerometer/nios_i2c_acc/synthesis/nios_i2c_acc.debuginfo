@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="nios_i2c_acc" kind="system" version="22.1" fabric="QSYS">
  <!-- Format version 22.1 915 (Future versions may contain additional information.) -->
- <!-- 2023.05.16.10:08:31 -->
+ <!-- 2023.05.25.14:09:45 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1684220878</value>
+  <value>1685012951</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -8371,11 +8371,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.LOAD_VALUE</name>
-   <value>49999</value>
+   <value>49999999</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.MULT</name>
-   <value>0.001</value>
+   <value>1.0</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.PERIOD</name>
@@ -8383,7 +8383,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.PERIOD_UNITS</name>
-   <value>ms</value>
+   <value>s</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.RESET_OUTPUT</name>
@@ -8395,7 +8395,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TICKS_PER_SEC</name>
-   <value>1000</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMEOUT_PULSE_OUTPUT</name>
@@ -8459,7 +8459,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="periodUnits">
    <type>java.lang.String</type>
-   <value>MSEC</value>
+   <value>SEC</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -8517,7 +8517,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="periodUnitsString">
    <type>java.lang.String</type>
-   <value>ms</value>
+   <value>s</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -8525,7 +8525,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="valueInSecond">
    <type>double</type>
-   <value>0.001</value>
+   <value>1.0</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -8533,7 +8533,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="loadValue">
    <type>java.lang.String</type>
-   <value>49999</value>
+   <value>49999999</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -8541,7 +8541,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="mult">
    <type>double</type>
-   <value>0.001</value>
+   <value>1.0</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -8549,7 +8549,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="ticksPerSec">
    <type>double</type>
-   <value>1000.0</value>
+   <value>1.0</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15366,5 +15366,5 @@ parameters are a RESULT of the module parameters. -->
   <version>22.1</version>
  </plugin>
  <reportVersion>22.1 915</reportVersion>
- <uniqueIdentifier>005056C0000800000188236332B5</uniqueIdentifier>
+ <uniqueIdentifier>00059A3C7A0000000188529947E6</uniqueIdentifier>
 </EnsembleReport>

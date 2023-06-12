@@ -1,9 +1,3 @@
-/*
-Author: Bjørn-Jostein Singstad
-
- */
-//#include "led_switch.h"
-//#include "interrupt.h"
 #include <stdio.h>
 #include <io.h>
 #include <system.h> // access to information about the Nios II hardware sytem
@@ -11,13 +5,17 @@ Author: Bjørn-Jostein Singstad
 #include <sys/alt_irq.h> // access to the IRQ routines
 #include "i2c_avalon_mm_if.h"
 #include "unistd.h"
+#include <altera_avalon_timer_regs.h>
+#define OFFSET -32
+#define PWM_PERIOD 16
 
-
+alt_8 pwm = 0;
+alt_u8 led;
+int level;
 
 #define ADXL345_ADDR 0x53 //gsensor_alt_addr=0
 #define ADXL345_DEV_ID 0xe5
 
-//typedef enum {
 //ADXL345 registers, see table 19 in datasheet.
 #define ADXL345_DEV_ID_REG         0x00
 #define ADXL345_THRESH_TAP_REG     0x1D
@@ -49,7 +47,6 @@ Author: Bjørn-Jostein Singstad
 #define ADXL345_DATAZ1_REG         0x37
 #define ADXL345_FIFO_CTL_REG       0x38
 #define ADXL345_FIFO_STATUS_REG    0x39
-//} adxl345Registers_t;
 
 
 typedef struct {
@@ -63,8 +60,6 @@ typedef struct {
     float y;
     float z;
 } adxl345_data_t;
-
-
 
 
 typedef enum
@@ -100,30 +95,18 @@ typedef enum {
 } adxl345_config_t;
 
 
-//adxl345_raw_data_t accel_raw_data;
-//adxl345_data_t accel_data;
-//read_acceleration_data_raw();
 adxl345_accel_range_t accel_range;
 float _range_accel;
 
 
 void config_device(adxl345_accel_range_t accel_range){
-
-
     //Set device into measurement mode by making sure that the Measure bit is set to 1 in the
     //POWER_CTL register. Default value is 0xA, thus it is already on by default.
     write_to_i2c_device(ADXL345_ADDR,ADXL345_POWER_CTL_REG,1,0xA);
-
     //Set device data format
     _range_accel = accel_range;
-
-    // Set bit D3 to full resolution
-    // Set INT_INVERT bit to 1 to activate active low interrupt
-    // All other values are default 0
-
+    // Set bit D3 to full resolution. Set INT_INVERT bit to 1 to activate active low interrupt. All other values are default 0
     alt_u8 set_accel_config =  0x20 | 0x8;
-
-
     // Add settings for g-range
     switch(accel_range) {
     case (ACCEL_RANGE_2G):
@@ -139,9 +122,6 @@ void config_device(adxl345_accel_range_t accel_range){
         set_accel_config= set_accel_config | (0b11);
         break;
     }
-
-
-
 
     //Data format register
     write_to_i2c_device(ADXL345_ADDR,ADXL345_DATA_FORMAT_REG,1,set_accel_config);
@@ -159,13 +139,10 @@ void config_device(adxl345_accel_range_t accel_range){
     write_to_i2c_device(ADXL345_ADDR,ADXL345_LATENT_REG,1,0x60); //40 ms
     //The window register is eight bits and contains an unsigned time value representing the amount of time after the expiration of the latency time (determined by the latent register) during which a second valid tap can begin. The scale factor is 1.25 ms/LSB. A value of 0 disables the double tap function
     write_to_i2c_device(ADXL345_ADDR,ADXL345_WINDOW_REG,1,0xFF); //38.75 ms
-
-
     //Initialize interrupts to be used
     write_to_i2c_device(ADXL345_ADDR,ADXL345_INT_MAP_REG,1,0x20); // map double tap to int2 pin and data ready to int1 pin
     write_to_i2c_device(ADXL345_ADDR,ADXL345_TAP_AXES_REG,1,0x07); // x,y,z-axis
     write_to_i2c_device(ADXL345_ADDR,ADXL345_INT_ENABLE_REG,1,0xa0); // Enable data ready and double tap
-
 }
 
 alt_u8 read_device_id(void){
@@ -193,8 +170,6 @@ alt_u8 read_adxl345_reg(int reg_addr){
 
 
 adxl345_data_t read_acceleration_data(){
-
-
     alt_u16 ax = 0, ay = 0, az = 0;
     float value = 0;
     adxl345_data_t accel_data;
@@ -225,11 +200,9 @@ adxl345_data_t read_acceleration_data(){
         resolution  = (float) 2/512;
     }
 
-
-
     value = (alt_16)ax;
     //accel_raw_data.x = ax;
-    accel_data.x = value * resolution;
+    accel_data.x = value * resolution *100;
 
     value = (alt_16)ay;
     //accel_raw_data.y = ay;
@@ -240,16 +213,11 @@ adxl345_data_t read_acceleration_data(){
     accel_data.z = value * resolution;
 
     return accel_data;
-
 }
 
 volatile int edge_capture;
 
-
-
-
-/* This is the ISR which will be called when the system signals an interrupt. */
-
+// This is the ISR which will be called when the system signals an interrupt.
 static void handle_interrupts(void* context)
 {
 	//Cast context to edge_capture's type
@@ -267,7 +235,7 @@ static void handle_interrupts(void* context)
 }
 
 
-/* This function is used to initializes and registers the interrupt handler. */
+// This function is used to initializes and registers the interrupt handler.
 static void init_interrupt_pio()
 {
 	//Recast the edge_capture point to match the
@@ -285,25 +253,75 @@ static void init_interrupt_pio()
 	alt_ic_isr_register(INTERRUPT_PIO_IRQ_INTERRUPT_CONTROLLER_ID,
 			INTERRUPT_PIO_IRQ, handle_interrupts, edge_capture_ptr, 0x0);
 }
+
+
+
+static void timer_isr( void * context, alt_u32 id )
+{
+	static int count = 0;
+
+	// Clear the interrupt
+	IOWR_ALTERA_AVALON_TIMER_STATUS(SYS_CLK_TIMER_BASE, 0);
+
+	// Do something
+	//printf("\nTimer Expired: %d", count++);
+
+	 if (pwm < abs(level)) {
+
+	        if (level < 0) {
+	            led_write(led << 1);
+	        } else {
+	            led_write(led >> 1);
+	        }
+
+	    } else {
+	        led_write(led);
+	    }
+
+	    if (pwm > PWM_PERIOD) {
+	        pwm = 0;
+	    } else {
+	        pwm++;
+	    }
+
+}
+
+void init_timer_interrupt( void )
+{
+	// Register the ISR with HAL
+	alt_ic_isr_register(SYS_CLK_TIMER_IRQ_INTERRUPT_CONTROLLER_ID, SYS_CLK_TIMER_IRQ, (void *)timer_isr, NULL, 0x0);
+
+	// Start the timer
+	IOWR_ALTERA_AVALON_TIMER_CONTROL(SYS_CLK_TIMER_BASE, ALTERA_AVALON_TIMER_CONTROL_CONT_MSK
+			                                   | ALTERA_AVALON_TIMER_CONTROL_START_MSK
+											   | ALTERA_AVALON_TIMER_CONTROL_ITO_MSK);
+}
+
+
+// The led pattern is stored in 8-bits.
+void led_write(alt_u8 led_pattern) {
+    IOWR(LED_PIO_BASE, 0, led_pattern);
+}
+
+void convert_read(alt_32 acc_read, int * level, alt_u8 * led) {
+    acc_read += OFFSET;
+    alt_u8 val = (acc_read >> 6) & 0x07;
+    * led = (8 >> val) | (8 << (8 - val));
+    * level = (acc_read >> 1) & 0x1f;
+}
+
+
 int main(void)
 {
-  //-----------------------------------
-  // Hentet fra fasit
-
     alt_u8 dev_id =  0;
     adxl345_data_t accel_data;
 
-    alt_u8 adxl345_int_reg;
-//-----------------------------------
-  //Initialize the interrupts
 	init_interrupt_pio();
 
   //Variable to hold values from switches
 	int sw_data = 0;
 	printf("Hello from Nios II!\n");
 
-//-------------------------------------
-// Hentet fra fasit
     dev_id = read_device_id();
     if(dev_id != ADXL345_DEV_ID){
       printf("Wrong device ID: 0x%x!\n",dev_id);
@@ -315,28 +333,12 @@ int main(void)
 
     //alt_u64 adxl345_data = 0;
     accel_data = read_acceleration_data();
-//-----------------------------------------
-
-
+    init_timer_interrupt();
 	while(1){
 
     //use the IORD and IOWR functions to read and write from LEDs and SW
 	sw_data = IORD(SW_PIO_BASE,0);
-	  IOWR(LED_PIO_BASE,0,sw_data);
-	/*  if(edge_capture)
-printf("%d", edge_capture);
-	  adxl345_int_reg = read_irq_reg();  //Read ADXL345 INT SOURCE register to clear interrupt
-	             printf("Hi from interrupt routine, ADXL345 IRQ 1 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
-	             printf("edge %d", edge_capture);
-	             accel_data = read_acceleration_data(); // Reading data registers will clear data related interrupts
-	           printf("Hi from interrupt routine, ADXL345 IRQ 1 and 0 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
-	           printf("edge %d", edge_capture);
-	           accel_data = read_acceleration_data(); // Reading data registers will clear data related interrupts
-	           //  edge_capture = 0;                     // reset variable to "unregister" event
-	             printf("ax: %-.5f, ay: %-.5f, az: %-.5f\n",accel_data.x,accel_data.y,accel_data.z);
-	             printf("edge %d", edge_capture);
-	             usleep(5000000);*/
-    //When an interrupt event has occurred, the edge_capture variable has been updated
+	IOWR(LED_PIO_BASE,0,sw_data);
 
 	  if (edge_capture == 0x1) //bit position 0 corresponds to button press
 	  	  {
@@ -345,11 +347,10 @@ printf("%d", edge_capture);
 	  	  }
 	  else
         {
-            //printf("Hi from interrupt routine, ADXL345 IRQ 0 activated, ADXL345_INT_SOURCE_REG: 0x%x!\n",adxl345_int_reg);
             accel_data = read_acceleration_data(); // Reading data registers will clear data related interrupts
             edge_capture = 0;                     // reset variable to "unregister" event
-            printf("ax: %-.5f, ay: %-.5f, az: %-.5f\n",accel_data.x,accel_data.y,accel_data.z);
-            usleep(5000000);
+            //printf("ax: %-.5f, ay: %-.5f, az: %-.5f\n",accel_data.x,accel_data.y,accel_data.z);
+            convert_read(accel_data.x, & level, & led);
         }
   }
   return 0;

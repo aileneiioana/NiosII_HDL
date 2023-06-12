@@ -1,6 +1,0 @@
-10:57:22 **** Incremental Build of configuration Nios II for project nios_custom_dma_bsp ****
-wsl make all 
-[BSP build complete]
-
-10:57:23 Build Finished (took 355ms)
-
