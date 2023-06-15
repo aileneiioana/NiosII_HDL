@@ -1,0 +1,92 @@
+module semafor
+(
+input clk,
+input rst_n,
+input pedestrian_button,
+output reg car_red,
+output reg car_yellow,
+output reg car_green,
+output reg pedestrian_red,
+output reg pedestrian_green
+);
+parameter CAR_RED_TIME = 30;
+parameter CAR_YELLOW_TIME = 5;
+parameter CAR_GREEN_TIME = 60;
+reg [6:0] car_timer;
+reg [5:0] pedestrian_timer; //Explicatie
+reg button_press_memo;
+initial begin
+car_red = 0;
+car_yellow = 0;
+car_green = 1;
+pedestrian_red = 1;
+pedestrian_green = 0;
+car_timer = CAR_GREEN_TIME;
+pedestrian_timer = 0;
+button_press_memo = 0; //Explicatie
+end
+always @(posedge clk or negedge rst_n) begin
+if (rst_n) begin
+car_red = 0;
+car_yellow = 0;
+car_green = 1;
+pedestrian_red = 1;
+pedestrian_green = 0;
+car_timer = CAR_GREEN_TIME;
+pedestrian_timer = 0;
+button_press_memo = 0; //Explicatie
+end else begin // Logica pentru semaforul masinilor
+case({car_red, car_yellow, car_green})
+3'b001: begin // Verde -> Galben
+if (car_timer == 0) begin
+car_yellow = 1;
+car_green = 0;
+car_timer = CAR_YELLOW_TIME;
+end else begin
+car_timer = car_timer - 1;
+end //Explicatie
+end
+3'b010: begin // Galben -> Rosu
+if (car_timer == 0) begin
+car_red = 1;
+car_yellow = 0;
+car_timer = CAR_RED_TIME;
+end else begin
+car_timer = car_timer - 1;
+end
+end
+3'b100: begin // Rosu -> Verde
+if (car_timer == 0) begin
+car_green = 1;
+car_red = 0;
+car_timer = CAR_GREEN_TIME;
+end else begin
+car_timer = car_timer - 1;
+end
+end
+endcase
+end
+//Logica pentru semaforul pietonilor
+if (car_green == 1 || car_yellow == 1) begin
+pedestrian_red = 1;
+pedestrian_green = 0; //Explicatie
+end else begin
+if (car_red == 1 && button_press_memo == 1) begin
+pedestrian_red = 0;
+pedestrian_green = 1; //Explicatie
+end
+end
+//Logica pentru buton
+if (pedestrian_red == 1) begin
+if (pedestrian_timer == 0 && pedestrian_button == 1) begin
+pedestrian_timer = 1;
+button_press_memo = 1; //Explicatie
+end else if (pedestrian_timer > 0 && pedestrian_timer <
+CAR_GREEN_TIME) begin
+pedestrian_timer = pedestrian_timer + 1;
+end else if (pedestrian_timer == CAR_GREEN_TIME) begin
+pedestrian_timer = 0; button_press_memo = 0; //Explicatie
+end
+end
+end
+endmodule
