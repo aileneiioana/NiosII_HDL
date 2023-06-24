@@ -1,0 +1,9 @@
+09:21:50 **** Incremental Build of configuration Nios II for project salut ****
+wsl make all 
+Info: Building /mnt/c/Users/ailen/Desktop/licenta/salsal/software/salut_bsp/
+make --no-print-directory -C /mnt/c/Users/ailen/Desktop/licenta/salsal/software/salut_bsp/
+[BSP build complete]
+[salut build complete]
+
+09:21:52 Build Finished (took 1s.771ms)
+
